@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -aru ../IPCC_AR6_CH11/warming_levels/ .
