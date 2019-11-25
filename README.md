@@ -15,7 +15,7 @@ warming_level_20:
 ```
 
 ## Notes
- * **Warming levels**: `1.5` °C, `2.0` °C, `3.0` °C, and `4.0` °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
+ * **Warming levels**: 1.5 °C, 2.0 °C, 3.0 °C, and 4.0 °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
  * For low warming levels and some models the period does already start in the `historical` simulation.
 
 ## Data
