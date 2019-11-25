@@ -10,9 +10,9 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 
 ## Data
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
-   * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` for CMIP5
-   * `SSP1-2.6`, `SSP4-4.5`, `SSP3-7.0`, and `SSP5-8.5` for CMIP6
- * One ensemble member per model and scenario
+   * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
+   * `SSP1-2.6`, `SSP4-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
+ * One ensemble member per model and scenario. Let me know if you need other ensmble members.
 
 ## Method
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
@@ -35,3 +35,11 @@ Currently the data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format
 
 ## Code
 The code will be published in https://github.com/IPCC-WG1 as soon as I have the right to create a repository.
+
+## History
+
+
+### 25.11.2019
+
+Initial publication.
+
