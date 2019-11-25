@@ -1,4 +1,7 @@
-# author: Mathias Hauser# script runtime: 2019-11-25 17:18:57
+# author: Mathias Hauser
+# script: warming_levels.py
+# executed: 2019-11-25 18:22:44
+
 # warming level: 1.5°C above 1850-1900
 - {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2011, end_year: 2030}
 - {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2026, end_year: 2045}

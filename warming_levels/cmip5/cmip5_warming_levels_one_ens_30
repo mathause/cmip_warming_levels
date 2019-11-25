@@ -1,5 +1,6 @@
 # author: Mathias Hauser
-# script runtime: 2019-11-25 17:23:49
+# script: warming_levels.py
+# executed: 2019-11-25 18:22:41
 
 # warming level: 3.0°C above 1850-1900
 # {model: BNU-ESM, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C

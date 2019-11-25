@@ -1,4 +1,7 @@
-# author: Mathias Hauser# script runtime: 2019-11-25 17:18:57
+# author: Mathias Hauser
+# script: warming_levels.py
+# executed: 2019-11-25 18:22:44
+
 # warming level: 1.5°C above 1850-1900
 warming_level_15:
 - {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2011, end_year: 2030}
@@ -97,7 +100,6 @@ warming_level_15:
 - {model: NESM3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2008, end_year: 2027}
 - {model: UKESM1-0-LL, ensemble: r1i1p1f2, exp: ssp585, start_year: 2012, end_year: 2031}
 
-# author: Mathias Hauser# script runtime: 2019-11-25 17:18:57
 # warming level: 2.0°C above 1850-1900
 warming_level_20:
 - {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2029, end_year: 2048}
@@ -196,7 +198,6 @@ warming_level_20:
 - {model: NESM3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2024, end_year: 2043}
 - {model: UKESM1-0-LL, ensemble: r1i1p1f2, exp: ssp585, start_year: 2022, end_year: 2041}
 
-# author: Mathias Hauser# script runtime: 2019-11-25 17:18:57
 # warming level: 3.0°C above 1850-1900
 warming_level_30:
 # {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126} -- did not reach 3.0°C
@@ -295,7 +296,6 @@ warming_level_30:
 - {model: NESM3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2045, end_year: 2064}
 - {model: UKESM1-0-LL, ensemble: r1i1p1f2, exp: ssp585, start_year: 2037, end_year: 2056}
 
-# author: Mathias Hauser# script runtime: 2019-11-25 17:18:57
 # warming level: 4.0°C above 1850-1900
 warming_level_40:
 # {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126} -- did not reach 4.0°C
