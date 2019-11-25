@@ -1,6 +1,6 @@
 # author: Mathias Hauser
 # script: warming_levels.py
-# executed: 2019-11-25 18:22:41
+# executed: 2019-11-25 18:32:54
 
 # warming level: 2.0°C above 1850-1900
 - {model: BNU-ESM, ensemble: r1i1p1, exp: rcp26, start_year: 2008, end_year: 2027}

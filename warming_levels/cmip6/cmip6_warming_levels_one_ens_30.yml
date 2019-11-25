@@ -1,6 +1,6 @@
 # author: Mathias Hauser
 # script: warming_levels.py
-# executed: 2019-11-25 18:22:44
+# executed: 2019-11-25 18:32:52
 
 # warming level: 3.0°C above 1850-1900
 # {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126} -- did not reach 3.0°C
