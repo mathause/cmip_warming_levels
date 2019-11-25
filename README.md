@@ -12,13 +12,13 @@ year when a certain warming level was reached in cmip5 and cmip6 data
 ## Method
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following is method is used for every individual model (currently one ensemble member per model):
  1. Calculate global mean temperature (weighted with the `cos` of the latitude)
- *. Calculate annual mean (Note: currently all months are weighted equally)
- * Concatenate historical data and projection (constrainded to the historical/ future time period)
- *. Subtract the mean over 1850 to 1900 (inclusive)
+ 2. Calculate annual mean (Note: currently all months are weighted equally)
+ 3 Concatenate historical data and projection (constrainded to the historical/ future time period)
+ 4. Subtract the mean over 1850 to 1900 (inclusive)
     * Models that start after 1850 are excluded
- *. Calculate 20-year centered average
- *. Find the first year `T > warming_level`, this is the `central_year`
- *. From this the `start_year` and `end_year` is calculated as:
+ 5. Calculate 20-year centered average
+ 6. Find the first year `T > warming_level`, this is the `central_year`
+ 7. From this the `start_year` and `end_year` is calculated as:
  ```
 start_year = int(central_year - 20 / 2)
 end_year = int(central_year + (20 / 2 - 1))
@@ -26,7 +26,7 @@ end_year = int(central_year + (20 / 2 - 1))
 
 ## Format
 
-
+Currently the data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format. Let me know if you want the output in any other format.
 
 ## Code
 The code will be published in https://github.com/IPCC-WG1 as soon as I have the right to create a repository.
