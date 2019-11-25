@@ -8,9 +8,10 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` for CMIP5
    * `SSP1-2.6`, `SSP4-4.5`, `SSP3-7.0`, and `SSP5-8.5` for CMIP6
+ * One ensemble member per model and scenario
 
 ## Method
-To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model (currently one ensemble member per model):
+To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
  1. Calculate global mean temperature (weighted with the `cos` of the latitude)
  2. Calculate annual mean (Note: currently all months are weighted equally)
  3. Concatenate historical data and projection (constrainded to the historical/ future time period)
