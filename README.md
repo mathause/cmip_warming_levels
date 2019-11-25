@@ -4,6 +4,11 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 
 > :warning: This is **not** an official repository and it may change at any time. 
 
+## Notes
+ * **Warming levels**: `1.5` °C, `2.0` °C, `3.0` °C, and `4.0` °C global-mean annual-mean warming with respect to 1850 to 1900
+   * Let me know if you require an additional warming level
+ * For low warming levels and some models the period does already start in the `historical` simulation.
+
 ## Data
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` for CMIP5
@@ -27,7 +32,7 @@ end_year = int(central_year + (20 / 2 - 1))
 
 ## Format
 
-Currently the data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format. Let me know if you want the output in any other format.
+Currently the data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format. Once for all warming levels and once for each warming level individually. Let me know if you need the output in any other format.
 
 ## Code
 The code will be published in https://github.com/IPCC-WG1 as soon as I have the right to create a repository.
