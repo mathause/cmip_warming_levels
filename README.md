@@ -45,7 +45,7 @@ end_year = int(central_year + (20 / 2 - 1))
 
 ## Format
 
-Currently the data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format. Once for all warming levels and once for each warming level individually. Let me know if you need the output in any other format.
+The data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format; one file for all warming levels. For cmip6 data two files are provided once including the grid info (e.g. `grid: gn`), and once without. Let me know if you need the output in any other format.
 
 ## Code
 The code will be published in https://github.com/IPCC-WG1 as soon as I have the right to create a repository.
@@ -54,9 +54,10 @@ The code will be published in https://github.com/IPCC-WG1 as soon as I have the 
 
 ### 26.11.2019
 
+ * Add grid info for cmip6 models
+ * Only provide one file for all warming levels.
  * Forgot to call the 20-year running mean.
 
 ### 25.11.2019
 
  * Initial publication.
-
