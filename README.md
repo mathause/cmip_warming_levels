@@ -54,6 +54,7 @@ The code will be published in https://github.com/IPCC-WG1 as soon as I have the 
 
 ### 26.11.2019
 
+ * ANOMALY_YR_START: 1851 -> 1850
  * Added SSP1-1.9
  * Add grid info for cmip6 models
  * Only provide one file for all warming levels.
