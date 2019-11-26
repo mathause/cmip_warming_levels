@@ -1,6 +1,6 @@
-# author: Mathias Hauser
+# author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2019-11-26 13:34:00
+# executed: 2019-11-26 17:54:45
 
 # warming level: 1.5°C above 1850-1900
 warming_level_15:
