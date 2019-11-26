@@ -1,6 +1,6 @@
 # author: Mathias Hauser
 # script: warming_levels.py
-# executed: 2019-11-25 18:32:54
+# executed: 2019-11-26 13:34:01
 
 # warming level: 4.0°C above 1850-1900
 # {model: BNU-ESM, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
@@ -69,47 +69,47 @@
 # {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: MIROC5, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 2087, end_year: 2106}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 2088, end_year: 2107}
+# {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
+# {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: bcc-csm1-1, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
-- {model: ACCESS1-0, ensemble: r1i1p1, exp: rcp85, start_year: 2069, end_year: 2088}
-- {model: ACCESS1-3, ensemble: r1i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
-- {model: BNU-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2053, end_year: 2072}
-- {model: CCSM4, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
-- {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
-- {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
-- {model: CMCC-CESM, ensemble: r1i1p1, exp: rcp85, start_year: 2074, end_year: 2093}
+- {model: ACCESS1-0, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
+- {model: ACCESS1-3, ensemble: r1i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
+- {model: BNU-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2055, end_year: 2074}
+- {model: CCSM4, ensemble: r1i1p1, exp: rcp85, start_year: 2069, end_year: 2088}
+- {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
+- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
+- {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2067, end_year: 2086}
+- {model: CMCC-CESM, ensemble: r1i1p1, exp: rcp85, start_year: 2077, end_year: 2096}
 - {model: CMCC-CMS, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
 - {model: CMCC-CM, ensemble: r1i1p1, exp: rcp85, start_year: 2069, end_year: 2088}
-- {model: CNRM-CM5, ensemble: r1i1p1, exp: rcp85, start_year: 2079, end_year: 2098}
-- {model: CSIRO-Mk3-6-0, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
-- {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2058, end_year: 2077}
+- {model: CNRM-CM5, ensemble: r1i1p1, exp: rcp85, start_year: 2078, end_year: 2097}
+- {model: CSIRO-Mk3-6-0, ensemble: r1i1p1, exp: rcp85, start_year: 2074, end_year: 2093}
+- {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2059, end_year: 2078}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
-- {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2089, end_year: 2108}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2042, end_year: 2061}
+# {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2047, end_year: 2066}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2076, end_year: 2095}
-- {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 2085, end_year: 2104}
-- {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 2087, end_year: 2106}
+# {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+# {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
 # {model: GISS-E2-R-CC, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
-- {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2055, end_year: 2074}
-- {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2058, end_year: 2077}
+- {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2056, end_year: 2075}
+- {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2057, end_year: 2076}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2075, end_year: 2094}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 2086, end_year: 2105}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2059, end_year: 2078}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2062, end_year: 2081}
-- {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
-- {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
-- {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2087, end_year: 2106}
-- {model: MRI-ESM1, ensemble: r1i1p1, exp: rcp85, start_year: 2087, end_year: 2106}
-- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp85, start_year: 2082, end_year: 2101}
-- {model: NorESM1-M, ensemble: r1i1p1, exp: rcp85, start_year: 2085, end_year: 2104}
-- {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp85, start_year: 2075, end_year: 2094}
+# {model: MIROC5, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2058, end_year: 2077}
+- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2060, end_year: 2079}
+- {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
+- {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
+# {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+# {model: MRI-ESM1, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+# {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+# {model: NorESM1-M, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+- {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp85, start_year: 2076, end_year: 2095}
 - {model: bcc-csm1-1, ensemble: r1i1p1, exp: rcp85, start_year: 2074, end_year: 2093}
 # {model: inmcm4, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
 
