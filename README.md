@@ -8,21 +8,25 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 ``` yaml
 # warming level: 2.0°C above 1850-1900
 warming_level_20:
-- {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2029, end_year: 2048}
+- {model: AWI-CM-1-1-MR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2041, end_year: 2060}
 # {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp126} -- did not reach 2.0°C
-- {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp126, start_year: 2024, end_year: 2043}
+- {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp126, start_year: 2029, end_year: 2048}
 ...
 ```
 
 ## Notes
  * **Warming levels**: 1.5 °C, 2.0 °C, 3.0 °C, and 4.0 °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
- * For low warming levels and some models the period does already start in the `historical` simulation.
+ * For low warming levels and some models the period does already start in the `historical` simulation, for example:
+``` yaml
+# warming level: 1.5°C above 1850-1900
+- {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, start_year: 2011, end_year: 2030}
+```
 
 ## Data
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
-   * `SSP1-2.6`, `SSP4-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
- * One ensemble member per model and scenario. Let me know if you need other ensmble members.
+   * `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
+ * One ensemble member per model and scenario. Let me know if you need other ensemble members.
 
 ## Method
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
