@@ -25,7 +25,7 @@ warming_level_20:
 ## Data
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
-   * `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
+   * `SSP1-1.9`, `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
  * One ensemble member per model and scenario. Let me know if you need other ensemble members.
 
 ## Method
@@ -54,6 +54,7 @@ The code will be published in https://github.com/IPCC-WG1 as soon as I have the 
 
 ### 26.11.2019
 
+ * Added SSP1-1.9
  * Add grid info for cmip6 models
  * Only provide one file for all warming levels.
  * Forgot to call the 20-year running mean.
