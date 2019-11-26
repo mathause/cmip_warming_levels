@@ -48,8 +48,11 @@ The code will be published in https://github.com/IPCC-WG1 as soon as I have the 
 
 ## History
 
+### 26.11.2019
+
+ * Forgot to call the 20-year running mean.
 
 ### 25.11.2019
 
-Initial publication.
+ * Initial publication.
 
