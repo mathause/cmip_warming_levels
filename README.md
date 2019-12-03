@@ -68,6 +68,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 03.12.2019
+ * Added warming levels of +0.61°C and +1.00°C
+
 ### 26.11.2019
 
  * ANOMALY_YR_START: 1851 -> 1850
