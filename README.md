@@ -68,6 +68,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 23.12.2019
+ * create release 0.1.0
+
 ### 13.12.2019 
  * renamed files: added years of the climatology (no other change to the 1850-1900 files)
  * added warming level years with respect to 1995-2014
