@@ -2,7 +2,7 @@
 
 Document the year when a certain warming level was reached in cmip5 and cmip6 data
 
-> :warning: This is **not** an official repository and it may change at any time. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591807.svg)](https://doi.org/10.5281/zenodo.3591807)
 
 ## Example
 ``` yaml
