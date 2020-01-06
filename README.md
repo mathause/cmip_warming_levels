@@ -4,6 +4,8 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591807.svg)](https://doi.org/10.5281/zenodo.3591807)
 
+> :warning: The list of authors may still change: please check the zenodo reference.
+
 ## Example
 ``` yaml
 # warming level: 2.0°C above 1850-1900
