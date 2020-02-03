@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2019-12-13 15:28:35
+# executed: 2020-02-03 18:26:47
 
 # warming level: 1.0°C above 1850-1900
 warming_level_10:
@@ -17,9 +17,6 @@ warming_level_10:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26, start_year: 2004, end_year: 2023}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26, start_year: 1985, end_year: 2004}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26, start_year: 1992, end_year: 2011}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp26, start_year: 2008, end_year: 2027}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26, start_year: 1997, end_year: 2016}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26, start_year: 1997, end_year: 2016}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26, start_year: 1994, end_year: 2013}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26, start_year: 1991, end_year: 2010}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26, start_year: 2023, end_year: 2042}
@@ -49,9 +46,6 @@ warming_level_10:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1985, end_year: 2004}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 1992, end_year: 2011}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1993, end_year: 2012}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45, start_year: 1999, end_year: 2018}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1997, end_year: 2016}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1993, end_year: 2012}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45, start_year: 1991, end_year: 2010}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2017, end_year: 2036}
@@ -68,9 +62,6 @@ warming_level_10:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60, start_year: 2003, end_year: 2022}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60, start_year: 1985, end_year: 2004}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60, start_year: 1992, end_year: 2011}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp60, start_year: 2015, end_year: 2034}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 1999, end_year: 2018}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 1999, end_year: 2018}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60, start_year: 2020, end_year: 2039}
 - {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60, start_year: 2011, end_year: 2030}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60, start_year: 2011, end_year: 2030}
@@ -100,9 +91,6 @@ warming_level_10:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1985, end_year: 2004}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 1992, end_year: 2011}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1993, end_year: 2012}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 2007, end_year: 2026}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 1998, end_year: 2017}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1999, end_year: 2018}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1993, end_year: 2012}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 1993, end_year: 2012}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2016, end_year: 2035}
@@ -127,9 +115,6 @@ warming_level_15:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26} -- did not reach 1.5°C
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26, start_year: 2001, end_year: 2020}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26, start_year: 2006, end_year: 2025}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp26, start_year: 2037, end_year: 2056}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26, start_year: 2009, end_year: 2028}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26, start_year: 2012, end_year: 2031}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26, start_year: 2013, end_year: 2032}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26, start_year: 2014, end_year: 2033}
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26} -- did not reach 1.5°C
@@ -159,9 +144,6 @@ warming_level_15:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2004, end_year: 2023}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2007, end_year: 2026}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2017, end_year: 2036}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 2030, end_year: 2049}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45, start_year: 2013, end_year: 2032}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2011, end_year: 2030}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2013, end_year: 2032}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2014, end_year: 2033}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2045, end_year: 2064}
@@ -178,9 +160,6 @@ warming_level_15:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60, start_year: 2036, end_year: 2055}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60, start_year: 2003, end_year: 2022}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60, start_year: 2009, end_year: 2028}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp60, start_year: 2043, end_year: 2062}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 2014, end_year: 2033}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 2016, end_year: 2035}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60, start_year: 2050, end_year: 2069}
 - {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60, start_year: 2039, end_year: 2058}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60, start_year: 2041, end_year: 2060}
@@ -210,9 +189,6 @@ warming_level_15:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2001, end_year: 2020}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2006, end_year: 2025}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2013, end_year: 2032}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2009, end_year: 2028}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2011, end_year: 2030}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2008, end_year: 2027}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2011, end_year: 2030}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2032, end_year: 2051}
@@ -237,9 +213,6 @@ warming_level_20:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26} -- did not reach 2.0°C
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26, start_year: 2022, end_year: 2041}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26, start_year: 2037, end_year: 2056}
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp26} -- did not reach 2.0°C
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26, start_year: 2025, end_year: 2044}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26, start_year: 2032, end_year: 2051}
 # {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26} -- did not reach 2.0°C
 # {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26} -- did not reach 2.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26} -- did not reach 2.0°C
@@ -269,9 +242,6 @@ warming_level_20:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2021, end_year: 2040}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2024, end_year: 2043}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2039, end_year: 2058}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 2063, end_year: 2082}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45, start_year: 2027, end_year: 2046}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2024, end_year: 2043}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2036, end_year: 2055}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2075, end_year: 2094}
@@ -288,9 +258,6 @@ warming_level_20:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60, start_year: 2068, end_year: 2087}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60, start_year: 2023, end_year: 2042}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60, start_year: 2031, end_year: 2050}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp60, start_year: 2062, end_year: 2081}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 2031, end_year: 2050}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 2033, end_year: 2052}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60, start_year: 2067, end_year: 2086}
 - {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60, start_year: 2061, end_year: 2080}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60, start_year: 2061, end_year: 2080}
@@ -320,9 +287,6 @@ warming_level_20:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2017, end_year: 2036}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2028, end_year: 2047}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 2039, end_year: 2058}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2028, end_year: 2047}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2030, end_year: 2049}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2043, end_year: 2062}
@@ -347,9 +311,6 @@ warming_level_30:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
 # {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
 # {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
-# {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
-# {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
 # {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
 # {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26} -- did not reach 3.0°C
@@ -379,9 +340,6 @@ warming_level_30:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2060, end_year: 2079}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2068, end_year: 2087}
 # {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45, start_year: 2064, end_year: 2083}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2059, end_year: 2078}
 # {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
@@ -398,9 +356,6 @@ warming_level_30:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60} -- did not reach 3.0°C
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60, start_year: 2062, end_year: 2081}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60, start_year: 2065, end_year: 2084}
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp60} -- did not reach 3.0°C
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 2059, end_year: 2078}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 2063, end_year: 2082}
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60} -- did not reach 3.0°C
 # {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60} -- did not reach 3.0°C
 # {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60} -- did not reach 3.0°C
@@ -430,9 +385,6 @@ warming_level_30:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2038, end_year: 2057}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2041, end_year: 2060}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2052, end_year: 2071}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 2063, end_year: 2082}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2041, end_year: 2060}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2043, end_year: 2062}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2052, end_year: 2071}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2051, end_year: 2070}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2067, end_year: 2086}
@@ -457,9 +409,6 @@ warming_level_40:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
 # {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
 # {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
-# {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
-# {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
 # {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
 # {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26} -- did not reach 4.0°C
@@ -489,9 +438,6 @@ warming_level_40:
 # {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
-# {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
-# {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
@@ -508,9 +454,6 @@ warming_level_40:
 # {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
-# {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
-# {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
 # {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60} -- did not reach 4.0°C
@@ -540,9 +483,6 @@ warming_level_40:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2056, end_year: 2075}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2057, end_year: 2076}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2075, end_year: 2094}
-# {model: MIROC5, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 2058, end_year: 2077}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2060, end_year: 2079}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
 # {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
@@ -567,9 +507,6 @@ warming_level_061:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp26, start_year: 1987, end_year: 2006}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp26, start_year: 1971, end_year: 1990}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp26, start_year: 1976, end_year: 1995}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp26, start_year: 1991, end_year: 2010}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp26, start_year: 1985, end_year: 2004}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp26, start_year: 1981, end_year: 2000}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp26, start_year: 1970, end_year: 1989}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp26, start_year: 1977, end_year: 1996}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp26, start_year: 2000, end_year: 2019}
@@ -599,9 +536,6 @@ warming_level_061:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1971, end_year: 1990}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 1976, end_year: 1995}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1966, end_year: 1985}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 1991, end_year: 2010}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp45, start_year: 1985, end_year: 2004}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1981, end_year: 2000}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45, start_year: 1970, end_year: 1989}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp45, start_year: 1977, end_year: 1996}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2000, end_year: 2019}
@@ -618,9 +552,6 @@ warming_level_061:
 - {model: GISS-E2-R, ensemble: r1i1p1, exp: rcp60, start_year: 1987, end_year: 2006}
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp60, start_year: 1971, end_year: 1990}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp60, start_year: 1976, end_year: 1995}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp60, start_year: 1991, end_year: 2010}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp60, start_year: 1985, end_year: 2004}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 1981, end_year: 2000}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp60, start_year: 2000, end_year: 2019}
 - {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp60, start_year: 1990, end_year: 2009}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp60, start_year: 1989, end_year: 2008}
@@ -650,9 +581,6 @@ warming_level_061:
 - {model: IPSL-CM5A-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1971, end_year: 1990}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp85, start_year: 1976, end_year: 1995}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1966, end_year: 1985}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp85, start_year: 1991, end_year: 2010}
-- {model: MIROC-ESM-CHEM, ensemble: r1i1p1, exp: rcp85, start_year: 1985, end_year: 2004}
-- {model: MIROC-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1981, end_year: 2000}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp85, start_year: 1970, end_year: 1989}
 - {model: MPI-ESM-MR, ensemble: r1i1p1, exp: rcp85, start_year: 1977, end_year: 1996}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp85, start_year: 2000, end_year: 2019}

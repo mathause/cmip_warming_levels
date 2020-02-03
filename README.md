@@ -69,6 +69,8 @@ We decided to use as many lines of evidence as possible and average across all S
 There are more models exceeding 2° than 4°C. Also here guidance should be to use all lines of evidence and include as many models as possible. In AR5 CH12 the number of models used for a graph was always added to the figure.
 
 ## History
+### 03.02.2020
+ * Removed MIROC5, MIROC-ESM-CHEM, MIROC-ESMn from the list of CMIP5 models due to a spurious temperature jump in the Western United States.
 
 ### 23.12.2019
  * create release 0.1.0
