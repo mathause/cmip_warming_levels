@@ -69,6 +69,10 @@ We decided to use as many lines of evidence as possible and average across all S
 There are more models exceeding 2° than 4°C. Also here guidance should be to use all lines of evidence and include as many models as possible. In AR5 CH12 the number of models used for a graph was always added to the figure.
 
 ## History
+### 03.06.2020
+ * Removed BCC-ESM1 (SSP3-7.0) and MPI-ESM-1-2-HAM (SSP3-7.0) from the list of CMIP6 models because the simulations end in 2055.
+ * Added five new CMIP6 models (CIESM, CNRM-CM6-1-HR, GISS-E2-1-G, KACE-1-0-G, NorESM2-MM).
+
 ### 03.02.2020
  * Added new models from the CMIP6 archive. A total of 16 models were added.
  * Removed MIROC5, MIROC-ESM-CHEM, MIROC-ESMn from the list of CMIP5 models due to a spurious temperature jump in the Western United States.
