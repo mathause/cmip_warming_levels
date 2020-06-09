@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-06-09 10:37:23
+# executed: 2020-06-09 15:10:12
 
 # warming level: 1.0°C above 1850-1900
 warming_level_10:
@@ -125,6 +125,7 @@ warming_level_10:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2013, end_year: 2032}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 1997, end_year: 2016}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2000, end_year: 2019}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 1970, end_year: 1989}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 1994, end_year: 2013}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2004, end_year: 2023}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2007, end_year: 2026}
@@ -277,6 +278,7 @@ warming_level_15:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2035, end_year: 2054}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2011, end_year: 2030}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2015, end_year: 2034}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 1988, end_year: 2007}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 2009, end_year: 2028}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2019, end_year: 2038}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2023, end_year: 2042}
@@ -429,6 +431,7 @@ warming_level_20:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2051, end_year: 2070}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2024, end_year: 2043}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2026, end_year: 2045}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2004, end_year: 2023}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 2020, end_year: 2039}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2031, end_year: 2050}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2036, end_year: 2055}
@@ -581,6 +584,7 @@ warming_level_30:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2078, end_year: 2097}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2044, end_year: 2063}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2044, end_year: 2063}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2031, end_year: 2050}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 2042, end_year: 2061}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2049, end_year: 2068}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2055, end_year: 2074}
@@ -733,6 +737,7 @@ warming_level_40:
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585} -- did not reach 4.0°C
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2059, end_year: 2078}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2060, end_year: 2079}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2047, end_year: 2066}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 2057, end_year: 2076}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2063, end_year: 2082}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 2070, end_year: 2089}
@@ -885,6 +890,7 @@ warming_level_061:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 1994, end_year: 2013}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 1985, end_year: 2004}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 1987, end_year: 2006}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 1927, end_year: 1946}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, start_year: 1962, end_year: 1981}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 1984, end_year: 2003}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, start_year: 1993, end_year: 2012}

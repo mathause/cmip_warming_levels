@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-06-09 10:37:27
+# executed: 2020-06-09 15:10:16
 
 # warming level: 0.94°C above 1995-2014
 warming_level_094:
@@ -125,6 +125,7 @@ warming_level_094:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2039, end_year: 2058}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2021, end_year: 2040}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2021, end_year: 2040}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2025, end_year: 2044}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2020, end_year: 2039}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2026, end_year: 2045}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2026, end_year: 2045}
@@ -277,6 +278,7 @@ warming_level_343:
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, grid: gn} -- did not reach 3.43°C
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2064, end_year: 2083}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2064, end_year: 2083}
+- {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2063, end_year: 2082}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2064, end_year: 2083}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2066, end_year: 2085}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2071, end_year: 2090}

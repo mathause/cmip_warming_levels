@@ -72,7 +72,6 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ### 09.06.2020
  * Added AWI-CM-1-1-MR as it now includes the year 1850 (was 1851 previously).
- * Temporarily removed CIESM due to a problem with [tas](https://errata.es-doc.org/static/view.html?uid=9a62078c-88ac-6562-8429-09efde92e6a5).
 
 ### 03.06.2020
  * Removed BCC-ESM1 (SSP3-7.0) and MPI-ESM-1-2-HAM (SSP3-7.0) from the list of CMIP6 models because the simulations end in 2055.
