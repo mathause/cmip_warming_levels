@@ -69,6 +69,11 @@ We decided to use as many lines of evidence as possible and average across all S
 There are more models exceeding 2° than 4°C. Also here guidance should be to use all lines of evidence and include as many models as possible. In AR5 CH12 the number of models used for a graph was always added to the figure.
 
 ## History
+
+### 09.06.2020
+ * Added AWI-CM-1-1-MR as it now includes the year 1850 (was 1851 previously).
+ * Temporarily removed CIESM due to a problem with [tas](https://errata.es-doc.org/static/view.html?uid=9a62078c-88ac-6562-8429-09efde92e6a5).
+
 ### 03.06.2020
  * Removed BCC-ESM1 (SSP3-7.0) and MPI-ESM-1-2-HAM (SSP3-7.0) from the list of CMIP6 models because the simulations end in 2055.
  * Added five new CMIP6 models (CIESM, CNRM-CM6-1-HR, GISS-E2-1-G, KACE-1-0-G, NorESM2-MM).
