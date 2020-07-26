@@ -70,6 +70,10 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 26.07.2020
+
+ * Added acknowledgment for and list of CMIP5 models.
+
 ### 09.06.2020
  * Added AWI-CM-1-1-MR as it now includes the year 1850 (was 1851 previously).
 
@@ -102,3 +106,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 ### 25.11.2019
 
  * Initial publication.
+
+## Acknowledgment
+
+### CMIP5
+
+We acknowledge the World Climate Research Programme's Working Group on Coupled Modelling, which is responsible for CMIP, and we thank the climate modeling groups (listed in [cmip5_models.md](cmip5_models.md)) for producing and making available their model output. For CMIP the U.S. Department of Energy's Program for Climate Model Diagnosis and Intercomparison provides coordinating support and led development of software infrastructure in partnership with the Global Organization for Earth System Science Portals.” 
