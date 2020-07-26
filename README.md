@@ -7,6 +7,7 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 *Mathias Hauser*<sup>1</sup>, *Francois Engelbrecht*<sup>2</sup>, and *Erich Fischer*<sup>1</sup>
 
 <sup>1</sup>Institute for Atmospheric and Climate Science, ETH Zurich, Zurich, Switzerland
+
 <sup>2</sup>Global Change Institute, University of the Witwatersrand, Johannesburg, Gauteng 2193, South Africa
 
 ## Example
