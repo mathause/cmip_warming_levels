@@ -4,7 +4,10 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591807.svg)](https://doi.org/10.5281/zenodo.3591807)
 
-> :warning: The list of authors may still change: please check the zenodo reference.
+*Mathias Hauser*<sup>1</sup>, *Francois Engelbrecht*<sup>2</sup>, and *Erich Fischer*<sup>1</sup>
+
+<sup>1</sup>Institute for Atmospheric and Climate Science, ETH Zurich, Zurich, Switzerland
+<sup>2</sup>Global Change Institute, University of the Witwatersrand, Johannesburg, Gauteng 2193, South Africa
 
 ## Example
 ``` yaml
@@ -108,6 +111,8 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
  * Initial publication.
 
 ## Acknowledgment
+
+We thank Urs Beyerle for downloading and curating the CMIP5 and CMIP6 data at the Institute for Atmospheric and Climate Science, ETH Zurich, Zurich, Switzerland.
 
 ### CMIP5
 
