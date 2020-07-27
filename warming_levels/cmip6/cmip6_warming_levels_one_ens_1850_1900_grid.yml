@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-06-09 15:10:14
+# executed: 2020-07-27 20:11:58
 
 # warming level: 1.0°C above 1850-1900
 warming_level_10:
@@ -9,6 +9,7 @@ warming_level_10:
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 1990, end_year: 2009}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 1984, end_year: 2003}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr, start_year: 1985, end_year: 2004}
+- {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 1997, end_year: 2016}
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1, start_year: 2011, end_year: 2030}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn, start_year: 2008, end_year: 2027}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 1993, end_year: 2012}
@@ -37,6 +38,7 @@ warming_level_10:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 2011, end_year: 2030}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn, start_year: 2004, end_year: 2023}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2000, end_year: 2019}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2006, end_year: 2025}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 2005, end_year: 2024}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 2007, end_year: 2026}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr, start_year: 1993, end_year: 2012}
@@ -59,6 +61,7 @@ warming_level_10:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 1997, end_year: 2016}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2001, end_year: 2020}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 1970, end_year: 1989}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 1993, end_year: 2012}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 1994, end_year: 2013}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2004, end_year: 2023}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2007, end_year: 2026}
@@ -94,6 +97,7 @@ warming_level_10:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2015, end_year: 2034}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1997, end_year: 2016}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2000, end_year: 2019}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1993, end_year: 2012}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 1994, end_year: 2013}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2004, end_year: 2023}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2009, end_year: 2028}
@@ -126,6 +130,7 @@ warming_level_10:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 1997, end_year: 2016}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2000, end_year: 2019}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1970, end_year: 1989}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 1993, end_year: 2012}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 1994, end_year: 2013}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2004, end_year: 2023}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2007, end_year: 2026}
@@ -140,6 +145,7 @@ warming_level_10:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2012, end_year: 2031}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 2004, end_year: 2023}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2000, end_year: 2019}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2004, end_year: 2023}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2004, end_year: 2023}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2006, end_year: 2025}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1993, end_year: 2012}
@@ -162,6 +168,7 @@ warming_level_15:
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 2003, end_year: 2022}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 2002, end_year: 2021}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr, start_year: 2008, end_year: 2027}
+# {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 1.5°C
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1} -- did not reach 1.5°C
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn, start_year: 2023, end_year: 2042}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 2009, end_year: 2028}
@@ -190,6 +197,7 @@ warming_level_15:
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 1.5°C
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn, start_year: 2012, end_year: 2031}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2012, end_year: 2031}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2019, end_year: 2038}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 2041, end_year: 2060}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 2027, end_year: 2046}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr, start_year: 2010, end_year: 2029}
@@ -212,6 +220,7 @@ warming_level_15:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2015, end_year: 2034}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2017, end_year: 2036}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 1988, end_year: 2007}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2016, end_year: 2035}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2010, end_year: 2029}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2021, end_year: 2040}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2028, end_year: 2047}
@@ -247,6 +256,7 @@ warming_level_15:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2038, end_year: 2057}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2019, end_year: 2038}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2016, end_year: 2035}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2016, end_year: 2035}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2010, end_year: 2029}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2023, end_year: 2042}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2027, end_year: 2046}
@@ -279,6 +289,7 @@ warming_level_15:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2011, end_year: 2030}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2015, end_year: 2034}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1988, end_year: 2007}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2012, end_year: 2031}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2009, end_year: 2028}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2019, end_year: 2038}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2023, end_year: 2042}
@@ -293,6 +304,7 @@ warming_level_15:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2030, end_year: 2049}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 2012, end_year: 2031}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2011, end_year: 2030}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2016, end_year: 2035}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2021, end_year: 2040}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2021, end_year: 2040}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2009, end_year: 2028}
@@ -315,6 +327,7 @@ warming_level_20:
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 2015, end_year: 2034}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 2020, end_year: 2039}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr, start_year: 2035, end_year: 2054}
+# {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 2.0°C
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1} -- did not reach 2.0°C
 # {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn} -- did not reach 2.0°C
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 2028, end_year: 2047}
@@ -343,6 +356,7 @@ warming_level_20:
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 2.0°C
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn, start_year: 2021, end_year: 2040}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2028, end_year: 2047}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 2031, end_year: 2050}
 # {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 2.0°C
 # {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 2.0°C
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr, start_year: 2029, end_year: 2048}
@@ -365,6 +379,7 @@ warming_level_20:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2030, end_year: 2049}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2032, end_year: 2051}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2003, end_year: 2022}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2029, end_year: 2048}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2024, end_year: 2043}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2039, end_year: 2058}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2046, end_year: 2065}
@@ -400,6 +415,7 @@ warming_level_20:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2056, end_year: 2075}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2032, end_year: 2051}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2032, end_year: 2051}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2030, end_year: 2049}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2023, end_year: 2042}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2036, end_year: 2055}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2043, end_year: 2062}
@@ -432,6 +448,7 @@ warming_level_20:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2024, end_year: 2043}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2026, end_year: 2045}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2004, end_year: 2023}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2024, end_year: 2043}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2020, end_year: 2039}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2031, end_year: 2050}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2036, end_year: 2055}
@@ -446,6 +463,7 @@ warming_level_20:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2043, end_year: 2062}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 2020, end_year: 2039}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2021, end_year: 2040}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2025, end_year: 2044}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2037, end_year: 2056}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2037, end_year: 2056}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2025, end_year: 2044}
@@ -468,6 +486,7 @@ warming_level_30:
 # {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 3.0°C
 # {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr} -- did not reach 3.0°C
 # {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr} -- did not reach 3.0°C
+# {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 3.0°C
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1} -- did not reach 3.0°C
 # {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn} -- did not reach 3.0°C
 # {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr} -- did not reach 3.0°C
@@ -496,6 +515,7 @@ warming_level_30:
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 3.0°C
 # {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn} -- did not reach 3.0°C
 # {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn} -- did not reach 3.0°C
+# {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn} -- did not reach 3.0°C
 # {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 3.0°C
 # {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 3.0°C
 # {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr} -- did not reach 3.0°C
@@ -518,6 +538,7 @@ warming_level_30:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2066, end_year: 2085}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2072, end_year: 2091}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2034, end_year: 2053}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2057, end_year: 2076}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2053, end_year: 2072}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2075, end_year: 2094}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2079, end_year: 2098}
@@ -553,6 +574,7 @@ warming_level_30:
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn} -- did not reach 3.0°C
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2054, end_year: 2073}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2057, end_year: 2076}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2054, end_year: 2073}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2048, end_year: 2067}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2057, end_year: 2076}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2063, end_year: 2082}
@@ -585,6 +607,7 @@ warming_level_30:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2044, end_year: 2063}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2044, end_year: 2063}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2031, end_year: 2050}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2043, end_year: 2062}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2042, end_year: 2061}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2049, end_year: 2068}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2055, end_year: 2074}
@@ -599,6 +622,7 @@ warming_level_30:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2066, end_year: 2085}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 2047, end_year: 2066}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2038, end_year: 2057}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2040, end_year: 2059}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2060, end_year: 2079}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 2065, end_year: 2084}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2041, end_year: 2060}
@@ -621,6 +645,7 @@ warming_level_40:
 # {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 4.0°C
 # {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr} -- did not reach 4.0°C
 # {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr} -- did not reach 4.0°C
+# {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn} -- did not reach 4.0°C
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1} -- did not reach 4.0°C
 # {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn} -- did not reach 4.0°C
 # {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr} -- did not reach 4.0°C
@@ -649,6 +674,7 @@ warming_level_40:
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 4.0°C
 # {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn} -- did not reach 4.0°C
 # {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn} -- did not reach 4.0°C
+# {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn} -- did not reach 4.0°C
 # {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 4.0°C
 # {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1} -- did not reach 4.0°C
 # {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr} -- did not reach 4.0°C
@@ -671,6 +697,7 @@ warming_level_40:
 # {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn} -- did not reach 4.0°C
 # {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn} -- did not reach 4.0°C
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2073, end_year: 2092}
+# {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn} -- did not reach 4.0°C
 # {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr} -- did not reach 4.0°C
 # {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr} -- did not reach 4.0°C
 # {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr} -- did not reach 4.0°C
@@ -706,6 +733,7 @@ warming_level_40:
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn} -- did not reach 4.0°C
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2076, end_year: 2095}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2075, end_year: 2094}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 2078, end_year: 2097}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2067, end_year: 2086}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2074, end_year: 2093}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 2080, end_year: 2099}
@@ -738,6 +766,7 @@ warming_level_40:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2059, end_year: 2078}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2060, end_year: 2079}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2047, end_year: 2066}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2060, end_year: 2079}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2057, end_year: 2076}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2063, end_year: 2082}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2070, end_year: 2089}
@@ -752,6 +781,7 @@ warming_level_40:
 # {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1} -- did not reach 4.0°C
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 2069, end_year: 2088}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2054, end_year: 2073}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 2055, end_year: 2074}
 # {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1} -- did not reach 4.0°C
 # {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1} -- did not reach 4.0°C
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2057, end_year: 2076}
@@ -774,6 +804,7 @@ warming_level_061:
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 1977, end_year: 1996}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 1965, end_year: 1984}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp119, grid: gr, start_year: 1936, end_year: 1955}
+- {model: FGOALS-g3, ensemble: r1i1p1f1, exp: ssp119, grid: gn, start_year: 1984, end_year: 2003}
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp119, grid: gr1, start_year: 1995, end_year: 2014}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp119, grid: gn, start_year: 1994, end_year: 2013}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp119, grid: gr, start_year: 1975, end_year: 1994}
@@ -802,6 +833,7 @@ warming_level_061:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 1995, end_year: 2014}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp126, grid: gn, start_year: 1994, end_year: 2013}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 1993, end_year: 2012}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp126, grid: gn, start_year: 1994, end_year: 2013}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 1985, end_year: 2004}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp126, grid: gr1, start_year: 1987, end_year: 2006}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp126, grid: gr, start_year: 1975, end_year: 1994}
@@ -824,6 +856,7 @@ warming_level_061:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 1985, end_year: 2004}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 1987, end_year: 2006}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 1927, end_year: 1946}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 1974, end_year: 1993}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 1962, end_year: 1981}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 1984, end_year: 2003}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 1993, end_year: 2012}
@@ -859,6 +892,7 @@ warming_level_061:
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1994, end_year: 2013}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1985, end_year: 2004}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1987, end_year: 2006}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, grid: gn, start_year: 1974, end_year: 1993}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 1962, end_year: 1981}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 1984, end_year: 2003}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370, grid: gr, start_year: 1993, end_year: 2012}
@@ -891,6 +925,7 @@ warming_level_061:
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 1985, end_year: 2004}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 1987, end_year: 2006}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1927, end_year: 1946}
+- {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 1974, end_year: 1993}
 - {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 1962, end_year: 1981}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 1984, end_year: 2003}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 1993, end_year: 2012}
@@ -905,6 +940,7 @@ warming_level_061:
 - {model: GFDL-ESM4, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 1995, end_year: 2014}
 - {model: GISS-E2-1-G, ensemble: r1i1p1f2, exp: ssp585, grid: gn, start_year: 1994, end_year: 2013}
 - {model: HadGEM3-GC31-LL, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 1993, end_year: 2012}
+- {model: HadGEM3-GC31-MM, ensemble: r1i1p1f3, exp: ssp585, grid: gn, start_year: 1994, end_year: 2013}
 - {model: INM-CM4-8, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 1985, end_year: 2004}
 - {model: INM-CM5-0, ensemble: r1i1p1f1, exp: ssp585, grid: gr1, start_year: 1987, end_year: 2006}
 - {model: IPSL-CM6A-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1975, end_year: 1994}

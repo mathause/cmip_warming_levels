@@ -76,6 +76,7 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ### 27.07.2020
 
+ * Added FGOALS-g3 (SSP1-1.9), HadGEM3-GC31-MM, and CMCC-CM2-SR5 (several SSPs)
  * Added acknowledgment and licensing of CMIP6 models.
 
 ### 26.07.2020
