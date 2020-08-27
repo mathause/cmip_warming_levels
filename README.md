@@ -20,6 +20,14 @@ warming_level_20:
 ...
 ```
 
+The data is also available in csv files:
+``` csv
+model, ensemble, exp, warming_level, start_year, end_year
+CAMS-CSM1-0, r1i1p1f1, ssp119, 1.0, 2017, 2036
+CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026
+...
+```
+
 ## Notes
  * **Warming levels**: 1.5 °C, 2.0 °C, 3.0 °C, and 4.0 °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
  * For low warming levels and some models the period does already start in the `historical` simulation, for example:
@@ -73,6 +81,9 @@ We decided to use as many lines of evidence as possible and average across all S
 There are more models exceeding 2° than 4°C. Also here guidance should be to use all lines of evidence and include as many models as possible. In AR5 CH12 the number of models used for a graph was always added to the figure.
 
 ## History
+
+### 27.08.2020
+ * added csv files with the same information
 
 ### 27.07.2020
 
