@@ -82,6 +82,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 15.09.2020
+ * Note, the following CMIP5 models are not included because they start after 1850: GFDL-CM3 (1860), GFDL-ESM2G (1861), GFDL-ESM2M (1861), HadGEM2-AO (1860), HadGEM2-CC (1859), HadGEM2-ES (1859), and MRI-ESM1 (1851).
+
 ### 27.08.2020
  * added csv files with the same information
 
