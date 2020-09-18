@@ -82,6 +82,13 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 18.09.2020
+ * added warming level years w.r.t. 1850-1900 for CMIP5 including models starting *after* 1850 (no_bounds_check)
+ * added warming level years w.r.t. 1861-1900 for CMIP5 (because a some models only start after 1850)
+ * Some models starting after 1850 were missing from the 1995-2014-files because they were already filtered when loading the data
+   (and not when calculating the anomaly)
+ * Added the reference period to the header of the files
+
 ### 17.09.2020
  * Added all yml and csv files for all avaliable ensemble members in cmip5_all_ens and cmip6_all_ens.
 
