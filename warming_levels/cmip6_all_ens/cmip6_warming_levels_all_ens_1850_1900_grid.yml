@@ -1,6 +1,7 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-16 16:32:08
+# executed: 2020-09-18 17:24:38
+# reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
 warming_level_10:
@@ -719,7 +720,7 @@ warming_level_10:
 - {model: IPSL-CM6A-LR, ensemble: r2i1p1f1, exp: ssp585, grid: gr, start_year: 1991, end_year: 2010}
 - {model: IPSL-CM6A-LR, ensemble: r3i1p1f1, exp: ssp585, grid: gr, start_year: 1991, end_year: 2010}
 - {model: IPSL-CM6A-LR, ensemble: r4i1p1f1, exp: ssp585, grid: gr, start_year: 1994, end_year: 2013}
-- {model: IPSL-CM6A-LR, ensemble: r6i1p1f1, exp: ssp585, grid: gr, start_year: 1998, end_year: 2017}
+- {model: IPSL-CM6A-LR, ensemble: r6i1p1f1, exp: ssp585, grid: gr, start_year: 1999, end_year: 2018}
 - {model: IPSL-CM6A-LR, ensemble: r14i1p1f1, exp: ssp585, grid: gr, start_year: 1996, end_year: 2015}
 - {model: KACE-1-0-G, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 1991, end_year: 2010}
 - {model: KACE-1-0-G, ensemble: r2i1p1f1, exp: ssp585, grid: gr, start_year: 1987, end_year: 2006}

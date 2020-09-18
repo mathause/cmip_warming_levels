@@ -1,6 +1,7 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-16 16:32:13
+# executed: 2020-09-18 17:24:43
+# reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CNRM-ESM2-1, r3i1p1f2, ssp119, gr, 0.94, 2024, 2043
 CNRM-ESM2-1, r4i1p1f2, ssp119, gr, 0.94, 2020, 2039

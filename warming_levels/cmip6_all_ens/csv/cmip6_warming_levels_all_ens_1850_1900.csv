@@ -1,6 +1,7 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-16 16:32:00
+# executed: 2020-09-18 17:24:30
+# reference years: 1850 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 CAMS-CSM1-0, r1i1p1f1, ssp119, 1.0, 2017, 2036
 CAMS-CSM1-0, r2i1p1f1, ssp119, 1.0, 2032, 2051
@@ -717,7 +718,7 @@ IPSL-CM6A-LR, r1i1p1f1, ssp585, 1.0, 1993, 2012
 IPSL-CM6A-LR, r2i1p1f1, ssp585, 1.0, 1991, 2010
 IPSL-CM6A-LR, r3i1p1f1, ssp585, 1.0, 1991, 2010
 IPSL-CM6A-LR, r4i1p1f1, ssp585, 1.0, 1994, 2013
-IPSL-CM6A-LR, r6i1p1f1, ssp585, 1.0, 1998, 2017
+IPSL-CM6A-LR, r6i1p1f1, ssp585, 1.0, 1999, 2018
 IPSL-CM6A-LR, r14i1p1f1, ssp585, 1.0, 1996, 2015
 KACE-1-0-G, r1i1p1f1, ssp585, 1.0, 1991, 2010
 KACE-1-0-G, r2i1p1f1, ssp585, 1.0, 1987, 2006

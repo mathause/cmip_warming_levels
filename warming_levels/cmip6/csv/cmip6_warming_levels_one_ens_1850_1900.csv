@@ -1,6 +1,7 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-08-27 22:50:38
+# executed: 2020-09-18 17:21:45
+# reference years: 1850 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 CAMS-CSM1-0, r1i1p1f1, ssp119, 1.0, 2017, 2036
 CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026

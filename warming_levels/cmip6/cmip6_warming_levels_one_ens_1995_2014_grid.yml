@@ -1,6 +1,7 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-07-27 20:12:00
+# executed: 2020-09-18 17:21:48
+# reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
 warming_level_094:
