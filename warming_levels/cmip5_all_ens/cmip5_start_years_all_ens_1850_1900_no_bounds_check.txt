@@ -1,0 +1,47 @@
+# author: Mathias Hauser (mathias.hauser@env.ethz.ch)
+# script: warming_levels.py
+# reference years: 1850 to 1900
+# start_years of models starting AFTER 1850
+model, ensemble, exp, start, end_year
+CSIRO-Mk3L-1-2, r1i2p1, rcp45, 1851, 1900
+CSIRO-Mk3L-1-2, r2i2p1, rcp45, 1851, 1900
+CSIRO-Mk3L-1-2, r3i2p1, rcp45, 1851, 1900
+EC-EARTH, r6i1p1, rcp45, 1900, 1900
+EC-EARTH, r6i1p1, rcp85, 1900, 1900
+GFDL-CM3, r1i1p1, rcp26, 1860, 1900
+GFDL-CM3, r1i1p1, rcp45, 1860, 1900
+GFDL-CM3, r1i1p1, rcp60, 1860, 1900
+GFDL-CM3, r1i1p1, rcp85, 1860, 1900
+GFDL-CM3, r3i1p1, rcp45, 1860, 1900
+GFDL-CM3, r5i1p1, rcp45, 1860, 1900
+GFDL-ESM2G, r1i1p1, rcp26, 1861, 1900
+GFDL-ESM2G, r1i1p1, rcp45, 1861, 1900
+GFDL-ESM2G, r1i1p1, rcp60, 1861, 1900
+GFDL-ESM2G, r1i1p1, rcp85, 1861, 1900
+GFDL-ESM2M, r1i1p1, rcp26, 1861, 1900
+GFDL-ESM2M, r1i1p1, rcp45, 1861, 1900
+GFDL-ESM2M, r1i1p1, rcp60, 1861, 1900
+GFDL-ESM2M, r1i1p1, rcp85, 1861, 1900
+HadGEM2-AO, r1i1p1, rcp26, 1860, 1900
+HadGEM2-AO, r1i1p1, rcp45, 1860, 1900
+HadGEM2-AO, r1i1p1, rcp60, 1860, 1900
+HadGEM2-AO, r1i1p1, rcp85, 1860, 1900
+HadGEM2-CC, r1i1p1, rcp45, 1859, 1900
+HadGEM2-CC, r1i1p1, rcp85, 1859, 1900
+HadGEM2-ES, r1i1p1, rcp26, 1859, 1900
+HadGEM2-ES, r1i1p1, rcp45, 1859, 1900
+HadGEM2-ES, r1i1p1, rcp60, 1859, 1900
+HadGEM2-ES, r1i1p1, rcp85, 1859, 1900
+HadGEM2-ES, r2i1p1, rcp26, 1859, 1900
+HadGEM2-ES, r2i1p1, rcp45, 1859, 1900
+HadGEM2-ES, r2i1p1, rcp60, 1859, 1900
+HadGEM2-ES, r2i1p1, rcp85, 1859, 1900
+HadGEM2-ES, r3i1p1, rcp26, 1859, 1900
+HadGEM2-ES, r3i1p1, rcp45, 1859, 1900
+HadGEM2-ES, r3i1p1, rcp60, 1859, 1900
+HadGEM2-ES, r3i1p1, rcp85, 1859, 1900
+HadGEM2-ES, r4i1p1, rcp26, 1859, 1900
+HadGEM2-ES, r4i1p1, rcp45, 1859, 1900
+HadGEM2-ES, r4i1p1, rcp60, 1859, 1900
+HadGEM2-ES, r4i1p1, rcp85, 1859, 1900
+MRI-ESM1, r1i1p1, rcp85, 1851, 1900
