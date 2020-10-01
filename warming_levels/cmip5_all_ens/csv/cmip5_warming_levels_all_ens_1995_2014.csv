@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-18 17:21:08
+# executed: 2020-10-01 00:12:07
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CESM1-CAM5, r1i1p1, rcp26, 0.94, 2034, 2053
@@ -124,6 +124,9 @@ IPSL-CM5A-LR, r3i1p1, rcp45, 0.94, 2024, 2043
 IPSL-CM5A-LR, r4i1p1, rcp45, 0.94, 2031, 2050
 IPSL-CM5A-MR, r1i1p1, rcp45, 0.94, 2028, 2047
 IPSL-CM5B-LR, r1i1p1, rcp45, 0.94, 2039, 2058
+MIROC5, r1i1p1, rcp45, 0.94, 2037, 2056
+MIROC5, r2i1p1, rcp45, 0.94, 2039, 2058
+MIROC5, r3i1p1, rcp45, 0.94, 2036, 2055
 MPI-ESM-LR, r1i1p1, rcp45, 0.94, 2040, 2059
 MPI-ESM-LR, r2i1p1, rcp45, 0.94, 2036, 2055
 MPI-ESM-LR, r3i1p1, rcp45, 0.94, 2035, 2054
@@ -174,6 +177,9 @@ HadGEM2-ES, r3i1p1, rcp60, 0.94, 2033, 2052
 HadGEM2-ES, r4i1p1, rcp60, 0.94, 2028, 2047
 IPSL-CM5A-LR, r1i1p1, rcp60, 0.94, 2032, 2051
 IPSL-CM5A-MR, r1i1p1, rcp60, 0.94, 2036, 2055
+MIROC5, r1i1p1, rcp60, 0.94, 2052, 2071
+MIROC5, r2i1p1, rcp60, 0.94, 2046, 2065
+MIROC5, r3i1p1, rcp60, 0.94, 2047, 2066
 MRI-CGCM3, r1i1p1, rcp60, 0.94, 2050, 2069
 NorESM1-ME, r1i1p1, rcp60, 0.94, 2050, 2069
 NorESM1-M, r1i1p1, rcp60, 0.94, 2048, 2067
@@ -255,6 +261,9 @@ IPSL-CM5A-LR, r3i1p1, rcp85, 0.94, 2021, 2040
 IPSL-CM5A-LR, r4i1p1, rcp85, 0.94, 2024, 2043
 IPSL-CM5A-MR, r1i1p1, rcp85, 0.94, 2024, 2043
 IPSL-CM5B-LR, r1i1p1, rcp85, 0.94, 2028, 2047
+MIROC5, r1i1p1, rcp85, 0.94, 2032, 2051
+MIROC5, r2i1p1, rcp85, 0.94, 2031, 2050
+MIROC5, r3i1p1, rcp85, 0.94, 2029, 2048
 MPI-ESM-LR, r1i1p1, rcp85, 0.94, 2029, 2048
 MPI-ESM-LR, r2i1p1, rcp85, 0.94, 2027, 2046
 MPI-ESM-LR, r3i1p1, rcp85, 0.94, 2026, 2045

@@ -82,6 +82,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 01.10.2020
+ * Adding MIROC5 to CMIP5 again (per request).
+
 ### 21.09.2020
  * Added the start years of all models starting after 1850.
 
