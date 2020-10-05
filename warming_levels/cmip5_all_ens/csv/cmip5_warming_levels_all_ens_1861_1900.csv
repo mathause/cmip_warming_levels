@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-10-01 00:12:11
+# executed: 2020-10-05 16:58:51
 # reference years: 1861 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 BNU-ESM, r1i1p1, rcp26, 1.0, 1984, 2003
@@ -103,6 +103,7 @@ CanESM2, r4i1p1, rcp45, 1.0, 1993, 2012
 CanESM2, r5i1p1, rcp45, 1.0, 1993, 2012
 EC-EARTH, r1i1p1, rcp45, 1.0, 1991, 2010
 EC-EARTH, r2i1p1, rcp45, 1.0, 1990, 2009
+EC-EARTH, r3i1p1, rcp45, 1.0, 1994, 2013
 EC-EARTH, r5i1p1, rcp45, 1.0, 1988, 2007
 EC-EARTH, r8i1p1, rcp45, 1.0, 1989, 2008
 EC-EARTH, r9i1p1, rcp45, 1.0, 1991, 2010
@@ -263,6 +264,7 @@ CanESM2, r4i1p1, rcp85, 1.0, 1992, 2011
 CanESM2, r5i1p1, rcp85, 1.0, 1992, 2011
 EC-EARTH, r1i1p1, rcp85, 1.0, 1991, 2010
 EC-EARTH, r2i1p1, rcp85, 1.0, 1990, 2009
+EC-EARTH, r3i1p1, rcp85, 1.0, 1993, 2012
 EC-EARTH, r5i1p1, rcp85, 1.0, 1988, 2007
 EC-EARTH, r8i1p1, rcp85, 1.0, 1989, 2008
 EC-EARTH, r9i1p1, rcp85, 1.0, 1992, 2011
@@ -402,6 +404,7 @@ CanESM2, r4i1p1, rcp45, 1.5, 2006, 2025
 CanESM2, r5i1p1, rcp45, 1.5, 2008, 2027
 EC-EARTH, r1i1p1, rcp45, 1.5, 2012, 2031
 EC-EARTH, r2i1p1, rcp45, 1.5, 2012, 2031
+EC-EARTH, r3i1p1, rcp45, 1.5, 2013, 2032
 EC-EARTH, r5i1p1, rcp45, 1.5, 2010, 2029
 EC-EARTH, r8i1p1, rcp45, 1.5, 2012, 2031
 EC-EARTH, r9i1p1, rcp45, 1.5, 2014, 2033
@@ -562,6 +565,7 @@ CanESM2, r4i1p1, rcp85, 1.5, 2004, 2023
 CanESM2, r5i1p1, rcp85, 1.5, 2004, 2023
 EC-EARTH, r1i1p1, rcp85, 1.5, 2009, 2028
 EC-EARTH, r2i1p1, rcp85, 1.5, 2009, 2028
+EC-EARTH, r3i1p1, rcp85, 1.5, 2011, 2030
 EC-EARTH, r5i1p1, rcp85, 1.5, 2011, 2030
 EC-EARTH, r8i1p1, rcp85, 1.5, 2010, 2029
 EC-EARTH, r9i1p1, rcp85, 1.5, 2011, 2030
@@ -664,6 +668,7 @@ CanESM2, r4i1p1, rcp45, 2.0, 2020, 2039
 CanESM2, r5i1p1, rcp45, 2.0, 2023, 2042
 EC-EARTH, r1i1p1, rcp45, 2.0, 2034, 2053
 EC-EARTH, r2i1p1, rcp45, 2.0, 2031, 2050
+EC-EARTH, r3i1p1, rcp45, 2.0, 2035, 2054
 EC-EARTH, r5i1p1, rcp45, 2.0, 2035, 2054
 EC-EARTH, r8i1p1, rcp45, 2.0, 2034, 2053
 EC-EARTH, r9i1p1, rcp45, 2.0, 2037, 2056
@@ -805,6 +810,7 @@ CanESM2, r4i1p1, rcp85, 2.0, 2016, 2035
 CanESM2, r5i1p1, rcp85, 2.0, 2017, 2036
 EC-EARTH, r1i1p1, rcp85, 2.0, 2026, 2045
 EC-EARTH, r2i1p1, rcp85, 2.0, 2024, 2043
+EC-EARTH, r3i1p1, rcp85, 2.0, 2029, 2048
 EC-EARTH, r5i1p1, rcp85, 2.0, 2032, 2051
 EC-EARTH, r8i1p1, rcp85, 2.0, 2026, 2045
 EC-EARTH, r9i1p1, rcp85, 2.0, 2027, 2046
@@ -926,6 +932,7 @@ CanESM2, r4i1p1, rcp85, 3.0, 2038, 2057
 CanESM2, r5i1p1, rcp85, 3.0, 2038, 2057
 EC-EARTH, r1i1p1, rcp85, 3.0, 2052, 2071
 EC-EARTH, r2i1p1, rcp85, 3.0, 2049, 2068
+EC-EARTH, r3i1p1, rcp85, 3.0, 2052, 2071
 EC-EARTH, r5i1p1, rcp85, 3.0, 2059, 2078
 EC-EARTH, r8i1p1, rcp85, 3.0, 2051, 2070
 EC-EARTH, r9i1p1, rcp85, 3.0, 2050, 2069
@@ -1015,6 +1022,7 @@ CanESM2, r4i1p1, rcp85, 4.0, 2057, 2076
 CanESM2, r5i1p1, rcp85, 4.0, 2058, 2077
 EC-EARTH, r1i1p1, rcp85, 4.0, 2073, 2092
 EC-EARTH, r2i1p1, rcp85, 4.0, 2070, 2089
+EC-EARTH, r3i1p1, rcp85, 4.0, 2072, 2091
 EC-EARTH, r8i1p1, rcp85, 4.0, 2072, 2091
 EC-EARTH, r9i1p1, rcp85, 4.0, 2072, 2091
 EC-EARTH, r12i1p1, rcp85, 4.0, 2073, 2092
@@ -1143,6 +1151,7 @@ CanESM2, r4i1p1, rcp45, 0.61, 1981, 2000
 CanESM2, r5i1p1, rcp45, 0.61, 1983, 2002
 EC-EARTH, r1i1p1, rcp45, 0.61, 1971, 1990
 EC-EARTH, r2i1p1, rcp45, 0.61, 1962, 1981
+EC-EARTH, r3i1p1, rcp45, 0.61, 1972, 1991
 EC-EARTH, r5i1p1, rcp45, 0.61, 1964, 1983
 EC-EARTH, r8i1p1, rcp45, 0.61, 1968, 1987
 EC-EARTH, r9i1p1, rcp45, 0.61, 1970, 1989
@@ -1303,6 +1312,7 @@ CanESM2, r4i1p1, rcp85, 0.61, 1981, 2000
 CanESM2, r5i1p1, rcp85, 0.61, 1983, 2002
 EC-EARTH, r1i1p1, rcp85, 0.61, 1971, 1990
 EC-EARTH, r2i1p1, rcp85, 0.61, 1962, 1981
+EC-EARTH, r3i1p1, rcp85, 0.61, 1972, 1991
 EC-EARTH, r5i1p1, rcp85, 0.61, 1964, 1983
 EC-EARTH, r8i1p1, rcp85, 0.61, 1968, 1987
 EC-EARTH, r9i1p1, rcp85, 0.61, 1970, 1989

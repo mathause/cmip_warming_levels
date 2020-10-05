@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-10-01 00:12:07
+# executed: 2020-10-05 16:58:47
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CESM1-CAM5, r1i1p1, rcp26, 0.94, 2034, 2053
@@ -66,6 +66,7 @@ CanESM2, r4i1p1, rcp45, 0.94, 2022, 2041
 CanESM2, r5i1p1, rcp45, 0.94, 2025, 2044
 EC-EARTH, r1i1p1, rcp45, 0.94, 2037, 2056
 EC-EARTH, r2i1p1, rcp45, 0.94, 2035, 2054
+EC-EARTH, r3i1p1, rcp45, 0.94, 2036, 2055
 EC-EARTH, r5i1p1, rcp45, 0.94, 2042, 2061
 EC-EARTH, r6i1p1, rcp45, 0.94, 2036, 2055
 EC-EARTH, r8i1p1, rcp45, 0.94, 2037, 2056
@@ -224,6 +225,7 @@ CanESM2, r4i1p1, rcp85, 0.94, 2019, 2038
 CanESM2, r5i1p1, rcp85, 0.94, 2019, 2038
 EC-EARTH, r1i1p1, rcp85, 0.94, 2028, 2047
 EC-EARTH, r2i1p1, rcp85, 0.94, 2026, 2045
+EC-EARTH, r3i1p1, rcp85, 0.94, 2029, 2048
 EC-EARTH, r5i1p1, rcp85, 0.94, 2035, 2054
 EC-EARTH, r6i1p1, rcp85, 0.94, 2027, 2046
 EC-EARTH, r8i1p1, rcp85, 0.94, 2031, 2050

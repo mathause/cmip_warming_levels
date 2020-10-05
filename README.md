@@ -82,6 +82,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 05.10.2020
+ * Add the inofficial (not-cmorized, not on ESGF) EC-EARTH r3i1p1 ensemble (source: http://ensemblesrt3.dmi.dk/data/CMIP5/r3i1p1/).
+
 ### 01.10.2020
  * Adding MIROC5 to CMIP5 again (per request).
 
