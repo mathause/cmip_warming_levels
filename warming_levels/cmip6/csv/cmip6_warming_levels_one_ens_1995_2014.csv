@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-18 17:21:48
+# executed: 2020-10-08 14:29:58
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CanESM5, r1i1p1f1, ssp119, 0.94, 2022, 2041
@@ -16,6 +16,7 @@ BCC-CSM2-MR, r1i1p1f1, ssp126, 0.94, 2038, 2057
 CESM2-WACCM, r1i1p1f1, ssp126, 0.94, 2024, 2043
 CESM2, r1i1p1f1, ssp126, 0.94, 2025, 2044
 CIESM, r1i1p1f1, ssp126, 0.94, 2056, 2075
+CMCC-CM2-SR5, r1i1p1f1, ssp126, 0.94, 2030, 2049
 CNRM-CM6-1-HR, r1i1p1f2, ssp126, 0.94, 2020, 2039
 CNRM-CM6-1, r1i1p1f2, ssp126, 0.94, 2034, 2053
 CNRM-ESM2-1, r1i1p1f2, ssp126, 0.94, 2047, 2066
@@ -64,6 +65,7 @@ INM-CM4-8, r1i1p1f1, ssp245, 0.94, 2040, 2059
 INM-CM5-0, r1i1p1f1, ssp245, 0.94, 2047, 2066
 IPSL-CM6A-LR, r1i1p1f1, ssp245, 0.94, 2025, 2044
 KACE-1-0-G, r1i1p1f1, ssp245, 0.94, 2016, 2035
+KIOST-ESM, r1i1p1f1, ssp245, 0.94, 2035, 2054
 MCM-UA-1-0, r1i1p1f2, ssp245, 0.94, 2039, 2058
 MIROC6, r1i1p1f1, ssp245, 0.94, 2038, 2057
 MIROC-ES2L, r1i1p1f2, ssp245, 0.94, 2033, 2052
@@ -134,6 +136,7 @@ INM-CM4-8, r1i1p1f1, ssp585, 0.94, 2030, 2049
 INM-CM5-0, r1i1p1f1, ssp585, 0.94, 2029, 2048
 IPSL-CM6A-LR, r1i1p1f1, ssp585, 0.94, 2025, 2044
 KACE-1-0-G, r1i1p1f1, ssp585, 0.94, 2015, 2034
+KIOST-ESM, r1i1p1f1, ssp585, 0.94, 2031, 2050
 MCM-UA-1-0, r1i1p1f2, ssp585, 0.94, 2028, 2047
 MIROC6, r1i1p1f1, ssp585, 0.94, 2032, 2051
 MIROC-ES2L, r1i1p1f2, ssp585, 0.94, 2026, 2045
@@ -143,6 +146,7 @@ MRI-ESM2-0, r1i1p1f1, ssp585, 0.94, 2020, 2039
 NESM3, r1i1p1f1, ssp585, 0.94, 2019, 2038
 NorESM2-LM, r1i1p1f1, ssp585, 0.94, 2035, 2054
 NorESM2-MM, r1i1p1f1, ssp585, 0.94, 2028, 2047
+TaiESM1, r1i1p1f1, ssp585, 0.94, 2015, 2034
 UKESM1-0-LL, r1i1p1f2, ssp585, 0.94, 2016, 2035
 ACCESS-CM2, r1i1p1f1, ssp370, 3.43, 2074, 2093
 CESM2, r1i1p1f1, ssp370, 3.43, 2081, 2100
@@ -180,4 +184,5 @@ KACE-1-0-G, r1i1p1f1, ssp585, 3.43, 2063, 2082
 MCM-UA-1-0, r1i1p1f2, ssp585, 3.43, 2078, 2097
 MRI-ESM2-0, r1i1p1f1, ssp585, 3.43, 2077, 2096
 NESM3, r1i1p1f1, ssp585, 3.43, 2067, 2086
+TaiESM1, r1i1p1f1, ssp585, 3.43, 2055, 2074
 UKESM1-0-LL, r1i1p1f2, ssp585, 3.43, 2052, 2071

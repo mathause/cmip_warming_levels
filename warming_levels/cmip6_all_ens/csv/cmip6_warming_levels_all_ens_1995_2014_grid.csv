@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-09-18 17:24:43
+# executed: 2020-10-08 14:33:09
 # reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CNRM-ESM2-1, r3i1p1f2, ssp119, gr, 0.94, 2024, 2043
@@ -86,6 +86,7 @@ CESM2, r2i1p1f1, ssp126, gn, 0.94, 2028, 2047
 CESM2, r4i1p1f1, ssp126, gn, 0.94, 2026, 2045
 CESM2, r10i1p1f1, ssp126, gn, 0.94, 2058, 2077
 CIESM, r1i1p1f1, ssp126, gr, 0.94, 2056, 2075
+CMCC-CM2-SR5, r1i1p1f1, ssp126, gn, 0.94, 2030, 2049
 CNRM-CM6-1-HR, r1i1p1f2, ssp126, gr, 0.94, 2020, 2039
 CNRM-CM6-1, r1i1p1f2, ssp126, gr, 0.94, 2034, 2053
 CNRM-CM6-1, r2i1p1f2, ssp126, gr, 0.94, 2026, 2045
@@ -169,6 +170,11 @@ FIO-ESM-2-0, r2i1p1f1, ssp126, gn, 0.94, 2033, 2052
 FIO-ESM-2-0, r3i1p1f1, ssp126, gn, 0.94, 2033, 2052
 GISS-E2-1-G, r1i1p1f2, ssp126, gn, 0.94, 2013, 2032
 GISS-E2-1-G, r1i1p3f1, ssp126, gn, 0.94, 2030, 2049
+GISS-E2-1-G, r1i1p5f1, ssp126, gn, 0.94, 2030, 2049
+GISS-E2-1-G, r2i1p3f1, ssp126, gn, 0.94, 2032, 2051
+GISS-E2-1-G, r3i1p3f1, ssp126, gn, 0.94, 2031, 2050
+GISS-E2-1-G, r4i1p3f1, ssp126, gn, 0.94, 2035, 2054
+GISS-E2-1-G, r5i1p3f1, ssp126, gn, 0.94, 2027, 2046
 HadGEM3-GC31-LL, r1i1p1f3, ssp126, gn, 0.94, 2017, 2036
 HadGEM3-GC31-MM, r1i1p1f3, ssp126, gn, 0.94, 2022, 2041
 IPSL-CM6A-LR, r1i1p1f1, ssp126, gr, 0.94, 2030, 2049
@@ -181,6 +187,15 @@ KACE-1-0-G, r1i1p1f1, ssp126, gr, 0.94, 2017, 2036
 KACE-1-0-G, r2i1p1f1, ssp126, gr, 0.94, 2019, 2038
 MCM-UA-1-0, r1i1p1f2, ssp126, gn, 0.94, 2054, 2073
 MIROC6, r1i1p1f1, ssp126, gn, 0.94, 2059, 2078
+MIROC6, r6i1p1f1, ssp126, gn, 0.94, 2055, 2074
+MIROC6, r13i1p1f1, ssp126, gn, 0.94, 2064, 2083
+MIROC6, r18i1p1f1, ssp126, gn, 0.94, 2045, 2064
+MIROC6, r29i1p1f1, ssp126, gn, 0.94, 2042, 2061
+MIROC6, r30i1p1f1, ssp126, gn, 0.94, 2045, 2064
+MIROC6, r32i1p1f1, ssp126, gn, 0.94, 2042, 2061
+MIROC6, r35i1p1f1, ssp126, gn, 0.94, 2048, 2067
+MIROC6, r40i1p1f1, ssp126, gn, 0.94, 2042, 2061
+MIROC6, r46i1p1f1, ssp126, gn, 0.94, 2048, 2067
 MIROC-ES2L, r1i1p1f2, ssp126, gn, 0.94, 2036, 2055
 MIROC-ES2L, r2i1p1f2, ssp126, gn, 0.94, 2046, 2065
 MIROC-ES2L, r3i1p1f2, ssp126, gn, 0.94, 2032, 2051
@@ -194,6 +209,8 @@ UKESM1-0-LL, r3i1p1f2, ssp126, gn, 0.94, 2018, 2037
 UKESM1-0-LL, r4i1p1f2, ssp126, gn, 0.94, 2019, 2038
 UKESM1-0-LL, r8i1p1f2, ssp126, gn, 0.94, 2016, 2035
 UKESM1-0-LL, r10i1p1f2, ssp126, gn, 0.94, 2016, 2035
+UKESM1-0-LL, r11i1p1f2, ssp126, gn, 0.94, 2014, 2033
+UKESM1-0-LL, r17i1p1f2, ssp126, gn, 0.94, 2017, 2036
 UKESM1-0-LL, r18i1p1f2, ssp126, gn, 0.94, 2040, 2059
 ACCESS-CM2, r1i1p1f1, ssp245, gn, 0.94, 2020, 2039
 ACCESS-CM2, r2i1p1f1, ssp245, gn, 0.94, 2021, 2040
@@ -322,12 +339,16 @@ GFDL-ESM4, r2i1p1f1, ssp245, gr1, 0.94, 2039, 2058
 GFDL-ESM4, r3i1p1f1, ssp245, gr1, 0.94, 2045, 2064
 GISS-E2-1-G, r1i1p1f2, ssp245, gn, 0.94, 2013, 2032
 GISS-E2-1-G, r1i1p3f1, ssp245, gn, 0.94, 2030, 2049
+GISS-E2-1-G, r1i1p5f1, ssp245, gn, 0.94, 2026, 2045
 GISS-E2-1-G, r2i1p1f2, ssp245, gn, 0.94, 2015, 2034
 GISS-E2-1-G, r2i1p3f1, ssp245, gn, 0.94, 2029, 2048
+GISS-E2-1-G, r2i1p5f1, ssp245, gn, 0.94, 2024, 2043
 GISS-E2-1-G, r3i1p1f2, ssp245, gn, 0.94, 2015, 2034
 GISS-E2-1-G, r3i1p3f1, ssp245, gn, 0.94, 2026, 2045
+GISS-E2-1-G, r3i1p5f1, ssp245, gn, 0.94, 2024, 2043
 GISS-E2-1-G, r4i1p1f2, ssp245, gn, 0.94, 2016, 2035
 GISS-E2-1-G, r4i1p3f1, ssp245, gn, 0.94, 2028, 2047
+GISS-E2-1-G, r4i1p5f1, ssp245, gn, 0.94, 2027, 2046
 GISS-E2-1-G, r5i1p1f2, ssp245, gn, 0.94, 2015, 2034
 GISS-E2-1-G, r5i1p3f1, ssp245, gn, 0.94, 2029, 2048
 GISS-E2-1-G, r6i1p1f2, ssp245, gn, 0.94, 2025, 2044
@@ -351,6 +372,7 @@ IPSL-CM6A-LR, r22i1p1f1, ssp245, gr, 0.94, 2024, 2043
 IPSL-CM6A-LR, r25i1p1f1, ssp245, gr, 0.94, 2019, 2038
 KACE-1-0-G, r1i1p1f1, ssp245, gr, 0.94, 2016, 2035
 KACE-1-0-G, r2i1p1f1, ssp245, gr, 0.94, 2018, 2037
+KIOST-ESM, r1i1p1f1, ssp245, gr1, 0.94, 2035, 2054
 MCM-UA-1-0, r1i1p1f2, ssp245, gn, 0.94, 2039, 2058
 MIROC6, r1i1p1f1, ssp245, gn, 0.94, 2038, 2057
 MIROC6, r2i1p1f1, ssp245, gn, 0.94, 2043, 2062
@@ -380,6 +402,7 @@ UKESM1-0-LL, r2i1p1f2, ssp245, gn, 0.94, 2013, 2032
 UKESM1-0-LL, r3i1p1f2, ssp245, gn, 0.94, 2016, 2035
 UKESM1-0-LL, r4i1p1f2, ssp245, gn, 0.94, 2018, 2037
 UKESM1-0-LL, r8i1p1f2, ssp245, gn, 0.94, 2015, 2034
+UKESM1-0-LL, r13i1p1f2, ssp245, gn, 0.94, 2013, 2032
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 0.94, 2020, 2039
 ACCESS-CM2, r2i1p1f1, ssp370, gn, 0.94, 2021, 2040
 ACCESS-CM2, r3i1p1f1, ssp370, gn, 0.94, 2026, 2045
@@ -488,9 +511,13 @@ FGOALS-g3, r5i1p1f1, ssp370, gn, 0.94, 2037, 2056
 GFDL-ESM4, r1i1p1f1, ssp370, gr1, 0.94, 2034, 2053
 GISS-E2-1-G, r1i1p1f2, ssp370, gn, 0.94, 2014, 2033
 GISS-E2-1-G, r1i1p3f1, ssp370, gn, 0.94, 2027, 2046
+GISS-E2-1-G, r1i1p5f1, ssp370, gn, 0.94, 2024, 2043
 GISS-E2-1-G, r2i1p1f2, ssp370, gn, 0.94, 2025, 2044
+GISS-E2-1-G, r2i1p3f1, ssp370, gn, 0.94, 2028, 2047
 GISS-E2-1-G, r3i1p1f2, ssp370, gn, 0.94, 2028, 2047
+GISS-E2-1-G, r3i1p3f1, ssp370, gn, 0.94, 2026, 2045
 GISS-E2-1-G, r4i1p1f2, ssp370, gn, 0.94, 2027, 2046
+GISS-E2-1-G, r4i1p3f1, ssp370, gn, 0.94, 2029, 2048
 GISS-E2-1-G, r5i1p1f2, ssp370, gn, 0.94, 2025, 2044
 GISS-E2-1-G, r6i1p1f2, ssp370, gn, 0.94, 2024, 2043
 GISS-E2-1-G, r7i1p1f2, ssp370, gn, 0.94, 2026, 2045
@@ -668,6 +695,7 @@ FIO-ESM-2-0, r3i1p1f1, ssp585, gn, 0.94, 2024, 2043
 GFDL-CM4, r1i1p1f1, ssp585, gr1, 0.94, 2024, 2043
 GFDL-ESM4, r1i1p1f1, ssp585, gr1, 0.94, 2032, 2051
 GISS-E2-1-G, r1i1p1f2, ssp585, gn, 0.94, 2013, 2032
+GISS-E2-1-G, r1i1p5f1, ssp585, gn, 0.94, 2023, 2042
 HadGEM3-GC31-LL, r1i1p1f3, ssp585, gn, 0.94, 2015, 2034
 HadGEM3-GC31-LL, r2i1p1f3, ssp585, gn, 0.94, 2017, 2036
 HadGEM3-GC31-LL, r3i1p1f3, ssp585, gn, 0.94, 2014, 2033
@@ -685,6 +713,7 @@ IPSL-CM6A-LR, r6i1p1f1, ssp585, gr, 0.94, 2021, 2040
 IPSL-CM6A-LR, r14i1p1f1, ssp585, gr, 0.94, 2020, 2039
 KACE-1-0-G, r1i1p1f1, ssp585, gr, 0.94, 2015, 2034
 KACE-1-0-G, r2i1p1f1, ssp585, gr, 0.94, 2017, 2036
+KIOST-ESM, r1i1p1f1, ssp585, gr1, 0.94, 2031, 2050
 MCM-UA-1-0, r1i1p1f2, ssp585, gn, 0.94, 2028, 2047
 MIROC6, r1i1p1f1, ssp585, gn, 0.94, 2032, 2051
 MIROC6, r2i1p1f1, ssp585, gn, 0.94, 2033, 2052
@@ -755,12 +784,14 @@ NESM3, r1i1p1f1, ssp585, gn, 0.94, 2019, 2038
 NESM3, r2i1p1f1, ssp585, gn, 0.94, 2021, 2040
 NorESM2-LM, r1i1p1f1, ssp585, gn, 0.94, 2035, 2054
 NorESM2-MM, r1i1p1f1, ssp585, gn, 0.94, 2028, 2047
+TaiESM1, r1i1p1f1, ssp585, gn, 0.94, 2015, 2034
 UKESM1-0-LL, r1i1p1f2, ssp585, gn, 0.94, 2016, 2035
 UKESM1-0-LL, r2i1p1f2, ssp585, gn, 0.94, 2014, 2033
 UKESM1-0-LL, r3i1p1f2, ssp585, gn, 0.94, 2016, 2035
 UKESM1-0-LL, r4i1p1f2, ssp585, gn, 0.94, 2017, 2036
 UKESM1-0-LL, r8i1p1f2, ssp585, gn, 0.94, 2015, 2034
 UKESM1-0-LL, r2i1p1f2, ssp245, gn, 3.43, 2078, 2097
+UKESM1-0-LL, r13i1p1f2, ssp245, gn, 3.43, 2075, 2094
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 3.43, 2074, 2093
 ACCESS-CM2, r2i1p1f1, ssp370, gn, 3.43, 2075, 2094
 ACCESS-CM2, r3i1p1f1, ssp370, gn, 3.43, 2078, 2097
@@ -961,6 +992,7 @@ FIO-ESM-2-0, r2i1p1f1, ssp585, gn, 3.43, 2069, 2088
 FIO-ESM-2-0, r3i1p1f1, ssp585, gn, 3.43, 2069, 2088
 GFDL-CM4, r1i1p1f1, ssp585, gr1, 3.43, 2072, 2091
 GISS-E2-1-G, r1i1p1f2, ssp585, gn, 3.43, 2070, 2089
+GISS-E2-1-G, r1i1p5f1, ssp585, gn, 3.43, 2081, 2100
 HadGEM3-GC31-LL, r1i1p1f3, ssp585, gn, 3.43, 2056, 2075
 HadGEM3-GC31-LL, r2i1p1f3, ssp585, gn, 3.43, 2058, 2077
 HadGEM3-GC31-LL, r3i1p1f3, ssp585, gn, 3.43, 2055, 2074
@@ -981,6 +1013,7 @@ MRI-ESM2-0, r1i1p1f1, ssp585, gn, 3.43, 2077, 2096
 MRI-ESM2-0, r1i2p1f1, ssp585, gn, 3.43, 2080, 2099
 NESM3, r1i1p1f1, ssp585, gn, 3.43, 2067, 2086
 NESM3, r2i1p1f1, ssp585, gn, 3.43, 2071, 2090
+TaiESM1, r1i1p1f1, ssp585, gn, 3.43, 2055, 2074
 UKESM1-0-LL, r1i1p1f2, ssp585, gn, 3.43, 2052, 2071
 UKESM1-0-LL, r2i1p1f2, ssp585, gn, 3.43, 2050, 2069
 UKESM1-0-LL, r3i1p1f2, ssp585, gn, 3.43, 2052, 2071

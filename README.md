@@ -82,6 +82,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 08.10.2020
+ * Add CMCC-CM2-SR5, KIOST-ESM, and TaiESM1 CMIP6 models. Also more ensemble members for GISS-E2-1-G, MIROC6, and UKESM1-0-LL. 
+
 ### 05.10.2020
  * Add the inofficial (not-cmorized, not on ESGF) EC-EARTH r3i1p1 ensemble (source: http://ensemblesrt3.dmi.dk/data/CMIP5/r3i1p1/).
 
