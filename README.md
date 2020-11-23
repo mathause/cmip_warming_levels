@@ -82,6 +82,9 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 23.11.2020
+ * Add IITM-ESM, EC-Earth3-AerChem, TaiESM1 (new scenarios) CMIP6 models. Add ensemble members for ACCESS-ESM1-5, FGOALS-g3, CNRM-ESM2-1, GISS-E2-1-G.
+
 ### 08.10.2020
  * Add CMCC-CM2-SR5, KIOST-ESM, and TaiESM1 CMIP6 models. Also more ensemble members for GISS-E2-1-G, MIROC6, and UKESM1-0-LL. 
 
