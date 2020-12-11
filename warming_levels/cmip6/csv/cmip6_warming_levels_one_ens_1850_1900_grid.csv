@@ -1,11 +1,12 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-11-23 18:14:30
+# executed: 2020-12-11 16:46:38
 # reference years: 1850 to 1900
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CAMS-CSM1-0, r1i1p1f1, ssp119, gn, 1.0, 2017, 2036
 CNRM-ESM2-1, r1i1p1f2, ssp119, gr, 1.0, 2007, 2026
 CanESM5, r1i1p1f1, ssp119, gn, 1.0, 1990, 2009
+EC-Earth3-Veg-LR, r1i1p1f1, ssp119, gr, 1.0, 1997, 2016
 EC-Earth3-Veg, r1i1p1f1, ssp119, gr, 1.0, 1984, 2003
 EC-Earth3, r4i1p1f1, ssp119, gr, 1.0, 1985, 2004
 FGOALS-g3, r1i1p1f1, ssp119, gn, 1.0, 1997, 2016
@@ -30,6 +31,7 @@ CNRM-CM6-1, r1i1p1f2, ssp126, gr, 1.0, 2003, 2022
 CNRM-ESM2-1, r1i1p1f2, ssp126, gr, 1.0, 2006, 2025
 CanESM5-CanOE, r1i1p2f1, ssp126, gn, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp126, gn, 1.0, 1990, 2009
+EC-Earth3-Veg-LR, r1i1p1f1, ssp126, gr, 1.0, 1998, 2017
 EC-Earth3-Veg, r1i1p1f1, ssp126, gr, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp126, gr, 1.0, 1999, 2018
 FGOALS-f3-L, r1i1p1f1, ssp126, gr, 1.0, 1992, 2011
@@ -54,6 +56,7 @@ MRI-ESM2-0, r1i1p1f1, ssp126, gn, 1.0, 2005, 2024
 NESM3, r1i1p1f1, ssp126, gn, 1.0, 2000, 2019
 NorESM2-LM, r1i1p1f1, ssp126, gn, 1.0, 2018, 2037
 NorESM2-MM, r1i1p1f1, ssp126, gn, 1.0, 2013, 2032
+TaiESM1, r1i1p1f1, ssp126, gn, 1.0, 2007, 2026
 UKESM1-0-LL, r1i1p1f2, ssp126, gn, 1.0, 2003, 2022
 ACCESS-CM2, r1i1p1f1, ssp245, gn, 1.0, 2006, 2025
 ACCESS-ESM1-5, r1i1p1f1, ssp245, gn, 1.0, 2005, 2024
@@ -69,6 +72,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, gr, 1.0, 2004, 2023
 CNRM-ESM2-1, r1i1p1f2, ssp245, gr, 1.0, 2007, 2026
 CanESM5-CanOE, r1i1p2f1, ssp245, gn, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp245, gn, 1.0, 1990, 2009
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, gr, 1.0, 1997, 2016
 EC-Earth3-Veg, r1i1p1f1, ssp245, gr, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp245, gr, 1.0, 1999, 2018
 FGOALS-f3-L, r1i1p1f1, ssp245, gr, 1.0, 1992, 2011
@@ -93,6 +97,7 @@ MRI-ESM2-0, r1i1p1f1, ssp245, gn, 1.0, 2005, 2024
 NESM3, r1i1p1f1, ssp245, gn, 1.0, 2000, 2019
 NorESM2-LM, r1i1p1f1, ssp245, gn, 1.0, 2020, 2039
 NorESM2-MM, r1i1p1f1, ssp245, gn, 1.0, 2019, 2038
+TaiESM1, r1i1p1f1, ssp245, gn, 1.0, 2009, 2028
 UKESM1-0-LL, r1i1p1f2, ssp245, gn, 1.0, 2004, 2023
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 1.0, 2006, 2025
 ACCESS-ESM1-5, r1i1p1f1, ssp370, gn, 1.0, 2004, 2023
@@ -108,6 +113,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 1.0, 2009, 2028
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp370, gn, 1.0, 1990, 2009
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 1.0, 2009, 2028
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 1.0, 1998, 2017
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp370, gr, 1.0, 1999, 2018
 FGOALS-f3-L, r1i1p1f1, ssp370, gr, 1.0, 1992, 2011
@@ -142,6 +148,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 1.0, 2004, 2023
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 1.0, 2007, 2026
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp585, gn, 1.0, 1990, 2009
+E3SM-1-1, r1i1p1f1, ssp585, gr, 1.0, 2006, 2025
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 1.0, 1997, 2016
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp585, gr, 1.0, 1999, 2018
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 1.0, 1992, 2011
@@ -171,6 +179,7 @@ TaiESM1, r1i1p1f1, ssp585, gn, 1.0, 2008, 2027
 UKESM1-0-LL, r1i1p1f2, ssp585, gn, 1.0, 2004, 2023
 CNRM-ESM2-1, r1i1p1f2, ssp119, gr, 1.5, 2058, 2077
 CanESM5, r1i1p1f1, ssp119, gn, 1.5, 2003, 2022
+EC-Earth3-Veg-LR, r1i1p1f1, ssp119, gr, 1.5, 2020, 2039
 EC-Earth3-Veg, r1i1p1f1, ssp119, gr, 1.5, 2002, 2021
 EC-Earth3, r4i1p1f1, ssp119, gr, 1.5, 2008, 2027
 GISS-E2-1-G, r1i1p1f2, ssp119, gn, 1.5, 2023, 2042
@@ -190,6 +199,7 @@ CNRM-CM6-1, r1i1p1f2, ssp126, gr, 1.5, 2018, 2037
 CNRM-ESM2-1, r1i1p1f2, ssp126, gr, 1.5, 2038, 2057
 CanESM5-CanOE, r1i1p2f1, ssp126, gn, 1.5, 2000, 2019
 CanESM5, r1i1p1f1, ssp126, gn, 1.5, 2004, 2023
+EC-Earth3-Veg-LR, r1i1p1f1, ssp126, gr, 1.5, 2021, 2040
 EC-Earth3-Veg, r1i1p1f1, ssp126, gr, 1.5, 2003, 2022
 EC-Earth3, r1i1p1f1, ssp126, gr, 1.5, 2013, 2032
 FGOALS-f3-L, r1i1p1f1, ssp126, gr, 1.5, 2011, 2030
@@ -210,6 +220,7 @@ MPI-ESM1-2-HR, r1i1p1f1, ssp126, gn, 1.5, 2032, 2051
 MPI-ESM1-2-LR, r1i1p1f1, ssp126, gn, 1.5, 2033, 2052
 MRI-ESM2-0, r1i1p1f1, ssp126, gn, 1.5, 2020, 2039
 NESM3, r1i1p1f1, ssp126, gn, 1.5, 2012, 2031
+TaiESM1, r1i1p1f1, ssp126, gn, 1.5, 2017, 2036
 UKESM1-0-LL, r1i1p1f2, ssp126, gn, 1.5, 2014, 2033
 ACCESS-CM2, r1i1p1f1, ssp245, gn, 1.5, 2019, 2038
 ACCESS-ESM1-5, r1i1p1f1, ssp245, gn, 1.5, 2020, 2039
@@ -225,6 +236,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, gr, 1.5, 2021, 2040
 CNRM-ESM2-1, r1i1p1f2, ssp245, gr, 1.5, 2028, 2047
 CanESM5-CanOE, r1i1p2f1, ssp245, gn, 1.5, 2000, 2019
 CanESM5, r1i1p1f1, ssp245, gn, 1.5, 2004, 2023
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, gr, 1.5, 2017, 2036
 EC-Earth3-Veg, r1i1p1f1, ssp245, gr, 1.5, 2001, 2020
 EC-Earth3, r1i1p1f1, ssp245, gr, 1.5, 2013, 2032
 FGOALS-f3-L, r1i1p1f1, ssp245, gr, 1.5, 2012, 2031
@@ -249,6 +261,7 @@ MRI-ESM2-0, r1i1p1f1, ssp245, gn, 1.5, 2021, 2040
 NESM3, r1i1p1f1, ssp245, gn, 1.5, 2015, 2034
 NorESM2-LM, r1i1p1f1, ssp245, gn, 1.5, 2046, 2065
 NorESM2-MM, r1i1p1f1, ssp245, gn, 1.5, 2037, 2056
+TaiESM1, r1i1p1f1, ssp245, gn, 1.5, 2020, 2039
 UKESM1-0-LL, r1i1p1f2, ssp245, gn, 1.5, 2014, 2033
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 1.5, 2018, 2037
 ACCESS-ESM1-5, r1i1p1f1, ssp370, gn, 1.5, 2024, 2043
@@ -264,6 +277,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 1.5, 2027, 2046
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 1.5, 1999, 2018
 CanESM5, r1i1p1f1, ssp370, gn, 1.5, 2004, 2023
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 1.5, 2023, 2042
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 1.5, 2019, 2038
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 1.5, 2002, 2021
 EC-Earth3, r1i1p1f1, ssp370, gr, 1.5, 2013, 2032
 FGOALS-f3-L, r1i1p1f1, ssp370, gr, 1.5, 2012, 2031
@@ -298,6 +312,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 1.5, 2019, 2038
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 1.5, 2023, 2042
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 1.5, 1999, 2018
 CanESM5, r1i1p1f1, ssp585, gn, 1.5, 2003, 2022
+E3SM-1-1, r1i1p1f1, ssp585, gr, 1.5, 2016, 2035
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 1.5, 2019, 2038
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 1.5, 2002, 2021
 EC-Earth3, r1i1p1f1, ssp585, gr, 1.5, 2015, 2034
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 1.5, 2012, 2031
@@ -352,6 +368,7 @@ IPSL-CM6A-LR, r1i1p1f1, ssp126, gr, 2.0, 2029, 2048
 KACE-1-0-G, r1i1p1f1, ssp126, gr, 2.0, 2015, 2034
 MCM-UA-1-0, r1i1p1f2, ssp126, gn, 2.0, 2053, 2072
 NESM3, r1i1p1f1, ssp126, gn, 2.0, 2040, 2059
+TaiESM1, r1i1p1f1, ssp126, gn, 2.0, 2028, 2047
 UKESM1-0-LL, r1i1p1f2, ssp126, gn, 2.0, 2027, 2046
 ACCESS-CM2, r1i1p1f1, ssp245, gn, 2.0, 2031, 2050
 ACCESS-ESM1-5, r1i1p1f1, ssp245, gn, 2.0, 2036, 2055
@@ -366,6 +383,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, gr, 2.0, 2039, 2058
 CNRM-ESM2-1, r1i1p1f2, ssp245, gr, 2.0, 2046, 2065
 CanESM5-CanOE, r1i1p2f1, ssp245, gn, 2.0, 2011, 2030
 CanESM5, r1i1p1f1, ssp245, gn, 2.0, 2015, 2034
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, gr, 2.0, 2040, 2059
 EC-Earth3-Veg, r1i1p1f1, ssp245, gr, 2.0, 2024, 2043
 EC-Earth3, r1i1p1f1, ssp245, gr, 2.0, 2035, 2054
 FGOALS-f3-L, r1i1p1f1, ssp245, gr, 2.0, 2031, 2050
@@ -390,6 +408,7 @@ MRI-ESM2-0, r1i1p1f1, ssp245, gn, 2.0, 2040, 2059
 NESM3, r1i1p1f1, ssp245, gn, 2.0, 2033, 2052
 NorESM2-LM, r1i1p1f1, ssp245, gn, 2.0, 2076, 2095
 NorESM2-MM, r1i1p1f1, ssp245, gn, 2.0, 2069, 2088
+TaiESM1, r1i1p1f1, ssp245, gn, 2.0, 2032, 2051
 UKESM1-0-LL, r1i1p1f2, ssp245, gn, 2.0, 2025, 2044
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 2.0, 2030, 2049
 ACCESS-ESM1-5, r1i1p1f1, ssp370, gn, 2.0, 2039, 2058
@@ -405,6 +424,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 2.0, 2043, 2062
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 2.0, 2010, 2029
 CanESM5, r1i1p1f1, ssp370, gn, 2.0, 2014, 2033
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 2.0, 2038, 2057
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 2.0, 2036, 2055
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 2.0, 2023, 2042
 EC-Earth3, r1i1p1f1, ssp370, gr, 2.0, 2029, 2048
 FGOALS-f3-L, r1i1p1f1, ssp370, gr, 2.0, 2027, 2046
@@ -439,6 +459,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 2.0, 2031, 2050
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 2.0, 2036, 2055
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 2.0, 2010, 2029
 CanESM5, r1i1p1f1, ssp585, gn, 2.0, 2013, 2032
+E3SM-1-1, r1i1p1f1, ssp585, gr, 2.0, 2023, 2042
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 2.0, 2032, 2051
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 2.0, 2018, 2037
 EC-Earth3, r1i1p1f1, ssp585, gr, 2.0, 2026, 2045
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 2.0, 2027, 2046
@@ -476,6 +498,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, gr, 3.0, 2075, 2094
 CNRM-ESM2-1, r1i1p1f2, ssp245, gr, 3.0, 2079, 2098
 CanESM5-CanOE, r1i1p2f1, ssp245, gn, 3.0, 2035, 2054
 CanESM5, r1i1p1f1, ssp245, gn, 3.0, 2040, 2059
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, gr, 3.0, 2081, 2100
 EC-Earth3-Veg, r1i1p1f1, ssp245, gr, 3.0, 2058, 2077
 EC-Earth3, r1i1p1f1, ssp245, gr, 3.0, 2076, 2095
 FIO-ESM-2-0, r1i1p1f1, ssp245, gn, 3.0, 2066, 2085
@@ -483,6 +506,7 @@ GISS-E2-1-G, r1i1p1f2, ssp245, gn, 3.0, 2072, 2091
 HadGEM3-GC31-LL, r1i1p1f3, ssp245, gn, 3.0, 2052, 2071
 IPSL-CM6A-LR, r1i1p1f1, ssp245, gr, 3.0, 2056, 2075
 KACE-1-0-G, r1i1p1f1, ssp245, gr, 3.0, 2041, 2060
+TaiESM1, r1i1p1f1, ssp245, gn, 3.0, 2057, 2076
 UKESM1-0-LL, r1i1p1f2, ssp245, gn, 3.0, 2050, 2069
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 3.0, 2053, 2072
 ACCESS-ESM1-5, r1i1p1f1, ssp370, gn, 3.0, 2060, 2079
@@ -497,6 +521,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 3.0, 2063, 2082
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 3.0, 2030, 2049
 CanESM5, r1i1p1f1, ssp370, gn, 3.0, 2034, 2053
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 3.0, 2057, 2076
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 3.0, 2057, 2076
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 3.0, 2048, 2067
 EC-Earth3, r1i1p1f1, ssp370, gr, 3.0, 2054, 2073
 FGOALS-f3-L, r1i1p1f1, ssp370, gr, 3.0, 2055, 2074
@@ -529,6 +554,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 3.0, 2049, 2068
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 3.0, 2055, 2074
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 3.0, 2028, 2047
 CanESM5, r1i1p1f1, ssp585, gn, 3.0, 2031, 2050
+E3SM-1-1, r1i1p1f1, ssp585, gr, 3.0, 2037, 2056
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 3.0, 2052, 2071
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 3.0, 2041, 2060
 EC-Earth3, r1i1p1f1, ssp585, gr, 3.0, 2048, 2067
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 3.0, 2050, 2069
@@ -570,6 +597,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 4.0, 2080, 2099
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 4.0, 2047, 2066
 CanESM5, r1i1p1f1, ssp370, gn, 4.0, 2050, 2069
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 4.0, 2074, 2093
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 4.0, 2078, 2097
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 4.0, 2067, 2086
 EC-Earth3, r1i1p1f1, ssp370, gr, 4.0, 2075, 2094
 IPSL-CM6A-LR, r1i1p1f1, ssp370, gr, 4.0, 2067, 2086
@@ -588,6 +616,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 4.0, 2063, 2082
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 4.0, 2070, 2089
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 4.0, 2044, 2063
 CanESM5, r1i1p1f1, ssp585, gn, 4.0, 2045, 2064
+E3SM-1-1, r1i1p1f1, ssp585, gr, 4.0, 2050, 2069
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 4.0, 2066, 2085
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 4.0, 2058, 2077
 EC-Earth3, r1i1p1f1, ssp585, gr, 4.0, 2064, 2083
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 4.0, 2069, 2088
@@ -606,6 +636,7 @@ UKESM1-0-LL, r1i1p1f2, ssp585, gn, 4.0, 2051, 2070
 CAMS-CSM1-0, r1i1p1f1, ssp119, gn, 0.61, 1994, 2013
 CNRM-ESM2-1, r1i1p1f2, ssp119, gr, 0.61, 1993, 2012
 CanESM5, r1i1p1f1, ssp119, gn, 0.61, 1977, 1996
+EC-Earth3-Veg-LR, r1i1p1f1, ssp119, gr, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp119, gr, 0.61, 1965, 1984
 EC-Earth3, r4i1p1f1, ssp119, gr, 0.61, 1936, 1955
 FGOALS-g3, r1i1p1f1, ssp119, gn, 0.61, 1984, 2003
@@ -630,6 +661,7 @@ CNRM-CM6-1, r1i1p1f2, ssp126, gr, 0.61, 1984, 2003
 CNRM-ESM2-1, r1i1p1f2, ssp126, gr, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp126, gn, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp126, gn, 0.61, 1977, 1996
+EC-Earth3-Veg-LR, r1i1p1f1, ssp126, gr, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp126, gr, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp126, gr, 0.61, 1991, 2010
 FGOALS-f3-L, r1i1p1f1, ssp126, gr, 0.61, 1976, 1995
@@ -654,6 +686,7 @@ MRI-ESM2-0, r1i1p1f1, ssp126, gn, 0.61, 1992, 2011
 NESM3, r1i1p1f1, ssp126, gn, 0.61, 1990, 2009
 NorESM2-LM, r1i1p1f1, ssp126, gn, 0.61, 1996, 2015
 NorESM2-MM, r1i1p1f1, ssp126, gn, 0.61, 2000, 2019
+TaiESM1, r1i1p1f1, ssp126, gn, 0.61, 1999, 2018
 UKESM1-0-LL, r1i1p1f2, ssp126, gn, 0.61, 1994, 2013
 ACCESS-CM2, r1i1p1f1, ssp245, gn, 0.61, 1995, 2014
 ACCESS-ESM1-5, r1i1p1f1, ssp245, gn, 0.61, 1991, 2010
@@ -669,6 +702,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, gr, 0.61, 1984, 2003
 CNRM-ESM2-1, r1i1p1f2, ssp245, gr, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp245, gn, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp245, gn, 0.61, 1977, 1996
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, gr, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp245, gr, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp245, gr, 0.61, 1991, 2010
 FGOALS-f3-L, r1i1p1f1, ssp245, gr, 0.61, 1976, 1995
@@ -693,6 +727,7 @@ MRI-ESM2-0, r1i1p1f1, ssp245, gn, 0.61, 1992, 2011
 NESM3, r1i1p1f1, ssp245, gn, 0.61, 1990, 2009
 NorESM2-LM, r1i1p1f1, ssp245, gn, 0.61, 1996, 2015
 NorESM2-MM, r1i1p1f1, ssp245, gn, 0.61, 2000, 2019
+TaiESM1, r1i1p1f1, ssp245, gn, 0.61, 1999, 2018
 UKESM1-0-LL, r1i1p1f2, ssp245, gn, 0.61, 1994, 2013
 ACCESS-CM2, r1i1p1f1, ssp370, gn, 0.61, 1995, 2014
 ACCESS-ESM1-5, r1i1p1f1, ssp370, gn, 0.61, 1991, 2010
@@ -708,6 +743,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, gr, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp370, gn, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp370, gn, 0.61, 1977, 1996
 EC-Earth3-AerChem, r1i1p1f1, ssp370, gr, 0.61, 1997, 2016
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, gr, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp370, gr, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp370, gr, 0.61, 1991, 2010
 FGOALS-f3-L, r1i1p1f1, ssp370, gr, 0.61, 1976, 1995
@@ -742,6 +778,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, gr, 0.61, 1984, 2003
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp585, gn, 0.61, 1977, 1996
+E3SM-1-1, r1i1p1f1, ssp585, gr, 0.61, 1998, 2017
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, gr, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp585, gr, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp585, gr, 0.61, 1991, 2010
 FGOALS-f3-L, r1i1p1f1, ssp585, gr, 0.61, 1976, 1995

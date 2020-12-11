@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-11-23 18:14:31
+# executed: 2020-12-11 16:46:38
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CanESM5, r1i1p1f1, ssp119, 0.94, 2022, 2041
@@ -22,6 +22,7 @@ CNRM-CM6-1, r1i1p1f2, ssp126, 0.94, 2034, 2053
 CNRM-ESM2-1, r1i1p1f2, ssp126, 0.94, 2047, 2066
 CanESM5-CanOE, r1i1p2f1, ssp126, 0.94, 2019, 2038
 CanESM5, r1i1p1f1, ssp126, 0.94, 2021, 2040
+EC-Earth3-Veg-LR, r1i1p1f1, ssp126, 0.94, 2048, 2067
 EC-Earth3-Veg, r1i1p1f1, ssp126, 0.94, 2046, 2065
 EC-Earth3, r1i1p1f1, ssp126, 0.94, 2024, 2043
 FGOALS-f3-L, r1i1p1f1, ssp126, 0.94, 2050, 2069
@@ -37,6 +38,7 @@ MIROC-ES2L, r1i1p1f2, ssp126, 0.94, 2036, 2055
 MRI-ESM2-0, r1i1p1f1, ssp126, 0.94, 2029, 2048
 NESM3, r1i1p1f1, ssp126, 0.94, 2025, 2044
 NorESM2-MM, r1i1p1f1, ssp126, 0.94, 2060, 2079
+TaiESM1, r1i1p1f1, ssp126, 0.94, 2015, 2034
 UKESM1-0-LL, r1i1p1f2, ssp126, 0.94, 2017, 2036
 ACCESS-CM2, r1i1p1f1, ssp245, 0.94, 2020, 2039
 ACCESS-ESM1-5, r1i1p1f1, ssp245, 0.94, 2027, 2046
@@ -52,6 +54,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 0.94, 2031, 2050
 CNRM-ESM2-1, r1i1p1f2, ssp245, 0.94, 2033, 2052
 CanESM5-CanOE, r1i1p2f1, ssp245, 0.94, 2017, 2036
 CanESM5, r1i1p1f1, ssp245, 0.94, 2018, 2037
+EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 0.94, 2036, 2055
 EC-Earth3-Veg, r1i1p1f1, ssp245, 0.94, 2033, 2052
 EC-Earth3, r1i1p1f1, ssp245, 0.94, 2028, 2047
 FGOALS-f3-L, r1i1p1f1, ssp245, 0.94, 2032, 2051
@@ -76,6 +79,7 @@ MRI-ESM2-0, r1i1p1f1, ssp245, 0.94, 2028, 2047
 NESM3, r1i1p1f1, ssp245, 0.94, 2025, 2044
 NorESM2-LM, r1i1p1f1, ssp245, 0.94, 2047, 2066
 NorESM2-MM, r1i1p1f1, ssp245, 0.94, 2035, 2054
+TaiESM1, r1i1p1f1, ssp245, 0.94, 2018, 2037
 UKESM1-0-LL, r1i1p1f2, ssp245, 0.94, 2017, 2036
 ACCESS-CM2, r1i1p1f1, ssp370, 0.94, 2020, 2039
 ACCESS-ESM1-5, r1i1p1f1, ssp370, 0.94, 2034, 2053
@@ -91,6 +95,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp370, 0.94, 2032, 2051
 CanESM5-CanOE, r1i1p2f1, ssp370, 0.94, 2014, 2033
 CanESM5, r1i1p1f1, ssp370, 0.94, 2017, 2036
 EC-Earth3-AerChem, r1i1p1f1, ssp370, 0.94, 2023, 2042
+EC-Earth3-Veg-LR, r1i1p1f1, ssp370, 0.94, 2031, 2050
 EC-Earth3-Veg, r1i1p1f1, ssp370, 0.94, 2031, 2050
 EC-Earth3, r1i1p1f1, ssp370, 0.94, 2023, 2042
 FGOALS-f3-L, r1i1p1f1, ssp370, 0.94, 2027, 2046
@@ -125,6 +130,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, 0.94, 2026, 2045
 CNRM-ESM2-1, r1i1p1f2, ssp585, 0.94, 2026, 2045
 CanESM5-CanOE, r1i1p2f1, ssp585, 0.94, 2015, 2034
 CanESM5, r1i1p1f1, ssp585, 0.94, 2017, 2036
+E3SM-1-1, r1i1p1f1, ssp585, 0.94, 2014, 2033
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 0.94, 2029, 2048
 EC-Earth3-Veg, r1i1p1f1, ssp585, 0.94, 2025, 2044
 EC-Earth3, r1i1p1f1, ssp585, 0.94, 2022, 2041
 FGOALS-f3-L, r1i1p1f1, ssp585, 0.94, 2028, 2047
@@ -177,6 +184,8 @@ CNRM-CM6-1, r1i1p1f2, ssp585, 3.43, 2066, 2085
 CNRM-ESM2-1, r1i1p1f2, ssp585, 3.43, 2071, 2090
 CanESM5-CanOE, r1i1p2f1, ssp585, 3.43, 2054, 2073
 CanESM5, r1i1p1f1, ssp585, 3.43, 2054, 2073
+E3SM-1-1, r1i1p1f1, ssp585, 3.43, 2049, 2068
+EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 3.43, 2071, 2090
 EC-Earth3-Veg, r1i1p1f1, ssp585, 3.43, 2069, 2088
 EC-Earth3, r1i1p1f1, ssp585, 3.43, 2068, 2087
 FGOALS-f3-L, r1i1p1f1, ssp585, 3.43, 2078, 2097
