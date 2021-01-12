@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-12-11 16:50:36
+# executed: 2021-01-12 00:53:25
 # reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CNRM-ESM2-1, r3i1p1f2, ssp119, gr, 0.94, 2024, 2043
@@ -213,6 +213,13 @@ MIROC6, r46i1p1f1, ssp126, gn, 0.94, 2048, 2067
 MIROC-ES2L, r1i1p1f2, ssp126, gn, 0.94, 2036, 2055
 MIROC-ES2L, r2i1p1f2, ssp126, gn, 0.94, 2046, 2065
 MIROC-ES2L, r3i1p1f2, ssp126, gn, 0.94, 2032, 2051
+MIROC-ES2L, r4i1p1f2, ssp126, gn, 0.94, 2038, 2057
+MIROC-ES2L, r5i1p1f2, ssp126, gn, 0.94, 2039, 2058
+MIROC-ES2L, r6i1p1f2, ssp126, gn, 0.94, 2038, 2057
+MIROC-ES2L, r7i1p1f2, ssp126, gn, 0.94, 2054, 2073
+MIROC-ES2L, r8i1p1f2, ssp126, gn, 0.94, 2037, 2056
+MIROC-ES2L, r9i1p1f2, ssp126, gn, 0.94, 2030, 2049
+MIROC-ES2L, r10i1p1f2, ssp126, gn, 0.94, 2034, 2053
 MRI-ESM2-0, r1i1p1f1, ssp126, gn, 0.94, 2029, 2048
 NESM3, r1i1p1f1, ssp126, gn, 0.94, 2025, 2044
 NESM3, r2i1p1f1, ssp126, gn, 0.94, 2041, 2060
@@ -412,6 +419,15 @@ MIROC6, r1i1p1f1, ssp245, gn, 0.94, 2038, 2057
 MIROC6, r2i1p1f1, ssp245, gn, 0.94, 2043, 2062
 MIROC6, r3i1p1f1, ssp245, gn, 0.94, 2042, 2061
 MIROC-ES2L, r1i1p1f2, ssp245, gn, 0.94, 2033, 2052
+MIROC-ES2L, r2i1p1f2, ssp245, gn, 0.94, 2032, 2051
+MIROC-ES2L, r3i1p1f2, ssp245, gn, 0.94, 2032, 2051
+MIROC-ES2L, r4i1p1f2, ssp245, gn, 0.94, 2030, 2049
+MIROC-ES2L, r5i1p1f2, ssp245, gn, 0.94, 2030, 2049
+MIROC-ES2L, r6i1p1f2, ssp245, gn, 0.94, 2034, 2053
+MIROC-ES2L, r7i1p1f2, ssp245, gn, 0.94, 2033, 2052
+MIROC-ES2L, r8i1p1f2, ssp245, gn, 0.94, 2033, 2052
+MIROC-ES2L, r9i1p1f2, ssp245, gn, 0.94, 2033, 2052
+MIROC-ES2L, r10i1p1f2, ssp245, gn, 0.94, 2033, 2052
 MPI-ESM1-2-HR, r1i1p1f1, ssp245, gn, 0.94, 2040, 2059
 MPI-ESM1-2-HR, r2i1p1f1, ssp245, gn, 0.94, 2047, 2066
 MPI-ESM1-2-LR, r1i1p1f1, ssp245, gn, 0.94, 2040, 2059
@@ -597,6 +613,15 @@ MIROC6, r1i1p1f1, ssp370, gn, 0.94, 2035, 2054
 MIROC6, r2i1p1f1, ssp370, gn, 0.94, 2035, 2054
 MIROC6, r3i1p1f1, ssp370, gn, 0.94, 2039, 2058
 MIROC-ES2L, r1i1p1f2, ssp370, gn, 0.94, 2031, 2050
+MIROC-ES2L, r2i1p1f2, ssp370, gn, 0.94, 2032, 2051
+MIROC-ES2L, r3i1p1f2, ssp370, gn, 0.94, 2031, 2050
+MIROC-ES2L, r4i1p1f2, ssp370, gn, 0.94, 2032, 2051
+MIROC-ES2L, r5i1p1f2, ssp370, gn, 0.94, 2031, 2050
+MIROC-ES2L, r6i1p1f2, ssp370, gn, 0.94, 2032, 2051
+MIROC-ES2L, r7i1p1f2, ssp370, gn, 0.94, 2033, 2052
+MIROC-ES2L, r8i1p1f2, ssp370, gn, 0.94, 2032, 2051
+MIROC-ES2L, r9i1p1f2, ssp370, gn, 0.94, 2030, 2049
+MIROC-ES2L, r10i1p1f2, ssp370, gn, 0.94, 2032, 2051
 MPI-ESM1-2-HR, r1i1p1f1, ssp370, gn, 0.94, 2034, 2053
 MPI-ESM1-2-HR, r2i1p1f1, ssp370, gn, 0.94, 2037, 2056
 MPI-ESM1-2-HR, r3i1p1f1, ssp370, gn, 0.94, 2036, 2055
@@ -738,6 +763,7 @@ EC-Earth3-Veg, r2i1p1f1, ssp585, gr, 0.94, 2025, 2044
 EC-Earth3-Veg, r3i1p1f1, ssp585, gr, 0.94, 2026, 2045
 EC-Earth3-Veg, r4i1p1f1, ssp585, gr, 0.94, 2018, 2037
 EC-Earth3-Veg, r6i1p1f1, ssp585, gr, 0.94, 2022, 2041
+EC-Earth3-Veg, r10i1p1f1, ssp585, gr, 0.94, 2031, 2050
 EC-Earth3, r1i1p1f1, ssp585, gr, 0.94, 2022, 2041
 EC-Earth3, r4i1p1f1, ssp585, gr, 0.94, 2030, 2049
 EC-Earth3, r6i1p1f1, ssp585, gr, 0.94, 2023, 2042
@@ -833,6 +859,15 @@ MIROC6, r48i1p1f1, ssp585, gn, 0.94, 2033, 2052
 MIROC6, r49i1p1f1, ssp585, gn, 0.94, 2033, 2052
 MIROC6, r50i1p1f1, ssp585, gn, 0.94, 2031, 2050
 MIROC-ES2L, r1i1p1f2, ssp585, gn, 0.94, 2026, 2045
+MIROC-ES2L, r2i1p1f2, ssp585, gn, 0.94, 2029, 2048
+MIROC-ES2L, r3i1p1f2, ssp585, gn, 0.94, 2027, 2046
+MIROC-ES2L, r4i1p1f2, ssp585, gn, 0.94, 2027, 2046
+MIROC-ES2L, r5i1p1f2, ssp585, gn, 0.94, 2026, 2045
+MIROC-ES2L, r6i1p1f2, ssp585, gn, 0.94, 2029, 2048
+MIROC-ES2L, r7i1p1f2, ssp585, gn, 0.94, 2029, 2048
+MIROC-ES2L, r8i1p1f2, ssp585, gn, 0.94, 2028, 2047
+MIROC-ES2L, r9i1p1f2, ssp585, gn, 0.94, 2028, 2047
+MIROC-ES2L, r10i1p1f2, ssp585, gn, 0.94, 2026, 2045
 MPI-ESM1-2-HR, r1i1p1f1, ssp585, gn, 0.94, 2033, 2052
 MPI-ESM1-2-HR, r2i1p1f1, ssp585, gn, 0.94, 2038, 2057
 MPI-ESM1-2-LR, r1i1p1f1, ssp585, gn, 0.94, 2035, 2054
@@ -1065,6 +1100,7 @@ EC-Earth3-Veg, r2i1p1f1, ssp585, gr, 3.43, 2071, 2090
 EC-Earth3-Veg, r3i1p1f1, ssp585, gr, 3.43, 2069, 2088
 EC-Earth3-Veg, r4i1p1f1, ssp585, gr, 3.43, 2066, 2085
 EC-Earth3-Veg, r6i1p1f1, ssp585, gr, 3.43, 2066, 2085
+EC-Earth3-Veg, r10i1p1f1, ssp585, gr, 3.43, 2071, 2090
 EC-Earth3, r1i1p1f1, ssp585, gr, 3.43, 2068, 2087
 EC-Earth3, r4i1p1f1, ssp585, gr, 3.43, 2068, 2087
 EC-Earth3, r6i1p1f1, ssp585, gr, 3.43, 2069, 2088
@@ -1097,6 +1133,8 @@ IPSL-CM6A-LR, r14i1p1f1, ssp585, gr, 3.43, 2062, 2081
 KACE-1-0-G, r1i1p1f1, ssp585, gr, 3.43, 2063, 2082
 KACE-1-0-G, r2i1p1f1, ssp585, gr, 3.43, 2067, 2086
 MCM-UA-1-0, r1i1p1f2, ssp585, gn, 3.43, 2078, 2097
+MIROC-ES2L, r3i1p1f2, ssp585, gn, 3.43, 2081, 2100
+MIROC-ES2L, r5i1p1f2, ssp585, gn, 3.43, 2081, 2100
 MRI-ESM2-0, r1i1p1f1, ssp585, gn, 3.43, 2077, 2096
 MRI-ESM2-0, r1i2p1f1, ssp585, gn, 3.43, 2080, 2099
 NESM3, r1i1p1f1, ssp585, gn, 3.43, 2067, 2086
