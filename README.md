@@ -82,8 +82,64 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+| TaiESM1     | Gridpoints at 90°S and 90°N have non-zero weights
+| IITM-ESM    | missing data files
+| CIESM       | historical data files were exchanged
+| FGOALS-g3   | did not go to 2100 (r2i1p1f1, ssp126)
+| KACE-1-0-G  | erroneous historical temperatures (r3i1p1f1, historical) https://errata.es-doc.org/static/view.html?uid=713285ce-d112-0949-ba95-6fddd3889280
+| UKESM1-0-LL | hole in data (r18i1p1f2, ssp126)
+| EC-Earth3   | holes in data (r7i1p1f1, ssp245)
+
+
+
 ### 12.01.2021
- * Add ensemble members for EC-Earth3-Veg, and MIROC-ES2L.
+
+* Recomputed all models & found some differences between the old numbers and the new ones. See the table below.
+
+CMIP6:
+
+Model         | Ensemble  | Scenario | Reason
+------------- | --------- | -------- | ------
+CanESM5       | r17i1p2f1 | SSP2-4.5 | small difference in weights<sup>*</sup>
+CanESM5       | r18i1p2f1 | SSP2-4.5 | dito
+CanESM5       | r2i1p2f1  | SSP3-7.0 | dito
+CanESM5       | r5i1p1f1  | several  | dito
+CanESM5-CanOE | r2i1p2f1  | SSP3-7.0 | dito
+CESM2         | r10i1p1f1 | SSP1-2.6 | missing data
+CIESM         | r1i1p1f1  | several  | historical simulation was replaced
+CNRM-CM6-1-HR | r1i1p1f2  | SSP5-8.5 | small difference in weights<sup>*</sup>
+EC-Earth3     | r7i1p1f1  | SSP2-4.5 | missing data
+EC-Earth3-Veg | r3i1p1f1  | SSP3-7.0 | small difference in weights<sup>*</sup>
+FGOALS-g3     | r2i1p1f1  | SSP1-2.6 | Data after 2015 was NA
+FIO-ESM-2-0   | r2i1p1f1  | several  | historical simulation was replaced
+IITM-ESM      | r1i1p1f1  | several  | missing data
+IPSL-CM6A-LR  | r6i1p1f1  | SSP5-8.5 | small difference in weights<sup>*</sup>
+KACE-1-0-G    | r3i1p1f1  | several  | historical simulation was replaced
+NorESM2-LM    | r2i1p1f1  | SSP2-4.5 | small difference in weights<sup>*</sup>
+TaiESM1       | r1i1p1f1  | several  | historical simulation was replaced
+UKESM1-0-LL   | r18i1p1f2 | SSP1-2.6 | missing data
+
+CMIP5:
+
+Model      | Ensemble | Scenario | Reason
+---------- | -------- | -------- | ------
+FGOALS-g2  | r1i1p1   | severak  | large difference in weights<sup>*</sup>
+GFDL-ESM2G | r1i1p1   | RCP2.6   | small difference in weights<sup>*</sup>
+MIROC5     | r1i1p1   | RCP4.5   | small difference in weights<sup>*</sup>
+NorESM1-M  | r1i1p1   | RCP8.5   | small difference in weights<sup>*</sup>
+NorESM1-ME | r1i1p1   | RCP4.5   | small difference in weights<sup>*</sup>
+
+ <sup>*</sup> at high latitudes
+
+
+Removed EC-EARTH (r3i1p1, RCP4.5 & RCP8.5) due to missing years in the data.
+
+
+
+
+
+* New ensemble members CESM2, EC-Earth3, GISS-E2-1-G, UKESM1-0-LL, EC-Earth3-Veg, and MIROC-ES2L.
+ 
 
 ### 11.12.2020
  * Add Models EC-Earth3-Veg-LR, TaiESM1, E3SM-1-1 (new scenarios) CMIP6 models. Add ensemble members for CNRM-ESM2-1, EC-Earth3-Veg-LR, TaiESM1, and E3SM-1-1.

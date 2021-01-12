@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-10-01 00:12:16
+# executed: 2021-01-12 17:32:37
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -45,7 +45,7 @@ warming_level_094:
 - {model: CSIRO-Mk3L-1-2, ensemble: r1i2p1, exp: rcp45, start_year: 2048, end_year: 2067}
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 2023, end_year: 2042}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 2037, end_year: 2056}
-- {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2047, end_year: 2066}
+- {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2043, end_year: 2062}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 0.94°C
 - {model: GFDL-CM3, ensemble: r1i1p1, exp: rcp45, start_year: 2020, end_year: 2039}
 # {model: GFDL-ESM2G, ensemble: r1i1p1, exp: rcp45} -- did not reach 0.94°C
