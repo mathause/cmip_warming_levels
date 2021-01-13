@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:40:58
+# executed: 2021-01-13 22:28:02
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -860,7 +860,6 @@ warming_level_094:
 - {model: EC-Earth3-Veg, ensemble: r3i1p1f1, exp: ssp585, start_year: 2026, end_year: 2045}
 - {model: EC-Earth3-Veg, ensemble: r4i1p1f1, exp: ssp585, start_year: 2018, end_year: 2037}
 - {model: EC-Earth3-Veg, ensemble: r6i1p1f1, exp: ssp585, start_year: 2022, end_year: 2041}
-- {model: EC-Earth3-Veg, ensemble: r10i1p1f1, exp: ssp585, start_year: 2031, end_year: 2050}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2022, end_year: 2041}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp585, start_year: 2030, end_year: 2049}
 - {model: EC-Earth3, ensemble: r6i1p1f1, exp: ssp585, start_year: 2023, end_year: 2042}
@@ -1569,7 +1568,7 @@ warming_level_343:
 # {model: CESM2, ensemble: r10i1p1f1, exp: ssp370} -- did not reach 3.43°C
 # {model: CESM2, ensemble: r11i1p1f1, exp: ssp370} -- did not reach 3.43°C
 # {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
-- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, start_year: 2077, end_year: 2096}
+- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, start_year: 2076, end_year: 2095}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, start_year: 2079, end_year: 2098}
 - {model: CNRM-CM6-1, ensemble: r2i1p1f2, exp: ssp370, start_year: 2077, end_year: 2096}
 - {model: CNRM-CM6-1, ensemble: r3i1p1f2, exp: ssp370, start_year: 2078, end_year: 2097}
@@ -1849,7 +1848,6 @@ warming_level_343:
 - {model: EC-Earth3-Veg, ensemble: r3i1p1f1, exp: ssp585, start_year: 2069, end_year: 2088}
 - {model: EC-Earth3-Veg, ensemble: r4i1p1f1, exp: ssp585, start_year: 2066, end_year: 2085}
 - {model: EC-Earth3-Veg, ensemble: r6i1p1f1, exp: ssp585, start_year: 2066, end_year: 2085}
-- {model: EC-Earth3-Veg, ensemble: r10i1p1f1, exp: ssp585, start_year: 2071, end_year: 2090}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2068, end_year: 2087}
 - {model: EC-Earth3, ensemble: r4i1p1f1, exp: ssp585, start_year: 2068, end_year: 2087}
 - {model: EC-Earth3, ensemble: r6i1p1f1, exp: ssp585, start_year: 2069, end_year: 2088}

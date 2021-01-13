@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:36:31
+# executed: 2021-01-13 22:22:28
 # reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
@@ -499,7 +499,7 @@ warming_level_20:
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2026, end_year: 2045}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2020, end_year: 2039}
 - {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2024, end_year: 2043}
-- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2021, end_year: 2040}
+- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2020, end_year: 2039}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2031, end_year: 2050}
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp585, grid: gr, start_year: 2036, end_year: 2055}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, grid: gn, start_year: 2010, end_year: 2029}

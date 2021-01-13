@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:36:32
+# executed: 2021-01-13 22:22:29
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -286,7 +286,7 @@ warming_level_343:
 # {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, start_year: 2081, end_year: 2100}
 # {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
-- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, start_year: 2077, end_year: 2096}
+- {model: CNRM-CM6-1-HR, ensemble: r1i1p1f2, exp: ssp370, start_year: 2076, end_year: 2095}
 - {model: CNRM-CM6-1, ensemble: r1i1p1f2, exp: ssp370, start_year: 2079, end_year: 2098}
 # {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp370} -- did not reach 3.43°C
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp370, start_year: 2060, end_year: 2079}

@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:36:32
+# executed: 2021-01-13 22:22:29
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CanESM5, r1i1p1f1, ssp119, 0.94, 2022, 2041
@@ -161,7 +161,7 @@ TaiESM1, r1i1p1f1, ssp585, 0.94, 2018, 2037
 UKESM1-0-LL, r1i1p1f2, ssp585, 0.94, 2016, 2035
 ACCESS-CM2, r1i1p1f1, ssp370, 3.43, 2074, 2093
 CESM2, r1i1p1f1, ssp370, 3.43, 2081, 2100
-CNRM-CM6-1-HR, r1i1p1f2, ssp370, 3.43, 2077, 2096
+CNRM-CM6-1-HR, r1i1p1f2, ssp370, 3.43, 2076, 2095
 CNRM-CM6-1, r1i1p1f2, ssp370, 3.43, 2079, 2098
 CanESM5-CanOE, r1i1p2f1, ssp370, 3.43, 2060, 2079
 CanESM5, r1i1p1f1, ssp370, 3.43, 2061, 2080

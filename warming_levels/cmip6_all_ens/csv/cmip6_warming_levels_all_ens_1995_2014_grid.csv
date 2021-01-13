@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:41:01
+# executed: 2021-01-13 22:28:08
 # reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CNRM-ESM2-1, r3i1p1f2, ssp119, gr, 0.94, 2024, 2043
@@ -774,7 +774,6 @@ EC-Earth3-Veg, r2i1p1f1, ssp585, gr, 0.94, 2025, 2044
 EC-Earth3-Veg, r3i1p1f1, ssp585, gr, 0.94, 2026, 2045
 EC-Earth3-Veg, r4i1p1f1, ssp585, gr, 0.94, 2018, 2037
 EC-Earth3-Veg, r6i1p1f1, ssp585, gr, 0.94, 2022, 2041
-EC-Earth3-Veg, r10i1p1f1, ssp585, gr, 0.94, 2031, 2050
 EC-Earth3, r1i1p1f1, ssp585, gr, 0.94, 2022, 2041
 EC-Earth3, r4i1p1f1, ssp585, gr, 0.94, 2030, 2049
 EC-Earth3, r6i1p1f1, ssp585, gr, 0.94, 2023, 2042
@@ -914,7 +913,7 @@ ACCESS-ESM1-5, r5i1p1f1, ssp370, gn, 3.43, 2081, 2100
 ACCESS-ESM1-5, r9i1p1f1, ssp370, gn, 3.43, 2080, 2099
 ACCESS-ESM1-5, r10i1p1f1, ssp370, gn, 3.43, 2081, 2100
 CESM2, r1i1p1f1, ssp370, gn, 3.43, 2081, 2100
-CNRM-CM6-1-HR, r1i1p1f2, ssp370, gr, 3.43, 2077, 2096
+CNRM-CM6-1-HR, r1i1p1f2, ssp370, gr, 3.43, 2076, 2095
 CNRM-CM6-1, r1i1p1f2, ssp370, gr, 3.43, 2079, 2098
 CNRM-CM6-1, r2i1p1f2, ssp370, gr, 3.43, 2077, 2096
 CNRM-CM6-1, r3i1p1f2, ssp370, gr, 3.43, 2078, 2097
@@ -1116,7 +1115,6 @@ EC-Earth3-Veg, r2i1p1f1, ssp585, gr, 3.43, 2071, 2090
 EC-Earth3-Veg, r3i1p1f1, ssp585, gr, 3.43, 2069, 2088
 EC-Earth3-Veg, r4i1p1f1, ssp585, gr, 3.43, 2066, 2085
 EC-Earth3-Veg, r6i1p1f1, ssp585, gr, 3.43, 2066, 2085
-EC-Earth3-Veg, r10i1p1f1, ssp585, gr, 3.43, 2071, 2090
 EC-Earth3, r1i1p1f1, ssp585, gr, 3.43, 2068, 2087
 EC-Earth3, r4i1p1f1, ssp585, gr, 3.43, 2068, 2087
 EC-Earth3, r6i1p1f1, ssp585, gr, 3.43, 2069, 2088

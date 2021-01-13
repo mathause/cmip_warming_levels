@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-12 11:36:31
+# executed: 2021-01-13 22:22:28
 # reference years: 1850 to 1900
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CAMS-CSM1-0, r1i1p1f1, ssp119, gn, 1.0, 2017, 2036
@@ -454,7 +454,7 @@ CESM2-WACCM, r1i1p1f1, ssp585, gn, 2.0, 2024, 2043
 CESM2, r1i1p1f1, ssp585, gn, 2.0, 2026, 2045
 CIESM, r1i1p1f1, ssp585, gr, 2.0, 2020, 2039
 CMCC-CM2-SR5, r1i1p1f1, ssp585, gn, 2.0, 2024, 2043
-CNRM-CM6-1-HR, r1i1p1f2, ssp585, gr, 2.0, 2021, 2040
+CNRM-CM6-1-HR, r1i1p1f2, ssp585, gr, 2.0, 2020, 2039
 CNRM-CM6-1, r1i1p1f2, ssp585, gr, 2.0, 2031, 2050
 CNRM-ESM2-1, r1i1p1f2, ssp585, gr, 2.0, 2036, 2055
 CanESM5-CanOE, r1i1p2f1, ssp585, gn, 2.0, 2010, 2029

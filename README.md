@@ -10,6 +10,9 @@ Document the year when a certain warming level was reached in cmip5 and cmip6 da
 
 <sup>2</sup>Global Change Institute, University of the Witwatersrand, Johannesburg, Gauteng 2193, South Africa
 
+
+> :warning: 13.01.2020 Re-processed all data: some numbers have changed (see History section below).
+
 ## Example
 ``` yaml
 # warming level: 2.0°C above 1850-1900
@@ -82,32 +85,32 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
-### 12.01.2021
+### 13.01.2021
 
-* Recomputed all models & found some differences between the old numbers and the new ones. See the table below.
+* Recomputed all models & used areacella as area-weights (instead of the cosine of the latitude). This lead to differences for some models between the old numbers and the new ones. See the tables below:
 
 #### CMIP6
 
-Model         | Ensemble  | Scenario | Reason
-------------- | --------- | -------- | ------
-CanESM5       | r17i1p2f1 | SSP2-4.5 | small difference in weights<sup>\*</sup>
-CanESM5       | r18i1p2f1 | SSP2-4.5 | dito
-CanESM5       | r2i1p2f1  | SSP3-7.0 | dito
-CanESM5       | r5i1p1f1  | several  | dito
-CanESM5-CanOE | r2i1p2f1  | SSP3-7.0 | dito
-CESM2         | r10i1p1f1 | SSP1-2.6 | missing data
-CIESM         | r1i1p1f1  | several  | historical simulation was replaced
-CNRM-CM6-1-HR | r1i1p1f2  | SSP5-8.5 | small difference in weights<sup>\*</sup>
-EC-Earth3     | r7i1p1f1  | SSP2-4.5 | missing data
-EC-Earth3-Veg | r3i1p1f1  | SSP3-7.0 | small difference in weights<sup>\*</sup>
-FGOALS-g3     | r2i1p1f1  | SSP1-2.6 | data after 2015 was NA
-FIO-ESM-2-0   | r2i1p1f1  | several  | historical simulation was replaced
-IITM-ESM      | r1i1p1f1  | several  | missing data
-IPSL-CM6A-LR  | r6i1p1f1  | SSP5-8.5 | small difference in weights<sup>\*</sup>
-KACE-1-0-G    | r3i1p1f1  | several  | historical simulation was replaced
-NorESM2-LM    | r2i1p1f1  | SSP2-4.5 | small difference in weights<sup>\*</sup>
-TaiESM1       | r1i1p1f1  | several  | historical simulation was replaced
-UKESM1-0-LL   | r18i1p1f2 | SSP1-2.6 | missing data
+Model         | Ensemble   | Scenario | Reason
+------------- | ---------  | -------- | ------
+CanESM5       | r17i1p2f1  | SSP2-4.5 | small difference in weights<sup>\*</sup>
+CanESM5       | r18i1p2f1  | SSP2-4.5 | dito
+CanESM5       | r2i1p2f1   | SSP3-7.0 | dito
+CanESM5       | r5i1p1f1   | several  | dito
+CanESM5-CanOE | r2i1p2f1   | SSP3-7.0 | dito
+CESM2         | r10i1p1f1  | SSP1-2.6 | missing data
+CIESM         | *r1i1p1f1* | several  | historical simulation was replaced
+CNRM-CM6-1-HR | r1i1p1f2   | SSP5-8.5 | small difference in weights<sup>\*</sup>
+EC-Earth3     | r7i1p1f1   | SSP2-4.5 | missing data
+EC-Earth3-Veg | r3i1p1f1   | SSP3-7.0 | small difference in weights<sup>\*</sup>
+FGOALS-g3     | r2i1p1f1   | SSP1-2.6 | data after 2015 was NA
+FIO-ESM-2-0   | r2i1p1f1   | several  | historical simulation was replaced
+IITM-ESM      | *r1i1p1f1* | several  | missing data
+IPSL-CM6A-LR  | r6i1p1f1   | SSP5-8.5 | small difference in weights<sup>\*</sup>
+KACE-1-0-G    | r3i1p1f1   | several  | historical simulation was replaced
+NorESM2-LM    | r2i1p1f1   | SSP2-4.5 | small difference in weights<sup>\*</sup>
+TaiESM1       | *r1i1p1f1* | several  | historical simulation was replaced
+UKESM1-0-LL   | r18i1p1f2  | SSP1-2.6 | missing data
 
 * New ensemble members CESM2, EC-Earth3, GISS-E2-1-G, UKESM1-0-LL, EC-Earth3-Veg, and MIROC-ES2L.
 
@@ -115,11 +118,11 @@ UKESM1-0-LL   | r18i1p1f2 | SSP1-2.6 | missing data
 
 Model      | Ensemble | Scenario | Reason
 ---------- | -------- | -------- | ------
-FGOALS-g2  | r1i1p1   | several  | large difference in weights<sup>\*</sup>
-GFDL-ESM2G | r1i1p1   | RCP2.6   | small difference in weights<sup>\*</sup>
-MIROC5     | r1i1p1   | RCP4.5   | small difference in weights<sup>\*</sup>
-NorESM1-M  | r1i1p1   | RCP8.5   | small difference in weights<sup>\*</sup>
-NorESM1-ME | r1i1p1   | RCP4.5   | small difference in weights<sup>\*</sup>
+FGOALS-g2  | *r1i1p1* | several  | large difference in weights<sup>\*</sup>
+GFDL-ESM2G | *r1i1p1* | RCP2.6   | small difference in weights<sup>\*</sup>
+MIROC5     | *r1i1p1* | RCP4.5   | small difference in weights<sup>\*</sup>
+NorESM1-M  | *r1i1p1* | RCP8.5   | small difference in weights<sup>\*</sup>
+NorESM1-ME | *r1i1p1* | RCP4.5   | small difference in weights<sup>\*</sup>
 
  <sup>\*</sup>at high latitudes
 
