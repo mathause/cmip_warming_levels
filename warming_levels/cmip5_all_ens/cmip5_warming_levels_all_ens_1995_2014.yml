@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2020-10-05 16:58:47
+# executed: 2021-01-13 19:10:22
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -105,13 +105,12 @@ warming_level_094:
 - {model: CanESM2, ensemble: r5i1p1, exp: rcp45, start_year: 2025, end_year: 2044}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 2037, end_year: 2056}
 - {model: EC-EARTH, ensemble: r2i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
-- {model: EC-EARTH, ensemble: r3i1p1, exp: rcp45, start_year: 2036, end_year: 2055}
 - {model: EC-EARTH, ensemble: r5i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 - {model: EC-EARTH, ensemble: r6i1p1, exp: rcp45, start_year: 2036, end_year: 2055}
 - {model: EC-EARTH, ensemble: r8i1p1, exp: rcp45, start_year: 2037, end_year: 2056}
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 2040, end_year: 2059}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
-- {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2047, end_year: 2066}
+- {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2043, end_year: 2062}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 0.94°C
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45, start_year: 2059, end_year: 2078}
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 0.94°C
@@ -267,7 +266,6 @@ warming_level_094:
 - {model: CanESM2, ensemble: r5i1p1, exp: rcp85, start_year: 2019, end_year: 2038}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2028, end_year: 2047}
 - {model: EC-EARTH, ensemble: r2i1p1, exp: rcp85, start_year: 2026, end_year: 2045}
-- {model: EC-EARTH, ensemble: r3i1p1, exp: rcp85, start_year: 2029, end_year: 2048}
 - {model: EC-EARTH, ensemble: r5i1p1, exp: rcp85, start_year: 2035, end_year: 2054}
 - {model: EC-EARTH, ensemble: r6i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
 - {model: EC-EARTH, ensemble: r8i1p1, exp: rcp85, start_year: 2031, end_year: 2050}
@@ -422,7 +420,6 @@ warming_level_343:
 # {model: CanESM2, ensemble: r5i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r2i1p1, exp: rcp45} -- did not reach 3.43°C
-# {model: EC-EARTH, ensemble: r3i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r5i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r6i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r8i1p1, exp: rcp45} -- did not reach 3.43°C
@@ -584,7 +581,6 @@ warming_level_343:
 - {model: CanESM2, ensemble: r5i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
 # {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r2i1p1, exp: rcp85} -- did not reach 3.43°C
-# {model: EC-EARTH, ensemble: r3i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r5i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r6i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r8i1p1, exp: rcp85} -- did not reach 3.43°C
