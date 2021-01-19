@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 22:22:30
+# executed: 2021-01-19 18:07:12
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -74,6 +74,7 @@ warming_level_094:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr, start_year: 2033, end_year: 2052}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, grid: gn, start_year: 2017, end_year: 2036}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, grid: gn, start_year: 2018, end_year: 2037}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2038, end_year: 2057}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2036, end_year: 2055}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2033, end_year: 2052}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, grid: gr, start_year: 2028, end_year: 2047}
@@ -151,6 +152,7 @@ warming_level_094:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, grid: gn, start_year: 2015, end_year: 2034}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2017, end_year: 2036}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2014, end_year: 2033}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2035, end_year: 2054}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2029, end_year: 2048}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2025, end_year: 2044}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2022, end_year: 2041}
@@ -251,6 +253,7 @@ warming_level_343:
 # {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, grid: gr} -- did not reach 3.43°C
 # {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, grid: gn} -- did not reach 3.43°C
 # {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, grid: gn} -- did not reach 3.43°C
+# {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, grid: gr} -- did not reach 3.43°C
 # {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, grid: gr} -- did not reach 3.43°C
 # {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, grid: gr} -- did not reach 3.43°C
 # {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, grid: gr} -- did not reach 3.43°C
@@ -328,6 +331,7 @@ warming_level_343:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, grid: gn, start_year: 2054, end_year: 2073}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, grid: gn, start_year: 2054, end_year: 2073}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2049, end_year: 2068}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2073, end_year: 2092}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2071, end_year: 2090}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2069, end_year: 2088}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, grid: gr, start_year: 2068, end_year: 2087}

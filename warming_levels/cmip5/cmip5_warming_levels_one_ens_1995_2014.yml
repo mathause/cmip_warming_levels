@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 19:10:31
+# executed: 2021-01-19 18:06:19
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -36,7 +36,6 @@ warming_level_094:
 - {model: BNU-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2029, end_year: 2048}
 - {model: CCSM4, ensemble: r1i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45, start_year: 2040, end_year: 2059}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45, start_year: 2029, end_year: 2048}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45, start_year: 2027, end_year: 2046}
 - {model: CMCC-CMS, ensemble: r1i1p1, exp: rcp45, start_year: 2029, end_year: 2048}
 - {model: CMCC-CM, ensemble: r1i1p1, exp: rcp45, start_year: 2033, end_year: 2052}
@@ -71,7 +70,7 @@ warming_level_094:
 - {model: inmcm4, ensemble: r1i1p1, exp: rcp45, start_year: 2061, end_year: 2080}
 - {model: CCSM4, ensemble: r1i1p1, exp: rcp60, start_year: 2039, end_year: 2058}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp60, start_year: 2034, end_year: 2053}
-- {model: CSIRO-Mk3-6-0, ensemble: r1i1p1, exp: rcp60, start_year: 2043, end_year: 2062}
+- {model: CSIRO-Mk3-6-0, ensemble: r1i1p1, exp: rcp60, start_year: 2042, end_year: 2061}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp60, start_year: 2056, end_year: 2075}
 - {model: GFDL-CM3, ensemble: r1i1p1, exp: rcp60, start_year: 2027, end_year: 2046}
 - {model: GFDL-ESM2G, ensemble: r1i1p1, exp: rcp60, start_year: 2065, end_year: 2084}
@@ -93,7 +92,6 @@ warming_level_094:
 - {model: BNU-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
 - {model: CCSM4, ensemble: r1i1p1, exp: rcp85, start_year: 2025, end_year: 2044}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
 - {model: CMCC-CESM, ensemble: r1i1p1, exp: rcp85, start_year: 2028, end_year: 2047}
 - {model: CMCC-CMS, ensemble: r1i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
@@ -162,7 +160,6 @@ warming_level_343:
 # {model: BNU-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: CCSM4, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
-# {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: CMCC-CMS, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: CMCC-CM, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
@@ -219,7 +216,6 @@ warming_level_343:
 - {model: BNU-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
 # {model: CCSM4, ensemble: r1i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85} -- did not reach 3.43°C
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
 - {model: CMCC-CESM, ensemble: r1i1p1, exp: rcp85, start_year: 2077, end_year: 2096}
 - {model: CMCC-CMS, ensemble: r1i1p1, exp: rcp85, start_year: 2070, end_year: 2089}

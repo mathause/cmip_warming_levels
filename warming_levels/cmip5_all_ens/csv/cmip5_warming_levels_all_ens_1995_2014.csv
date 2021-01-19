@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 19:10:22
+# executed: 2021-01-19 18:06:09
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CESM1-CAM5, r1i1p1, rcp26, 0.94, 2034, 2053
@@ -39,7 +39,6 @@ CCSM4, r4i1p1, rcp45, 0.94, 2041, 2060
 CCSM4, r5i1p1, rcp45, 0.94, 2041, 2060
 CCSM4, r6i1p1, rcp45, 0.94, 2036, 2055
 CESM1-BGC, r1i1p1, rcp45, 0.94, 2040, 2059
-CESM1-CAM5-1-FV2, r1i1p1, rcp45, 0.94, 2029, 2048
 CESM1-CAM5, r1i1p1, rcp45, 0.94, 2027, 2046
 CESM1-CAM5, r2i1p1, rcp45, 0.94, 2028, 2047
 CESM1-CAM5, r3i1p1, rcp45, 0.94, 2029, 2048
@@ -148,7 +147,7 @@ CCSM4, r6i1p1, rcp60, 0.94, 2045, 2064
 CESM1-CAM5, r1i1p1, rcp60, 0.94, 2034, 2053
 CESM1-CAM5, r2i1p1, rcp60, 0.94, 2033, 2052
 CESM1-CAM5, r3i1p1, rcp60, 0.94, 2036, 2055
-CSIRO-Mk3-6-0, r1i1p1, rcp60, 0.94, 2043, 2062
+CSIRO-Mk3-6-0, r1i1p1, rcp60, 0.94, 2042, 2061
 CSIRO-Mk3-6-0, r2i1p1, rcp60, 0.94, 2039, 2058
 CSIRO-Mk3-6-0, r3i1p1, rcp60, 0.94, 2046, 2065
 CSIRO-Mk3-6-0, r4i1p1, rcp60, 0.94, 2040, 2059
@@ -195,7 +194,6 @@ CCSM4, r4i1p1, rcp85, 0.94, 2028, 2047
 CCSM4, r5i1p1, rcp85, 0.94, 2030, 2049
 CCSM4, r6i1p1, rcp85, 0.94, 2031, 2050
 CESM1-BGC, r1i1p1, rcp85, 0.94, 2027, 2046
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 0.94, 2024, 2043
 CESM1-CAM5, r1i1p1, rcp85, 0.94, 2024, 2043
 CESM1-CAM5, r2i1p1, rcp85, 0.94, 2024, 2043
 CESM1-CAM5, r3i1p1, rcp85, 0.94, 2024, 2043
@@ -278,7 +276,6 @@ inmcm4, r1i1p1, rcp85, 0.94, 2040, 2059
 ACCESS1-0, r1i1p1, rcp85, 3.43, 2074, 2093
 ACCESS1-3, r1i1p1, rcp85, 3.43, 2073, 2092
 BNU-ESM, r1i1p1, rcp85, 3.43, 2070, 2089
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 3.43, 2073, 2092
 CESM1-CAM5, r1i1p1, rcp85, 3.43, 2073, 2092
 CESM1-CAM5, r2i1p1, rcp85, 3.43, 2072, 2091
 CESM1-CAM5, r3i1p1, rcp85, 3.43, 2072, 2091

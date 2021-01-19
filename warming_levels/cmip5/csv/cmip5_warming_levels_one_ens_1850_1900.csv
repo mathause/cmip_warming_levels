@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 19:10:28
+# executed: 2021-01-19 18:06:16
 # reference years: 1850 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 BNU-ESM, r1i1p1, rcp26, 1.0, 1984, 2003
@@ -29,7 +29,6 @@ ACCESS1-3, r1i1p1, rcp45, 1.0, 2007, 2026
 BNU-ESM, r1i1p1, rcp45, 1.0, 1984, 2003
 CCSM4, r1i1p1, rcp45, 1.0, 1988, 2007
 CESM1-BGC, r1i1p1, rcp45, 1.0, 1990, 2009
-CESM1-CAM5-1-FV2, r1i1p1, rcp45, 1.0, 2009, 2028
 CESM1-CAM5, r1i1p1, rcp45, 1.0, 2004, 2023
 CMCC-CMS, r1i1p1, rcp45, 1.0, 2008, 2027
 CMCC-CM, r1i1p1, rcp45, 1.0, 2005, 2024
@@ -50,7 +49,7 @@ MIROC5, r1i1p1, rcp45, 1.0, 2009, 2028
 MPI-ESM-LR, r1i1p1, rcp45, 1.0, 1993, 2012
 MPI-ESM-MR, r1i1p1, rcp45, 1.0, 1991, 2010
 MRI-CGCM3, r1i1p1, rcp45, 1.0, 2017, 2036
-NorESM1-ME, r1i1p1, rcp45, 1.0, 2009, 2028
+NorESM1-ME, r1i1p1, rcp45, 1.0, 2008, 2027
 NorESM1-M, r1i1p1, rcp45, 1.0, 2009, 2028
 bcc-csm1-1-m, r1i1p1, rcp45, 1.0, 1986, 2005
 bcc-csm1-1, r1i1p1, rcp45, 1.0, 1988, 2007
@@ -74,7 +73,6 @@ ACCESS1-3, r1i1p1, rcp85, 1.0, 2006, 2025
 BNU-ESM, r1i1p1, rcp85, 1.0, 1984, 2003
 CCSM4, r1i1p1, rcp85, 1.0, 1988, 2007
 CESM1-BGC, r1i1p1, rcp85, 1.0, 1990, 2009
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 1.0, 2009, 2028
 CESM1-CAM5, r1i1p1, rcp85, 1.0, 2002, 2021
 CMCC-CESM, r1i1p1, rcp85, 1.0, 2013, 2032
 CMCC-CMS, r1i1p1, rcp85, 1.0, 2008, 2027
@@ -123,7 +121,6 @@ ACCESS1-3, r1i1p1, rcp45, 1.5, 2029, 2048
 BNU-ESM, r1i1p1, rcp45, 1.5, 1998, 2017
 CCSM4, r1i1p1, rcp45, 1.5, 2008, 2027
 CESM1-BGC, r1i1p1, rcp45, 1.5, 2010, 2029
-CESM1-CAM5-1-FV2, r1i1p1, rcp45, 1.5, 2026, 2045
 CESM1-CAM5, r1i1p1, rcp45, 1.5, 2020, 2039
 CMCC-CMS, r1i1p1, rcp45, 1.5, 2025, 2044
 CMCC-CM, r1i1p1, rcp45, 1.5, 2025, 2044
@@ -168,7 +165,6 @@ ACCESS1-3, r1i1p1, rcp85, 1.5, 2021, 2040
 BNU-ESM, r1i1p1, rcp85, 1.5, 1999, 2018
 CCSM4, r1i1p1, rcp85, 1.5, 2005, 2024
 CESM1-BGC, r1i1p1, rcp85, 1.5, 2008, 2027
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 1.5, 2022, 2041
 CESM1-CAM5, r1i1p1, rcp85, 1.5, 2018, 2037
 CMCC-CESM, r1i1p1, rcp85, 1.5, 2028, 2047
 CMCC-CMS, r1i1p1, rcp85, 1.5, 2020, 2039
@@ -207,7 +203,6 @@ ACCESS1-3, r1i1p1, rcp45, 2.0, 2045, 2064
 BNU-ESM, r1i1p1, rcp45, 2.0, 2014, 2033
 CCSM4, r1i1p1, rcp45, 2.0, 2030, 2049
 CESM1-BGC, r1i1p1, rcp45, 2.0, 2035, 2054
-CESM1-CAM5-1-FV2, r1i1p1, rcp45, 2.0, 2047, 2066
 CESM1-CAM5, r1i1p1, rcp45, 2.0, 2037, 2056
 CMCC-CMS, r1i1p1, rcp45, 2.0, 2043, 2062
 CMCC-CM, r1i1p1, rcp45, 2.0, 2041, 2060
@@ -220,11 +215,11 @@ GISS-E2-H, r1i1p1, rcp45, 2.0, 2040, 2059
 IPSL-CM5A-LR, r1i1p1, rcp45, 2.0, 2021, 2040
 IPSL-CM5A-MR, r1i1p1, rcp45, 2.0, 2024, 2043
 IPSL-CM5B-LR, r1i1p1, rcp45, 2.0, 2039, 2058
-MIROC5, r1i1p1, rcp45, 2.0, 2062, 2081
+MIROC5, r1i1p1, rcp45, 2.0, 2063, 2082
 MPI-ESM-LR, r1i1p1, rcp45, 2.0, 2035, 2054
 MPI-ESM-MR, r1i1p1, rcp45, 2.0, 2036, 2055
 MRI-CGCM3, r1i1p1, rcp45, 2.0, 2075, 2094
-NorESM1-ME, r1i1p1, rcp45, 2.0, 2059, 2078
+NorESM1-ME, r1i1p1, rcp45, 2.0, 2058, 2077
 NorESM1-M, r1i1p1, rcp45, 2.0, 2064, 2083
 bcc-csm1-1-m, r1i1p1, rcp45, 2.0, 2025, 2044
 bcc-csm1-1, r1i1p1, rcp45, 2.0, 2034, 2053
@@ -247,7 +242,6 @@ ACCESS1-3, r1i1p1, rcp85, 2.0, 2033, 2052
 BNU-ESM, r1i1p1, rcp85, 2.0, 2013, 2032
 CCSM4, r1i1p1, rcp85, 2.0, 2021, 2040
 CESM1-BGC, r1i1p1, rcp85, 2.0, 2024, 2043
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 2.0, 2034, 2053
 CESM1-CAM5, r1i1p1, rcp85, 2.0, 2029, 2048
 CMCC-CESM, r1i1p1, rcp85, 2.0, 2038, 2057
 CMCC-CMS, r1i1p1, rcp85, 2.0, 2032, 2051
@@ -288,7 +282,6 @@ ACCESS1-3, r1i1p1, rcp85, 3.0, 2052, 2071
 BNU-ESM, r1i1p1, rcp85, 3.0, 2036, 2055
 CCSM4, r1i1p1, rcp85, 3.0, 2048, 2067
 CESM1-BGC, r1i1p1, rcp85, 3.0, 2050, 2069
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 3.0, 2052, 2071
 CESM1-CAM5, r1i1p1, rcp85, 3.0, 2048, 2067
 CMCC-CESM, r1i1p1, rcp85, 3.0, 2058, 2077
 CMCC-CMS, r1i1p1, rcp85, 3.0, 2052, 2071
@@ -319,9 +312,8 @@ inmcm4, r1i1p1, rcp85, 3.0, 2074, 2093
 ACCESS1-0, r1i1p1, rcp85, 4.0, 2071, 2090
 ACCESS1-3, r1i1p1, rcp85, 4.0, 2072, 2091
 BNU-ESM, r1i1p1, rcp85, 4.0, 2055, 2074
-CCSM4, r1i1p1, rcp85, 4.0, 2069, 2088
+CCSM4, r1i1p1, rcp85, 4.0, 2068, 2087
 CESM1-BGC, r1i1p1, rcp85, 4.0, 2071, 2090
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 4.0, 2071, 2090
 CESM1-CAM5, r1i1p1, rcp85, 4.0, 2067, 2086
 CMCC-CESM, r1i1p1, rcp85, 4.0, 2077, 2096
 CMCC-CMS, r1i1p1, rcp85, 4.0, 2068, 2087
@@ -365,7 +357,6 @@ ACCESS1-3, r1i1p1, rcp45, 0.61, 1994, 2013
 BNU-ESM, r1i1p1, rcp45, 0.61, 1968, 1987
 CCSM4, r1i1p1, rcp45, 0.61, 1969, 1988
 CESM1-BGC, r1i1p1, rcp45, 0.61, 1971, 1990
-CESM1-CAM5-1-FV2, r1i1p1, rcp45, 0.61, 1994, 2013
 CESM1-CAM5, r1i1p1, rcp45, 0.61, 1990, 2009
 CMCC-CMS, r1i1p1, rcp45, 0.61, 1991, 2010
 CMCC-CM, r1i1p1, rcp45, 0.61, 1987, 2006
@@ -386,7 +377,7 @@ MIROC5, r1i1p1, rcp45, 0.61, 1991, 2010
 MPI-ESM-LR, r1i1p1, rcp45, 0.61, 1970, 1989
 MPI-ESM-MR, r1i1p1, rcp45, 0.61, 1977, 1996
 MRI-CGCM3, r1i1p1, rcp45, 0.61, 2000, 2019
-NorESM1-ME, r1i1p1, rcp45, 0.61, 1991, 2010
+NorESM1-ME, r1i1p1, rcp45, 0.61, 1990, 2009
 NorESM1-M, r1i1p1, rcp45, 0.61, 1989, 2008
 bcc-csm1-1-m, r1i1p1, rcp45, 0.61, 1970, 1989
 bcc-csm1-1, r1i1p1, rcp45, 0.61, 1974, 1993
@@ -410,7 +401,6 @@ ACCESS1-3, r1i1p1, rcp85, 0.61, 1995, 2014
 BNU-ESM, r1i1p1, rcp85, 0.61, 1968, 1987
 CCSM4, r1i1p1, rcp85, 0.61, 1969, 1988
 CESM1-BGC, r1i1p1, rcp85, 0.61, 1971, 1990
-CESM1-CAM5-1-FV2, r1i1p1, rcp85, 0.61, 1994, 2013
 CESM1-CAM5, r1i1p1, rcp85, 0.61, 1990, 2009
 CMCC-CESM, r1i1p1, rcp85, 0.61, 1999, 2018
 CMCC-CMS, r1i1p1, rcp85, 0.61, 1991, 2010

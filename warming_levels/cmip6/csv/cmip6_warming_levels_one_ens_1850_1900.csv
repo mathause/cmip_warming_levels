@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 22:22:25
+# executed: 2021-01-19 18:07:07
 # reference years: 1850 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 CAMS-CSM1-0, r1i1p1f1, ssp119, 1.0, 2017, 2036
@@ -72,6 +72,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 1.0, 2004, 2023
 CNRM-ESM2-1, r1i1p1f2, ssp245, 1.0, 2007, 2026
 CanESM5-CanOE, r1i1p2f1, ssp245, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp245, 1.0, 1990, 2009
+EC-Earth3-CC, r1i1p1f1, ssp245, 1.0, 1984, 2003
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 1.0, 1997, 2016
 EC-Earth3-Veg, r1i1p1f1, ssp245, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp245, 1.0, 1999, 2018
@@ -149,6 +150,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 1.0, 2007, 2026
 CanESM5-CanOE, r1i1p2f1, ssp585, 1.0, 1986, 2005
 CanESM5, r1i1p1f1, ssp585, 1.0, 1990, 2009
 E3SM-1-1, r1i1p1f1, ssp585, 1.0, 2006, 2025
+EC-Earth3-CC, r1i1p1f1, ssp585, 1.0, 1984, 2003
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 1.0, 1997, 2016
 EC-Earth3-Veg, r1i1p1f1, ssp585, 1.0, 1984, 2003
 EC-Earth3, r1i1p1f1, ssp585, 1.0, 1999, 2018
@@ -236,6 +238,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 1.5, 2021, 2040
 CNRM-ESM2-1, r1i1p1f2, ssp245, 1.5, 2028, 2047
 CanESM5-CanOE, r1i1p2f1, ssp245, 1.5, 2000, 2019
 CanESM5, r1i1p1f1, ssp245, 1.5, 2004, 2023
+EC-Earth3-CC, r1i1p1f1, ssp245, 1.5, 1998, 2017
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 1.5, 2017, 2036
 EC-Earth3-Veg, r1i1p1f1, ssp245, 1.5, 2001, 2020
 EC-Earth3, r1i1p1f1, ssp245, 1.5, 2013, 2032
@@ -313,6 +316,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 1.5, 2023, 2042
 CanESM5-CanOE, r1i1p2f1, ssp585, 1.5, 1999, 2018
 CanESM5, r1i1p1f1, ssp585, 1.5, 2003, 2022
 E3SM-1-1, r1i1p1f1, ssp585, 1.5, 2016, 2035
+EC-Earth3-CC, r1i1p1f1, ssp585, 1.5, 1998, 2017
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 1.5, 2019, 2038
 EC-Earth3-Veg, r1i1p1f1, ssp585, 1.5, 2002, 2021
 EC-Earth3, r1i1p1f1, ssp585, 1.5, 2015, 2034
@@ -383,6 +387,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 2.0, 2039, 2058
 CNRM-ESM2-1, r1i1p1f2, ssp245, 2.0, 2046, 2065
 CanESM5-CanOE, r1i1p2f1, ssp245, 2.0, 2011, 2030
 CanESM5, r1i1p1f1, ssp245, 2.0, 2015, 2034
+EC-Earth3-CC, r1i1p1f1, ssp245, 2.0, 2026, 2045
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 2.0, 2040, 2059
 EC-Earth3-Veg, r1i1p1f1, ssp245, 2.0, 2024, 2043
 EC-Earth3, r1i1p1f1, ssp245, 2.0, 2035, 2054
@@ -460,6 +465,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 2.0, 2036, 2055
 CanESM5-CanOE, r1i1p2f1, ssp585, 2.0, 2010, 2029
 CanESM5, r1i1p1f1, ssp585, 2.0, 2013, 2032
 E3SM-1-1, r1i1p1f1, ssp585, 2.0, 2023, 2042
+EC-Earth3-CC, r1i1p1f1, ssp585, 2.0, 2027, 2046
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 2.0, 2032, 2051
 EC-Earth3-Veg, r1i1p1f1, ssp585, 2.0, 2018, 2037
 EC-Earth3, r1i1p1f1, ssp585, 2.0, 2026, 2045
@@ -498,6 +504,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 3.0, 2075, 2094
 CNRM-ESM2-1, r1i1p1f2, ssp245, 3.0, 2079, 2098
 CanESM5-CanOE, r1i1p2f1, ssp245, 3.0, 2035, 2054
 CanESM5, r1i1p1f1, ssp245, 3.0, 2040, 2059
+EC-Earth3-CC, r1i1p1f1, ssp245, 3.0, 2064, 2083
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 3.0, 2081, 2100
 EC-Earth3-Veg, r1i1p1f1, ssp245, 3.0, 2058, 2077
 EC-Earth3, r1i1p1f1, ssp245, 3.0, 2076, 2095
@@ -555,6 +562,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 3.0, 2055, 2074
 CanESM5-CanOE, r1i1p2f1, ssp585, 3.0, 2028, 2047
 CanESM5, r1i1p1f1, ssp585, 3.0, 2031, 2050
 E3SM-1-1, r1i1p1f1, ssp585, 3.0, 2037, 2056
+EC-Earth3-CC, r1i1p1f1, ssp585, 3.0, 2047, 2066
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 3.0, 2052, 2071
 EC-Earth3-Veg, r1i1p1f1, ssp585, 3.0, 2041, 2060
 EC-Earth3, r1i1p1f1, ssp585, 3.0, 2048, 2067
@@ -616,6 +624,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 4.0, 2070, 2089
 CanESM5-CanOE, r1i1p2f1, ssp585, 4.0, 2044, 2063
 CanESM5, r1i1p1f1, ssp585, 4.0, 2045, 2064
 E3SM-1-1, r1i1p1f1, ssp585, 4.0, 2050, 2069
+EC-Earth3-CC, r1i1p1f1, ssp585, 4.0, 2062, 2081
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 4.0, 2066, 2085
 EC-Earth3-Veg, r1i1p1f1, ssp585, 4.0, 2058, 2077
 EC-Earth3, r1i1p1f1, ssp585, 4.0, 2064, 2083
@@ -701,6 +710,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 0.61, 1984, 2003
 CNRM-ESM2-1, r1i1p1f2, ssp245, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp245, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp245, 0.61, 1977, 1996
+EC-Earth3-CC, r1i1p1f1, ssp245, 0.61, 1936, 1955
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp245, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp245, 0.61, 1991, 2010
@@ -778,6 +788,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 0.61, 1993, 2012
 CanESM5-CanOE, r1i1p2f1, ssp585, 0.61, 1974, 1993
 CanESM5, r1i1p1f1, ssp585, 0.61, 1977, 1996
 E3SM-1-1, r1i1p1f1, ssp585, 0.61, 1998, 2017
+EC-Earth3-CC, r1i1p1f1, ssp585, 0.61, 1936, 1955
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 0.61, 1982, 2001
 EC-Earth3-Veg, r1i1p1f1, ssp585, 0.61, 1965, 1984
 EC-Earth3, r1i1p1f1, ssp585, 0.61, 1991, 2010

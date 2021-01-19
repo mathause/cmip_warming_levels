@@ -85,6 +85,14 @@ There are more models exceeding 2° than 4°C. Also here guidance should be to u
 
 ## History
 
+### 19.01.2021
+
+* CMIP5: removed CESM1-CAM5-1-FV2 (r1i1p1, RCP4.5 and RCP8.5) because of a missing month in the data. Found two more models with changes du to the weighting with "areacella" - CCSM4 (r1i1p1, RCP85) and CSIRO-Mk3-6-0 (r4i1p1, RCP45). They were previously missed because the grid of the weights and the data does not exactly align.
+
+* CMIP6: added EC-Earth3-CC (r1i1p1f1, several SSPs)
+
+
+
 ### 13.01.2021
 
 * Recomputed all models & used areacella as area-weights (instead of the cosine of the latitude). This lead to differences for some models between the old numbers and the new ones. See the tables below:
@@ -120,9 +128,7 @@ Model      | Ensemble   | Scenario | Reason
 ---------- | --------   | -------- | ------
 FGOALS-g2  | **r1i1p1** | several  | large difference in weights<sup>\*</sup>
 GFDL-ESM2G | **r1i1p1** | RCP2.6   | small difference in weights<sup>\*</sup>
-MIROC5     | **r1i1p1** | RCP4.5   | small difference in weights<sup>\*</sup>
 NorESM1-M  | **r1i1p1** | RCP8.5   | small difference in weights<sup>\*</sup>
-NorESM1-ME | **r1i1p1** | RCP4.5   | small difference in weights<sup>\*</sup>
 
  <sup>\*</sup>at high latitudes
 

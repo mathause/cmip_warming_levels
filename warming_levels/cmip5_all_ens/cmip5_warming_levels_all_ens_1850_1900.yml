@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 19:10:14
+# executed: 2021-01-19 18:06:02
 # reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
@@ -70,7 +70,6 @@ warming_level_10:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp45, start_year: 1988, end_year: 2007}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp45, start_year: 1988, end_year: 2007}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45, start_year: 1990, end_year: 2009}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45, start_year: 2004, end_year: 2023}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45, start_year: 2007, end_year: 2026}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45, start_year: 2006, end_year: 2025}
@@ -80,7 +79,7 @@ warming_level_10:
 - {model: CSIRO-Mk3-6-0, ensemble: r1i1p1, exp: rcp45, start_year: 2010, end_year: 2029}
 - {model: CSIRO-Mk3-6-0, ensemble: r2i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
 - {model: CSIRO-Mk3-6-0, ensemble: r3i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
-- {model: CSIRO-Mk3-6-0, ensemble: r4i1p1, exp: rcp45, start_year: 2010, end_year: 2029}
+- {model: CSIRO-Mk3-6-0, ensemble: r4i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
 - {model: CSIRO-Mk3-6-0, ensemble: r5i1p1, exp: rcp45, start_year: 2006, end_year: 2025}
 - {model: CSIRO-Mk3-6-0, ensemble: r6i1p1, exp: rcp45, start_year: 2008, end_year: 2027}
 - {model: CSIRO-Mk3-6-0, ensemble: r7i1p1, exp: rcp45, start_year: 2008, end_year: 2027}
@@ -153,7 +152,7 @@ warming_level_10:
 - {model: MPI-ESM-MR, ensemble: r2i1p1, exp: rcp45, start_year: 1994, end_year: 2013}
 - {model: MPI-ESM-MR, ensemble: r3i1p1, exp: rcp45, start_year: 1992, end_year: 2011}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2017, end_year: 2036}
-- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
+- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 2008, end_year: 2027}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp45, start_year: 2009, end_year: 2028}
 - {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp45, start_year: 1986, end_year: 2005}
 - {model: bcc-csm1-1, ensemble: r1i1p1, exp: rcp45, start_year: 1988, end_year: 2007}
@@ -206,7 +205,6 @@ warming_level_10:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 1988, end_year: 2007}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 1987, end_year: 2006}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 1990, end_year: 2009}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2009, end_year: 2028}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2002, end_year: 2021}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 2005, end_year: 2024}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 2003, end_year: 2022}
@@ -296,7 +294,7 @@ warming_level_15:
 - {model: CSIRO-Mk3-6-0, ensemble: r5i1p1, exp: rcp26, start_year: 2025, end_year: 2044}
 - {model: CSIRO-Mk3-6-0, ensemble: r6i1p1, exp: rcp26, start_year: 2025, end_year: 2044}
 - {model: CSIRO-Mk3-6-0, ensemble: r7i1p1, exp: rcp26, start_year: 2026, end_year: 2045}
-- {model: CSIRO-Mk3-6-0, ensemble: r8i1p1, exp: rcp26, start_year: 2038, end_year: 2057}
+- {model: CSIRO-Mk3-6-0, ensemble: r8i1p1, exp: rcp26, start_year: 2037, end_year: 2056}
 - {model: CSIRO-Mk3-6-0, ensemble: r9i1p1, exp: rcp26, start_year: 2028, end_year: 2047}
 - {model: CSIRO-Mk3-6-0, ensemble: r10i1p1, exp: rcp26, start_year: 2025, end_year: 2044}
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp26, start_year: 2004, end_year: 2023}
@@ -343,7 +341,6 @@ warming_level_15:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp45, start_year: 2010, end_year: 2029}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp45, start_year: 2008, end_year: 2027}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45, start_year: 2010, end_year: 2029}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45, start_year: 2026, end_year: 2045}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45, start_year: 2020, end_year: 2039}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45, start_year: 2023, end_year: 2042}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45, start_year: 2022, end_year: 2041}
@@ -479,7 +476,6 @@ warming_level_15:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 2007, end_year: 2026}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 2003, end_year: 2022}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2008, end_year: 2027}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2022, end_year: 2041}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2018, end_year: 2037}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 2020, end_year: 2039}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 2018, end_year: 2037}
@@ -616,7 +612,6 @@ warming_level_20:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp45, start_year: 2032, end_year: 2051}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp45, start_year: 2027, end_year: 2046}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45, start_year: 2047, end_year: 2066}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45, start_year: 2037, end_year: 2056}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45, start_year: 2040, end_year: 2059}
@@ -689,7 +684,7 @@ warming_level_20:
 - {model: IPSL-CM5A-LR, ensemble: r4i1p1, exp: rcp45, start_year: 2022, end_year: 2041}
 - {model: IPSL-CM5A-MR, ensemble: r1i1p1, exp: rcp45, start_year: 2024, end_year: 2043}
 - {model: IPSL-CM5B-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2039, end_year: 2058}
-- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 2062, end_year: 2081}
+- {model: MIROC5, ensemble: r1i1p1, exp: rcp45, start_year: 2063, end_year: 2082}
 - {model: MIROC5, ensemble: r2i1p1, exp: rcp45, start_year: 2058, end_year: 2077}
 - {model: MIROC5, ensemble: r3i1p1, exp: rcp45, start_year: 2054, end_year: 2073}
 - {model: MPI-ESM-LR, ensemble: r1i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
@@ -699,7 +694,7 @@ warming_level_20:
 - {model: MPI-ESM-MR, ensemble: r2i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 - {model: MPI-ESM-MR, ensemble: r3i1p1, exp: rcp45, start_year: 2039, end_year: 2058}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2075, end_year: 2094}
-- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 2059, end_year: 2078}
+- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 2058, end_year: 2077}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp45, start_year: 2064, end_year: 2083}
 - {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp45, start_year: 2025, end_year: 2044}
 - {model: bcc-csm1-1, ensemble: r1i1p1, exp: rcp45, start_year: 2034, end_year: 2053}
@@ -752,7 +747,6 @@ warming_level_20:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 2025, end_year: 2044}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2024, end_year: 2043}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2034, end_year: 2053}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2029, end_year: 2048}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 2032, end_year: 2051}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 2029, end_year: 2048}
@@ -889,7 +883,6 @@ warming_level_30:
 # {model: CCSM4, ensemble: r5i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: CCSM4, ensemble: r6i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
-# {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45} -- did not reach 3.0°C
@@ -1025,7 +1018,6 @@ warming_level_30:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 2048, end_year: 2067}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 2049, end_year: 2068}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2050, end_year: 2069}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2052, end_year: 2071}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2048, end_year: 2067}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 2051, end_year: 2070}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 2049, end_year: 2068}
@@ -1162,7 +1154,6 @@ warming_level_40:
 # {model: CCSM4, ensemble: r5i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: CCSM4, ensemble: r6i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
-# {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45} -- did not reach 4.0°C
@@ -1291,14 +1282,13 @@ warming_level_40:
 - {model: ACCESS1-0, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
 - {model: ACCESS1-3, ensemble: r1i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
 - {model: BNU-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2055, end_year: 2074}
-- {model: CCSM4, ensemble: r1i1p1, exp: rcp85, start_year: 2069, end_year: 2088}
+- {model: CCSM4, ensemble: r1i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
 - {model: CCSM4, ensemble: r2i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
 - {model: CCSM4, ensemble: r3i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
 - {model: CCSM4, ensemble: r4i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 2070, end_year: 2089}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 2071, end_year: 2090}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 2067, end_year: 2086}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 2069, end_year: 2088}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 2068, end_year: 2087}
@@ -1435,7 +1425,6 @@ warming_level_061:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp45, start_year: 1970, end_year: 1989}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp45, start_year: 1969, end_year: 1988}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp45, start_year: 1971, end_year: 1990}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp45, start_year: 1994, end_year: 2013}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp45, start_year: 1990, end_year: 2009}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp45, start_year: 1992, end_year: 2011}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp45, start_year: 1987, end_year: 2006}
@@ -1518,7 +1507,7 @@ warming_level_061:
 - {model: MPI-ESM-MR, ensemble: r2i1p1, exp: rcp45, start_year: 1977, end_year: 1996}
 - {model: MPI-ESM-MR, ensemble: r3i1p1, exp: rcp45, start_year: 1976, end_year: 1995}
 - {model: MRI-CGCM3, ensemble: r1i1p1, exp: rcp45, start_year: 2000, end_year: 2019}
-- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 1991, end_year: 2010}
+- {model: NorESM1-ME, ensemble: r1i1p1, exp: rcp45, start_year: 1990, end_year: 2009}
 - {model: NorESM1-M, ensemble: r1i1p1, exp: rcp45, start_year: 1989, end_year: 2008}
 - {model: bcc-csm1-1-m, ensemble: r1i1p1, exp: rcp45, start_year: 1970, end_year: 1989}
 - {model: bcc-csm1-1, ensemble: r1i1p1, exp: rcp45, start_year: 1974, end_year: 1993}
@@ -1571,7 +1560,6 @@ warming_level_061:
 - {model: CCSM4, ensemble: r5i1p1, exp: rcp85, start_year: 1970, end_year: 1989}
 - {model: CCSM4, ensemble: r6i1p1, exp: rcp85, start_year: 1969, end_year: 1988}
 - {model: CESM1-BGC, ensemble: r1i1p1, exp: rcp85, start_year: 1971, end_year: 1990}
-- {model: CESM1-CAM5-1-FV2, ensemble: r1i1p1, exp: rcp85, start_year: 1994, end_year: 2013}
 - {model: CESM1-CAM5, ensemble: r1i1p1, exp: rcp85, start_year: 1990, end_year: 2009}
 - {model: CESM1-CAM5, ensemble: r2i1p1, exp: rcp85, start_year: 1992, end_year: 2011}
 - {model: CESM1-CAM5, ensemble: r3i1p1, exp: rcp85, start_year: 1987, end_year: 2006}

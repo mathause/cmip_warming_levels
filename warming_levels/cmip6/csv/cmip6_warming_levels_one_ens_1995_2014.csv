@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 22:22:29
+# executed: 2021-01-19 18:07:11
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CanESM5, r1i1p1f1, ssp119, 0.94, 2022, 2041
@@ -54,6 +54,7 @@ CNRM-CM6-1, r1i1p1f2, ssp245, 0.94, 2031, 2050
 CNRM-ESM2-1, r1i1p1f2, ssp245, 0.94, 2033, 2052
 CanESM5-CanOE, r1i1p2f1, ssp245, 0.94, 2017, 2036
 CanESM5, r1i1p1f1, ssp245, 0.94, 2018, 2037
+EC-Earth3-CC, r1i1p1f1, ssp245, 0.94, 2038, 2057
 EC-Earth3-Veg-LR, r1i1p1f1, ssp245, 0.94, 2036, 2055
 EC-Earth3-Veg, r1i1p1f1, ssp245, 0.94, 2033, 2052
 EC-Earth3, r1i1p1f1, ssp245, 0.94, 2028, 2047
@@ -131,6 +132,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 0.94, 2026, 2045
 CanESM5-CanOE, r1i1p2f1, ssp585, 0.94, 2015, 2034
 CanESM5, r1i1p1f1, ssp585, 0.94, 2017, 2036
 E3SM-1-1, r1i1p1f1, ssp585, 0.94, 2014, 2033
+EC-Earth3-CC, r1i1p1f1, ssp585, 0.94, 2035, 2054
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 0.94, 2029, 2048
 EC-Earth3-Veg, r1i1p1f1, ssp585, 0.94, 2025, 2044
 EC-Earth3, r1i1p1f1, ssp585, 0.94, 2022, 2041
@@ -185,6 +187,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp585, 3.43, 2071, 2090
 CanESM5-CanOE, r1i1p2f1, ssp585, 3.43, 2054, 2073
 CanESM5, r1i1p1f1, ssp585, 3.43, 2054, 2073
 E3SM-1-1, r1i1p1f1, ssp585, 3.43, 2049, 2068
+EC-Earth3-CC, r1i1p1f1, ssp585, 3.43, 2073, 2092
 EC-Earth3-Veg-LR, r1i1p1f1, ssp585, 3.43, 2071, 2090
 EC-Earth3-Veg, r1i1p1f1, ssp585, 3.43, 2069, 2088
 EC-Earth3, r1i1p1f1, ssp585, 3.43, 2068, 2087

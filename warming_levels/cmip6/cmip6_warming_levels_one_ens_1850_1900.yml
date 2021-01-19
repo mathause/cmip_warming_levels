@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-13 22:22:25
+# executed: 2021-01-19 18:07:07
 # reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
@@ -74,6 +74,7 @@ warming_level_10:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, start_year: 2007, end_year: 2026}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 1986, end_year: 2005}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 1990, end_year: 2009}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, start_year: 1984, end_year: 2003}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, start_year: 1997, end_year: 2016}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, start_year: 1984, end_year: 2003}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, start_year: 1999, end_year: 2018}
@@ -151,6 +152,7 @@ warming_level_10:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 1986, end_year: 2005}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 1990, end_year: 2009}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 2006, end_year: 2025}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 1984, end_year: 2003}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 1997, end_year: 2016}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 1984, end_year: 2003}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 1999, end_year: 2018}
@@ -251,6 +253,7 @@ warming_level_15:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, start_year: 2028, end_year: 2047}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 2000, end_year: 2019}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 2004, end_year: 2023}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, start_year: 1998, end_year: 2017}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, start_year: 2017, end_year: 2036}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, start_year: 2001, end_year: 2020}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, start_year: 2013, end_year: 2032}
@@ -328,6 +331,7 @@ warming_level_15:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 1999, end_year: 2018}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 2003, end_year: 2022}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 2016, end_year: 2035}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 1998, end_year: 2017}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 2019, end_year: 2038}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 2002, end_year: 2021}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2015, end_year: 2034}
@@ -428,6 +432,7 @@ warming_level_20:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, start_year: 2046, end_year: 2065}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 2011, end_year: 2030}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 2015, end_year: 2034}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, start_year: 2026, end_year: 2045}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, start_year: 2040, end_year: 2059}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, start_year: 2024, end_year: 2043}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, start_year: 2035, end_year: 2054}
@@ -505,6 +510,7 @@ warming_level_20:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 2010, end_year: 2029}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 2013, end_year: 2032}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 2023, end_year: 2042}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 2027, end_year: 2046}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 2032, end_year: 2051}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 2018, end_year: 2037}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2026, end_year: 2045}
@@ -605,6 +611,7 @@ warming_level_30:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, start_year: 2079, end_year: 2098}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 2035, end_year: 2054}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 2040, end_year: 2059}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, start_year: 2064, end_year: 2083}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, start_year: 2081, end_year: 2100}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, start_year: 2058, end_year: 2077}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, start_year: 2076, end_year: 2095}
@@ -682,6 +689,7 @@ warming_level_30:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 2028, end_year: 2047}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 2031, end_year: 2050}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 2037, end_year: 2056}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 2047, end_year: 2066}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 2052, end_year: 2071}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 2041, end_year: 2060}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2048, end_year: 2067}
@@ -782,6 +790,7 @@ warming_level_40:
 # {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245} -- did not reach 4.0°C
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 2071, end_year: 2090}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 2074, end_year: 2093}
+# {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245} -- did not reach 4.0°C
 # {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245} -- did not reach 4.0°C
 # {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245} -- did not reach 4.0°C
 # {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245} -- did not reach 4.0°C
@@ -859,6 +868,7 @@ warming_level_40:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 2044, end_year: 2063}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 2045, end_year: 2064}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 2050, end_year: 2069}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 2062, end_year: 2081}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 2066, end_year: 2085}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 2058, end_year: 2077}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 2064, end_year: 2083}
@@ -959,6 +969,7 @@ warming_level_061:
 - {model: CNRM-ESM2-1, ensemble: r1i1p1f2, exp: ssp245, start_year: 1993, end_year: 2012}
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp245, start_year: 1974, end_year: 1993}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp245, start_year: 1977, end_year: 1996}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp245, start_year: 1936, end_year: 1955}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp245, start_year: 1982, end_year: 2001}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp245, start_year: 1965, end_year: 1984}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp245, start_year: 1991, end_year: 2010}
@@ -1036,6 +1047,7 @@ warming_level_061:
 - {model: CanESM5-CanOE, ensemble: r1i1p2f1, exp: ssp585, start_year: 1974, end_year: 1993}
 - {model: CanESM5, ensemble: r1i1p1f1, exp: ssp585, start_year: 1977, end_year: 1996}
 - {model: E3SM-1-1, ensemble: r1i1p1f1, exp: ssp585, start_year: 1998, end_year: 2017}
+- {model: EC-Earth3-CC, ensemble: r1i1p1f1, exp: ssp585, start_year: 1936, end_year: 1955}
 - {model: EC-Earth3-Veg-LR, ensemble: r1i1p1f1, exp: ssp585, start_year: 1982, end_year: 2001}
 - {model: EC-Earth3-Veg, ensemble: r1i1p1f1, exp: ssp585, start_year: 1965, end_year: 1984}
 - {model: EC-Earth3, ensemble: r1i1p1f1, exp: ssp585, start_year: 1991, end_year: 2010}
