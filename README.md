@@ -1,6 +1,6 @@
 # Global warming levels for CMIP5 and CMIP6
 
-Document the year when a certain global warming level was reached in cmip5 and cmip6 data
+Document the year when a certain global warming level was reached in cmip5 and cmip6 data. Check the [cmip temperatures](https://github.com/mathause/cmip_temperatures) repository for a list of temperature anomalies for time periods in cmip5 and cmip6 data.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591807.svg)](https://doi.org/10.5281/zenodo.3591807)
 
@@ -31,7 +31,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026
 
 ## Disclaimer
 
-This data archive is created and maintained in an voluntary effort by its creators. The data are provided without warranty of any kind. Please note that the ownership of all files in the archive remains with the original providers! That means you should still acknowledge the CMIP6 data providers. This work is published under a [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses by the authors. If you use the this archive please cite [10.5281/zenodo.3591806](https://doi.org/10.5281/zenodo.3591806).
+This data archive is created and maintained in an voluntary effort by its creators. The data are provided without warranty of any kind. Please note that the ownership of all files in the archive remains with the original providers! That means you should still acknowledge the CMIP6 data providers. This work is published under a [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license by the authors. If you use the this archive please cite [10.5281/zenodo.3591806](https://doi.org/10.5281/zenodo.3591806).
 
 
 ## Notes
@@ -46,6 +46,7 @@ This data archive is created and maintained in an voluntary effort by its creato
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
    * `SSP1-1.9`, `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
+ * Grid-cell area for atmospheric grid variables (`areacella`)
 
 ## Method
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
