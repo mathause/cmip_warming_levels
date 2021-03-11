@@ -31,7 +31,7 @@ CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026
 
 ## Disclaimer
 
-This data archive is created and maintained in an voluntary effort by its creators. The data are provided without warranty of any kind. Please note that the ownership of all files in the CMIP6ng archive remains with the original providers! That means you should still acknowledge the CMIP6 data providers. This work is published under a [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses by the authors. If you use the this archive please cite [10.5281/zenodo.3591806](https://doi.org/10.5281/zenodo.3591806).
+This data archive is created and maintained in an voluntary effort by its creators. The data are provided without warranty of any kind. Please note that the ownership of all files in the archive remains with the original providers! That means you should still acknowledge the CMIP6 data providers. This work is published under a [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses by the authors. If you use the this archive please cite [10.5281/zenodo.3591806](https://doi.org/10.5281/zenodo.3591806).
 
 
 ## Notes
