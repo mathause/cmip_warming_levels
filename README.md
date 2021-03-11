@@ -29,6 +29,11 @@ CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026
 ...
 ```
 
+## Disclaimer
+
+This data archive is created and maintained in an voluntary effort by its creators. The data are provided without warranty of any kind. Please note that the ownership of all files in the CMIP6ng archive remains with the original providers! That means you should still acknowledge the CMIP6 data providers. This work is published under a [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses by the authors. If you use the this archive please cite [10.5281/zenodo.3591806](https://doi.org/10.5281/zenodo.3591806).
+
+
 ## Notes
  * **Warming levels**: 1.5 °C, 2.0 °C, 3.0 °C, and 4.0 °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
  * For low warming levels and some models the period does already start in the `historical` simulation, for example:
@@ -41,11 +46,10 @@ CNRM-ESM2-1, r1i1p1f2, ssp119, 1.0, 2007, 2026
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
    * `SSP1-1.9`, `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
- * One ensemble member per model and scenario. Let me know if you need other ensemble members.
 
 ## Method
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
- 1. Calculate global mean temperature (weighted with the `cos` of the latitude)
+ 1. Calculate global mean temperature (weighted with the grid cell area (`areacella`) if available, else the `cos` of the latitude is used)
  2. Calculate annual mean (Note: currently all months are weighted equally)
  3. Concatenate historical data and projection (constrained to the historical/ future time period)
  4. Subtract the mean over 1850 to 1900 (inclusive)
@@ -87,6 +91,11 @@ The changelog of the repository can be found under [CHANGELOG.md](CHANGELOG.md).
 
 
 ## License
+
+CMIP WARMING LEVELS is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+A copy of the license is availabe at [LICENSE](LICENSE). If not, see [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
 
 ### CMIP5 Data License Statement
 
