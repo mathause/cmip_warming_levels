@@ -63,6 +63,8 @@ start_year = int(central_year - 20 / 2)
 end_year = int(central_year + (20 / 2 - 1))
 ```
 
+Careful: depending on the used software the `central_year` may be defined differently (and the `- 1` may be applicable to the start_year and not the end_year).
+
 ## Format
 
 The data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format; one file for all warming levels. For cmip6 data two files are provided once including the grid info (e.g. `grid: gn`), and once without. Let me know if you need the output in any other format.
