@@ -2,7 +2,7 @@
 
 Document the year when a certain global warming level was reached in cmip5 and cmip6 data. Check the [cmip temperatures](https://github.com/mathause/cmip_temperatures) repository for a list of temperature anomalies for time periods in cmip5 and cmip6 data.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591807.svg)](https://doi.org/10.5281/zenodo.3591807)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3591806.svg)](https://doi.org/10.5281/zenodo.3591806)
 
 *Mathias Hauser*<sup>1</sup>, *Francois Engelbrecht*<sup>2</sup>, and *Erich Fischer*<sup>1</sup>
 
@@ -66,6 +66,8 @@ To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-ind
 start_year = int(central_year - 20 / 2)
 end_year = int(central_year + (20 / 2 - 1))
 ```
+
+Careful: depending on the used software the `central_year` may be defined differently (and the `- 1` may be applicable to the start_year and not the end_year).
 
 ## Format
 
