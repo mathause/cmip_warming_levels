@@ -12,6 +12,7 @@ Document the year when a certain global warming level was reached in cmip5 and c
 
 
 ## Example
+
 ``` yaml
 # warming level: 2.0°C above 1850-1900
 warming_level_20:
@@ -35,6 +36,7 @@ This data archive is created and maintained in an voluntary effort by its creato
 
 
 ## Notes
+
  * **Warming levels**: 1.5 °C, 2.0 °C, 3.0 °C, and 4.0 °C global-mean annual-mean warming with respect to 1850 to 1900. Let me know if you require an additional warming level
  * For low warming levels and some models the period does already start in the `historical` simulation, for example:
 ``` yaml
@@ -43,12 +45,14 @@ This data archive is created and maintained in an voluntary effort by its creato
 ```
 
 ## Data
+
  * Monthly temperature data (variable: `tas`, Table ID: `Lmon`) for `historical` and
    * `RCP2.6`, `RCP4.5`, `RCP6.0`, and `RCP8.5` (CMIP5)
    * `SSP1-1.9`, `SSP1-2.6`, `SSP2-4.5`, `SSP3-7.0`, and `SSP5-8.5` (CMIP6)
  * Grid-cell area for atmospheric grid variables (`areacella`)
 
 ## Method
+
 To calculate the years when a certain `warming_level` (e.g. 1.5°C above pre-industrial) was first reached, the following method is used for every individual model:
  1. Calculate global mean temperature (weighted with the grid cell area (`areacella`) if available, else the `cos` of the latitude is used)
  2. Calculate annual mean (Note: currently all months are weighted equally)
@@ -68,22 +72,27 @@ end_year = int(central_year + (20 / 2 - 1))
 The data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format; one file for all warming levels. For cmip6 data two files are provided once including the grid info (e.g. `grid: gn`), and once without. Let me know if you need the output in any other format.
 
 ## Code
-The code will be published in https://github.com/IPCC-WG1 as soon as I have the right to create a repository.
+
+The code is available under https://github.com/mathause/Chapter-11/blob/main/code/warming_levels.py.
 
 ## Background
 
 Discussion of the design decisions.
 
 ### Time window
+
 Ideally we can use 20-year windows to calculate and display the average warming levels, e.g. 2036 to 2055 for 2° C in model XY. Reasoning: This is consistent with the near-, mid- and long-term period, and with the period, which is used to define the stippling. The stippling uses standard deviations of 20-year means of the pre-industrial control simulations. This allows us to use the same definition of stippling. We also discussed to use 21-yr windows but it turns out that we would not be communicating the median year when the warming level is reached but the period, so that there is no obvious advantage of using uneven numbers of years. We also discussed to use 10-year windows but this would be more affected by internal variability and if it is used for stippling, there would potentially be little stippling for low warming levels, simply due to variability.
 
 ### Definition of warming levels
+
 Warming levels are defined as the 20-year period for which the 20-year running mean of GSAT (tas) first exceeds a certain level of warming relative to 1850 to 1900. There is a slight chance that it may marginally drop below the level again but with 20-year we should be reasonably safe.
 
 ### Use of SSPs/ RCPs
+
 We decided to use as many lines of evidence as possible and average across all SSPs/ RCPs in which a certain warming level is crossed. e.g. for 2° all models for SSP5-8.5, SSP3-7.0, SSP2-4.5, SSP1-2.6, while it is probably not reached in SSP1-1.9. Sonia Seneviratne and others have demonstrated that most things scale very well with levels of warming but ideally it can be quickly checked again for different variables e.g. annual mean precipitation, which may be somewhat forcing-dependent and where the pattern may be somewhat sensitive to highly transient exceedance of 2° (e.g. SSP5-8.5) vs. nearly equilibrated exceedance (e.g. SSP1-2.6). This can be easily checked by averaging the models across individual SSPs first. As Sonia Seneviratne demonstrated potential differences may well be in the range of internal variability and model uncertainty anyway.
 
 ### Inconsistent sets of models for different warming levels:
+
 There are more models exceeding 2° than 4°C. Also here guidance should be to use all lines of evidence and include as many models as possible. In AR5 CH12 the number of models used for a graph was always added to the figure.
 
 ## Changelog
