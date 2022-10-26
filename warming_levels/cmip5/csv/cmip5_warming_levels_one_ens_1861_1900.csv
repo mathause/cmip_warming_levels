@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:21
+# executed: 2022-10-26 11:52:52
 # reference years: 1861 to 1900
 model, ensemble, exp, warming_level, start_year, end_year
 BNU-ESM, r1i1p1, rcp26, 1.0, 1984, 2003
@@ -43,6 +43,7 @@ CSIRO-Mk3L-1-2, r1i2p1, rcp45, 1.0, 2005, 2024
 CanESM2, r1i1p1, rcp45, 1.0, 1992, 2011
 EC-EARTH, r1i1p1, rcp45, 1.0, 1991, 2010
 FGOALS-g2, r1i1p1, rcp45, 1.0, 2006, 2025
+FGOALS-s2, r1i1p1, rcp45, 1.0, 1974, 1993
 FIO-ESM, r1i1p1, rcp45, 1.0, 1995, 2014
 GFDL-CM3, r1i1p1, rcp45, 1.0, 2001, 2020
 GFDL-ESM2G, r1i1p1, rcp45, 1.0, 2007, 2026
@@ -99,7 +100,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp85, 1.0, 2010, 2029
 CanESM2, r1i1p1, rcp85, 1.0, 1991, 2010
 EC-EARTH, r1i1p1, rcp85, 1.0, 1991, 2010
 FGOALS-g2, r1i1p1, rcp85, 1.0, 2005, 2024
-FGOALS-s2, r3i1p1, rcp85, 1.0, 1974, 1993
+FGOALS-s2, r1i1p1, rcp85, 1.0, 1974, 1993
 FIO-ESM, r1i1p1, rcp85, 1.0, 1994, 2013
 GFDL-CM3, r1i1p1, rcp85, 1.0, 2001, 2020
 GFDL-ESM2G, r1i1p1, rcp85, 1.0, 2008, 2027
@@ -157,6 +158,7 @@ CSIRO-Mk3L-1-2, r1i2p1, rcp45, 1.5, 2035, 2054
 CanESM2, r1i1p1, rcp45, 1.5, 2008, 2027
 EC-EARTH, r1i1p1, rcp45, 1.5, 2012, 2031
 FGOALS-g2, r1i1p1, rcp45, 1.5, 2029, 2048
+FGOALS-s2, r1i1p1, rcp45, 1.5, 1989, 2008
 FIO-ESM, r1i1p1, rcp45, 1.5, 2026, 2045
 GFDL-CM3, r1i1p1, rcp45, 1.5, 2014, 2033
 GFDL-ESM2G, r1i1p1, rcp45, 1.5, 2041, 2060
@@ -213,7 +215,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp85, 1.5, 2025, 2044
 CanESM2, r1i1p1, rcp85, 1.5, 2003, 2022
 EC-EARTH, r1i1p1, rcp85, 1.5, 2009, 2028
 FGOALS-g2, r1i1p1, rcp85, 1.5, 2021, 2040
-FGOALS-s2, r3i1p1, rcp85, 1.5, 1991, 2010
+FGOALS-s2, r1i1p1, rcp85, 1.5, 1989, 2008
 FIO-ESM, r1i1p1, rcp85, 1.5, 2019, 2038
 GFDL-CM3, r1i1p1, rcp85, 1.5, 2013, 2032
 GFDL-ESM2G, r1i1p1, rcp85, 1.5, 2028, 2047
@@ -257,6 +259,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp45, 2.0, 2039, 2058
 CSIRO-Mk3L-1-2, r1i2p1, rcp45, 2.0, 2078, 2097
 CanESM2, r1i1p1, rcp45, 2.0, 2022, 2041
 EC-EARTH, r1i1p1, rcp45, 2.0, 2034, 2053
+FGOALS-s2, r1i1p1, rcp45, 2.0, 2003, 2022
 GFDL-CM3, r1i1p1, rcp45, 2.0, 2027, 2046
 GISS-E2-H-CC, r1i1p1, rcp45, 2.0, 2035, 2054
 GISS-E2-H, r1i1p1, rcp45, 2.0, 2041, 2060
@@ -307,7 +310,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp85, 2.0, 2035, 2054
 CanESM2, r1i1p1, rcp85, 2.0, 2017, 2036
 EC-EARTH, r1i1p1, rcp85, 2.0, 2026, 2045
 FGOALS-g2, r1i1p1, rcp85, 2.0, 2036, 2055
-FGOALS-s2, r3i1p1, rcp85, 2.0, 2005, 2024
+FGOALS-s2, r1i1p1, rcp85, 2.0, 2003, 2022
 FIO-ESM, r1i1p1, rcp85, 2.0, 2034, 2053
 GFDL-CM3, r1i1p1, rcp85, 2.0, 2025, 2044
 GFDL-ESM2G, r1i1p1, rcp85, 2.0, 2045, 2064
@@ -334,6 +337,7 @@ bcc-csm1-1, r1i1p1, rcp85, 2.0, 2028, 2047
 inmcm4, r1i1p1, rcp85, 2.0, 2049, 2068
 BNU-ESM, r1i1p1, rcp45, 3.0, 2054, 2073
 CanESM2, r1i1p1, rcp45, 3.0, 2066, 2085
+FGOALS-s2, r1i1p1, rcp45, 3.0, 2045, 2064
 GFDL-CM3, r1i1p1, rcp45, 3.0, 2069, 2088
 IPSL-CM5A-LR, r1i1p1, rcp45, 3.0, 2060, 2079
 IPSL-CM5A-MR, r1i1p1, rcp45, 3.0, 2068, 2087
@@ -358,7 +362,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp85, 3.0, 2056, 2075
 CanESM2, r1i1p1, rcp85, 3.0, 2040, 2059
 EC-EARTH, r1i1p1, rcp85, 3.0, 2052, 2071
 FGOALS-g2, r1i1p1, rcp85, 3.0, 2065, 2084
-FGOALS-s2, r3i1p1, rcp85, 3.0, 2030, 2049
+FGOALS-s2, r1i1p1, rcp85, 3.0, 2028, 2047
 FIO-ESM, r1i1p1, rcp85, 3.0, 2059, 2078
 GFDL-CM3, r1i1p1, rcp85, 3.0, 2045, 2064
 GFDL-ESM2G, r1i1p1, rcp85, 3.0, 2071, 2090
@@ -396,7 +400,7 @@ CNRM-CM5, r1i1p1, rcp85, 4.0, 2078, 2097
 CSIRO-Mk3-6-0, r1i1p1, rcp85, 4.0, 2074, 2093
 CanESM2, r1i1p1, rcp85, 4.0, 2059, 2078
 EC-EARTH, r1i1p1, rcp85, 4.0, 2073, 2092
-FGOALS-s2, r3i1p1, rcp85, 4.0, 2047, 2066
+FGOALS-s2, r1i1p1, rcp85, 4.0, 2046, 2065
 FIO-ESM, r1i1p1, rcp85, 4.0, 2076, 2095
 GFDL-CM3, r1i1p1, rcp85, 4.0, 2061, 2080
 HadGEM2-AO, r1i1p1, rcp85, 4.0, 2070, 2089
@@ -449,6 +453,7 @@ CSIRO-Mk3L-1-2, r1i2p1, rcp45, 0.61, 1989, 2008
 CanESM2, r1i1p1, rcp45, 0.61, 1980, 1999
 EC-EARTH, r1i1p1, rcp45, 0.61, 1971, 1990
 FGOALS-g2, r1i1p1, rcp45, 0.61, 1987, 2006
+FGOALS-s2, r1i1p1, rcp45, 0.61, 1954, 1973
 FIO-ESM, r1i1p1, rcp45, 0.61, 1976, 1995
 GFDL-CM3, r1i1p1, rcp45, 0.61, 1993, 2012
 GFDL-ESM2G, r1i1p1, rcp45, 0.61, 1984, 2003
@@ -505,7 +510,7 @@ CSIRO-Mk3-6-0, r1i1p1, rcp85, 0.61, 1993, 2012
 CanESM2, r1i1p1, rcp85, 0.61, 1980, 1999
 EC-EARTH, r1i1p1, rcp85, 0.61, 1971, 1990
 FGOALS-g2, r1i1p1, rcp85, 0.61, 1987, 2006
-FGOALS-s2, r3i1p1, rcp85, 0.61, 1954, 1973
+FGOALS-s2, r1i1p1, rcp85, 0.61, 1954, 1973
 FIO-ESM, r1i1p1, rcp85, 0.61, 1976, 1995
 GFDL-CM3, r1i1p1, rcp85, 0.61, 1992, 2011
 GFDL-ESM2G, r1i1p1, rcp85, 0.61, 1984, 2003

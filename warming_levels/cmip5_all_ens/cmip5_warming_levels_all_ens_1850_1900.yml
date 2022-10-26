@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:02
+# executed: 2022-10-26 11:52:37
 # reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
@@ -98,6 +98,9 @@ warming_level_10:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 1992, end_year: 2011}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 1994, end_year: 2013}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2006, end_year: 2025}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1972, end_year: 1991}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 1970, end_year: 1989}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 1973, end_year: 1992}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1995, end_year: 2014}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45, start_year: 1998, end_year: 2017}
 - {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45, start_year: 1992, end_year: 2011}
@@ -238,6 +241,8 @@ warming_level_10:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 1992, end_year: 2011}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 1994, end_year: 2013}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2005, end_year: 2024}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1972, end_year: 1991}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 1970, end_year: 1989}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1973, end_year: 1992}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1994, end_year: 2013}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 1997, end_year: 2016}
@@ -369,6 +374,9 @@ warming_level_15:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 2015, end_year: 2034}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 2013, end_year: 2032}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2029, end_year: 2048}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1988, end_year: 2007}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 1989, end_year: 2008}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 1990, end_year: 2009}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2026, end_year: 2045}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45, start_year: 2025, end_year: 2044}
 - {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45, start_year: 2022, end_year: 2041}
@@ -509,6 +517,8 @@ warming_level_15:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 2012, end_year: 2031}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 2009, end_year: 2028}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1988, end_year: 2007}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 1989, end_year: 2008}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1990, end_year: 2009}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2020, end_year: 2039}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 2016, end_year: 2035}
@@ -640,6 +650,9 @@ warming_level_20:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 2037, end_year: 2056}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 2.0°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 2002, end_year: 2021}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 2006, end_year: 2025}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 2004, end_year: 2023}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 2.0°C
 # {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45} -- did not reach 2.0°C
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 2.0°C
@@ -780,6 +793,8 @@ warming_level_20:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 2025, end_year: 2044}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2036, end_year: 2055}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2002, end_year: 2021}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 2003, end_year: 2022}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2004, end_year: 2023}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2035, end_year: 2054}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 2034, end_year: 2053}
@@ -911,6 +926,9 @@ warming_level_30:
 # {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 2041, end_year: 2060}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 3.0°C
@@ -1051,6 +1069,8 @@ warming_level_30:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 2051, end_year: 2070}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 2051, end_year: 2070}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2065, end_year: 2084}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 2030, end_year: 2049}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2030, end_year: 2049}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2059, end_year: 2078}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 2060, end_year: 2079}
@@ -1182,6 +1202,9 @@ warming_level_40:
 # {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
+# {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
+# {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45} -- did not reach 4.0°C
+# {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 4.0°C
@@ -1322,6 +1345,8 @@ warming_level_40:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 2072, end_year: 2091}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2046, end_year: 2065}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 2047, end_year: 2066}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2047, end_year: 2066}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2076, end_year: 2095}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 2076, end_year: 2095}
@@ -1453,6 +1478,9 @@ warming_level_061:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 1971, end_year: 1990}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 1970, end_year: 1989}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 1987, end_year: 2006}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1943, end_year: 1962}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 1949, end_year: 1968}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 1944, end_year: 1963}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1976, end_year: 1995}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45, start_year: 1976, end_year: 1995}
 - {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45, start_year: 1972, end_year: 1991}
@@ -1593,6 +1621,8 @@ warming_level_061:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 1971, end_year: 1990}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 1970, end_year: 1989}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 1987, end_year: 2006}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1943, end_year: 1962}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 1949, end_year: 1968}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1944, end_year: 1963}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1976, end_year: 1995}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 1976, end_year: 1995}

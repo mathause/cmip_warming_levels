@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:16
+# executed: 2022-10-26 11:52:48
 # reference years: 1850 to 1900
 
 # warming level: 1.0°C above 1850-1900
@@ -39,6 +39,7 @@ warming_level_10:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 1993, end_year: 2012}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 1993, end_year: 2012}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2006, end_year: 2025}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1972, end_year: 1991}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1995, end_year: 2014}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45, start_year: 1986, end_year: 2005}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45, start_year: 1993, end_year: 2012}
@@ -84,7 +85,7 @@ warming_level_10:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 1991, end_year: 2010}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 1992, end_year: 2011}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2005, end_year: 2024}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1973, end_year: 1992}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1972, end_year: 1991}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1994, end_year: 2013}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 1986, end_year: 2005}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 1993, end_year: 2012}
@@ -139,6 +140,7 @@ warming_level_15:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 2008, end_year: 2027}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 2013, end_year: 2032}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2029, end_year: 2048}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1988, end_year: 2007}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 2026, end_year: 2045}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45, start_year: 2007, end_year: 2026}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45, start_year: 2013, end_year: 2032}
@@ -184,7 +186,7 @@ warming_level_15:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2004, end_year: 2023}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2010, end_year: 2029}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1990, end_year: 2009}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1988, end_year: 2007}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2020, end_year: 2039}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 2007, end_year: 2026}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 2011, end_year: 2030}
@@ -239,6 +241,7 @@ warming_level_20:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 2022, end_year: 2041}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 2.0°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 2002, end_year: 2021}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 2.0°C
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45, start_year: 2034, end_year: 2053}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45, start_year: 2040, end_year: 2059}
@@ -284,7 +287,7 @@ warming_level_20:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2017, end_year: 2036}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2026, end_year: 2045}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2036, end_year: 2055}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2004, end_year: 2023}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2002, end_year: 2021}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2035, end_year: 2054}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 2026, end_year: 2045}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
@@ -339,6 +342,7 @@ warming_level_30:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 2066, end_year: 2085}
 # {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 2042, end_year: 2061}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
 # {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.0°C
@@ -384,7 +388,7 @@ warming_level_30:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2040, end_year: 2059}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2052, end_year: 2071}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2065, end_year: 2084}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2030, end_year: 2049}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2059, end_year: 2078}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 2055, end_year: 2074}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 2057, end_year: 2076}
@@ -439,6 +443,7 @@ warming_level_40:
 # {model: CanESM2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
+# {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
 # {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45} -- did not reach 4.0°C
@@ -484,7 +489,7 @@ warming_level_40:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 2059, end_year: 2078}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 2073, end_year: 2092}
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2047, end_year: 2066}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2046, end_year: 2065}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2076, end_year: 2095}
 # {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
 # {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85} -- did not reach 4.0°C
@@ -539,6 +544,7 @@ warming_level_061:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp45, start_year: 1980, end_year: 1999}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp45, start_year: 1972, end_year: 1991}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 1987, end_year: 2006}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 1943, end_year: 1962}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45, start_year: 1976, end_year: 1995}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp45, start_year: 1966, end_year: 1985}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp45, start_year: 1969, end_year: 1988}
@@ -584,7 +590,7 @@ warming_level_061:
 - {model: CanESM2, ensemble: r1i1p1, exp: rcp85, start_year: 1980, end_year: 1999}
 - {model: EC-EARTH, ensemble: r1i1p1, exp: rcp85, start_year: 1972, end_year: 1991}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 1987, end_year: 2006}
-- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 1944, end_year: 1963}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 1943, end_year: 1962}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 1976, end_year: 1995}
 - {model: GISS-E2-H-CC, ensemble: r1i1p1, exp: rcp85, start_year: 1966, end_year: 1985}
 - {model: GISS-E2-H, ensemble: r1i1p1, exp: rcp85, start_year: 1969, end_year: 1988}

@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:09
+# executed: 2022-10-26 11:52:43
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -110,6 +110,9 @@ warming_level_094:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45, start_year: 2040, end_year: 2059}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45, start_year: 2035, end_year: 2054}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45, start_year: 2043, end_year: 2062}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45, start_year: 2030, end_year: 2049}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45, start_year: 2025, end_year: 2044}
+- {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45, start_year: 2028, end_year: 2047}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 0.94°C
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45, start_year: 2059, end_year: 2078}
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 0.94°C
@@ -270,6 +273,8 @@ warming_level_094:
 - {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85, start_year: 2028, end_year: 2047}
 - {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85, start_year: 2025, end_year: 2044}
 - {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85, start_year: 2027, end_year: 2046}
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2022, end_year: 2041}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 2022, end_year: 2041}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2021, end_year: 2040}
 - {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85, start_year: 2033, end_year: 2052}
 - {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85, start_year: 2030, end_year: 2049}
@@ -423,6 +428,9 @@ warming_level_343:
 # {model: EC-EARTH, ensemble: r9i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r12i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
+# {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
+# {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp45} -- did not reach 3.43°C
+# {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: FIO-ESM, ensemble: r2i1p1, exp: rcp45} -- did not reach 3.43°C
 # {model: FIO-ESM, ensemble: r3i1p1, exp: rcp45} -- did not reach 3.43°C
@@ -583,6 +591,8 @@ warming_level_343:
 # {model: EC-EARTH, ensemble: r9i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: EC-EARTH, ensemble: r12i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: FGOALS-g2, ensemble: r1i1p1, exp: rcp85} -- did not reach 3.43°C
+- {model: FGOALS-s2, ensemble: r1i1p1, exp: rcp85, start_year: 2067, end_year: 2086}
+- {model: FGOALS-s2, ensemble: r2i1p1, exp: rcp85, start_year: 2065, end_year: 2084}
 - {model: FGOALS-s2, ensemble: r3i1p1, exp: rcp85, start_year: 2064, end_year: 2083}
 # {model: FIO-ESM, ensemble: r1i1p1, exp: rcp85} -- did not reach 3.43°C
 # {model: FIO-ESM, ensemble: r2i1p1, exp: rcp85} -- did not reach 3.43°C

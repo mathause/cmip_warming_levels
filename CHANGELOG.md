@@ -2,6 +2,10 @@
 
 ## History
 
+### 265.10.2022
+
+* Update the repository with the newest CMIP6 models and ensemble members.
+
 ### 11.03.2021
 
 * Moved history to own file.

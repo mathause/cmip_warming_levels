@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:07
+# executed: 2022-10-26 11:52:41
 # reference years: 1850 to 1900
 # NOTE: may include simulations starting after 1850!
 model, ensemble, exp, warming_level, start_year, end_year
@@ -109,6 +109,9 @@ EC-EARTH, r8i1p1, rcp45, 1.0, 1988, 2007
 EC-EARTH, r9i1p1, rcp45, 1.0, 1992, 2011
 EC-EARTH, r12i1p1, rcp45, 1.0, 1994, 2013
 FGOALS-g2, r1i1p1, rcp45, 1.0, 2006, 2025
+FGOALS-s2, r1i1p1, rcp45, 1.0, 1972, 1991
+FGOALS-s2, r2i1p1, rcp45, 1.0, 1970, 1989
+FGOALS-s2, r3i1p1, rcp45, 1.0, 1973, 1992
 FIO-ESM, r1i1p1, rcp45, 1.0, 1995, 2014
 FIO-ESM, r2i1p1, rcp45, 1.0, 1998, 2017
 FIO-ESM, r3i1p1, rcp45, 1.0, 1992, 2011
@@ -269,6 +272,8 @@ EC-EARTH, r8i1p1, rcp85, 1.0, 1988, 2007
 EC-EARTH, r9i1p1, rcp85, 1.0, 1992, 2011
 EC-EARTH, r12i1p1, rcp85, 1.0, 1994, 2013
 FGOALS-g2, r1i1p1, rcp85, 1.0, 2005, 2024
+FGOALS-s2, r1i1p1, rcp85, 1.0, 1972, 1991
+FGOALS-s2, r2i1p1, rcp85, 1.0, 1970, 1989
 FGOALS-s2, r3i1p1, rcp85, 1.0, 1973, 1992
 FIO-ESM, r1i1p1, rcp85, 1.0, 1994, 2013
 FIO-ESM, r2i1p1, rcp85, 1.0, 1997, 2016
@@ -408,6 +413,9 @@ EC-EARTH, r8i1p1, rcp45, 1.5, 2011, 2030
 EC-EARTH, r9i1p1, rcp45, 1.5, 2015, 2034
 EC-EARTH, r12i1p1, rcp45, 1.5, 2013, 2032
 FGOALS-g2, r1i1p1, rcp45, 1.5, 2029, 2048
+FGOALS-s2, r1i1p1, rcp45, 1.5, 1988, 2007
+FGOALS-s2, r2i1p1, rcp45, 1.5, 1989, 2008
+FGOALS-s2, r3i1p1, rcp45, 1.5, 1990, 2009
 FIO-ESM, r1i1p1, rcp45, 1.5, 2026, 2045
 FIO-ESM, r2i1p1, rcp45, 1.5, 2025, 2044
 FIO-ESM, r3i1p1, rcp45, 1.5, 2022, 2041
@@ -568,6 +576,8 @@ EC-EARTH, r8i1p1, rcp85, 1.5, 2010, 2029
 EC-EARTH, r9i1p1, rcp85, 1.5, 2012, 2031
 EC-EARTH, r12i1p1, rcp85, 1.5, 2009, 2028
 FGOALS-g2, r1i1p1, rcp85, 1.5, 2021, 2040
+FGOALS-s2, r1i1p1, rcp85, 1.5, 1988, 2007
+FGOALS-s2, r2i1p1, rcp85, 1.5, 1989, 2008
 FGOALS-s2, r3i1p1, rcp85, 1.5, 1990, 2009
 FIO-ESM, r1i1p1, rcp85, 1.5, 2020, 2039
 FIO-ESM, r2i1p1, rcp85, 1.5, 2016, 2035
@@ -671,6 +681,9 @@ EC-EARTH, r6i1p1, rcp45, 2.0, 2040, 2059
 EC-EARTH, r8i1p1, rcp45, 2.0, 2034, 2053
 EC-EARTH, r9i1p1, rcp45, 2.0, 2037, 2056
 EC-EARTH, r12i1p1, rcp45, 2.0, 2035, 2054
+FGOALS-s2, r1i1p1, rcp45, 2.0, 2002, 2021
+FGOALS-s2, r2i1p1, rcp45, 2.0, 2006, 2025
+FGOALS-s2, r3i1p1, rcp45, 2.0, 2004, 2023
 GFDL-CM3, r1i1p1, rcp45, 2.0, 2027, 2046
 GFDL-CM3, r3i1p1, rcp45, 2.0, 2034, 2053
 GFDL-CM3, r5i1p1, rcp45, 2.0, 2036, 2055
@@ -813,6 +826,8 @@ EC-EARTH, r8i1p1, rcp85, 2.0, 2026, 2045
 EC-EARTH, r9i1p1, rcp85, 2.0, 2027, 2046
 EC-EARTH, r12i1p1, rcp85, 2.0, 2025, 2044
 FGOALS-g2, r1i1p1, rcp85, 2.0, 2036, 2055
+FGOALS-s2, r1i1p1, rcp85, 2.0, 2002, 2021
+FGOALS-s2, r2i1p1, rcp85, 2.0, 2003, 2022
 FGOALS-s2, r3i1p1, rcp85, 2.0, 2004, 2023
 FIO-ESM, r1i1p1, rcp85, 2.0, 2035, 2054
 FIO-ESM, r2i1p1, rcp85, 2.0, 2034, 2053
@@ -864,6 +879,9 @@ CanESM2, r2i1p1, rcp45, 3.0, 2062, 2081
 CanESM2, r3i1p1, rcp45, 3.0, 2070, 2089
 CanESM2, r4i1p1, rcp45, 3.0, 2065, 2084
 CanESM2, r5i1p1, rcp45, 3.0, 2068, 2087
+FGOALS-s2, r1i1p1, rcp45, 3.0, 2042, 2061
+FGOALS-s2, r2i1p1, rcp45, 3.0, 2041, 2060
+FGOALS-s2, r3i1p1, rcp45, 3.0, 2042, 2061
 GFDL-CM3, r1i1p1, rcp45, 3.0, 2070, 2089
 GFDL-CM3, r3i1p1, rcp45, 3.0, 2067, 2086
 GFDL-CM3, r5i1p1, rcp45, 3.0, 2076, 2095
@@ -935,6 +953,8 @@ EC-EARTH, r8i1p1, rcp85, 3.0, 2051, 2070
 EC-EARTH, r9i1p1, rcp85, 3.0, 2051, 2070
 EC-EARTH, r12i1p1, rcp85, 3.0, 2051, 2070
 FGOALS-g2, r1i1p1, rcp85, 3.0, 2065, 2084
+FGOALS-s2, r1i1p1, rcp85, 3.0, 2027, 2046
+FGOALS-s2, r2i1p1, rcp85, 3.0, 2030, 2049
 FGOALS-s2, r3i1p1, rcp85, 3.0, 2030, 2049
 FIO-ESM, r1i1p1, rcp85, 3.0, 2059, 2078
 FIO-ESM, r2i1p1, rcp85, 3.0, 2060, 2079
@@ -1022,6 +1042,8 @@ EC-EARTH, r6i1p1, rcp85, 4.0, 2075, 2094
 EC-EARTH, r8i1p1, rcp85, 4.0, 2072, 2091
 EC-EARTH, r9i1p1, rcp85, 4.0, 2072, 2091
 EC-EARTH, r12i1p1, rcp85, 4.0, 2073, 2092
+FGOALS-s2, r1i1p1, rcp85, 4.0, 2046, 2065
+FGOALS-s2, r2i1p1, rcp85, 4.0, 2047, 2066
 FGOALS-s2, r3i1p1, rcp85, 4.0, 2047, 2066
 FIO-ESM, r1i1p1, rcp85, 4.0, 2076, 2095
 FIO-ESM, r2i1p1, rcp85, 4.0, 2076, 2095
@@ -1152,6 +1174,9 @@ EC-EARTH, r8i1p1, rcp45, 0.61, 1968, 1987
 EC-EARTH, r9i1p1, rcp45, 0.61, 1971, 1990
 EC-EARTH, r12i1p1, rcp45, 0.61, 1970, 1989
 FGOALS-g2, r1i1p1, rcp45, 0.61, 1987, 2006
+FGOALS-s2, r1i1p1, rcp45, 0.61, 1943, 1962
+FGOALS-s2, r2i1p1, rcp45, 0.61, 1949, 1968
+FGOALS-s2, r3i1p1, rcp45, 0.61, 1944, 1963
 FIO-ESM, r1i1p1, rcp45, 0.61, 1976, 1995
 FIO-ESM, r2i1p1, rcp45, 0.61, 1976, 1995
 FIO-ESM, r3i1p1, rcp45, 0.61, 1972, 1991
@@ -1312,6 +1337,8 @@ EC-EARTH, r8i1p1, rcp85, 0.61, 1968, 1987
 EC-EARTH, r9i1p1, rcp85, 0.61, 1971, 1990
 EC-EARTH, r12i1p1, rcp85, 0.61, 1970, 1989
 FGOALS-g2, r1i1p1, rcp85, 0.61, 1987, 2006
+FGOALS-s2, r1i1p1, rcp85, 0.61, 1943, 1962
+FGOALS-s2, r2i1p1, rcp85, 0.61, 1949, 1968
 FGOALS-s2, r3i1p1, rcp85, 0.61, 1944, 1963
 FIO-ESM, r1i1p1, rcp85, 0.61, 1976, 1995
 FIO-ESM, r2i1p1, rcp85, 0.61, 1976, 1995

@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2021-01-19 18:06:09
+# executed: 2022-10-26 11:52:43
 # reference years: 1995 to 2014
 model, ensemble, exp, warming_level, start_year, end_year
 CESM1-CAM5, r1i1p1, rcp26, 0.94, 2034, 2053
@@ -71,6 +71,9 @@ EC-EARTH, r8i1p1, rcp45, 0.94, 2037, 2056
 EC-EARTH, r9i1p1, rcp45, 0.94, 2040, 2059
 EC-EARTH, r12i1p1, rcp45, 0.94, 2035, 2054
 FGOALS-g2, r1i1p1, rcp45, 0.94, 2043, 2062
+FGOALS-s2, r1i1p1, rcp45, 0.94, 2030, 2049
+FGOALS-s2, r2i1p1, rcp45, 0.94, 2025, 2044
+FGOALS-s2, r3i1p1, rcp45, 0.94, 2028, 2047
 FIO-ESM, r2i1p1, rcp45, 0.94, 2059, 2078
 GFDL-CM3, r1i1p1, rcp45, 0.94, 2020, 2039
 GFDL-CM3, r3i1p1, rcp45, 0.94, 2020, 2039
@@ -228,6 +231,8 @@ EC-EARTH, r8i1p1, rcp85, 0.94, 2031, 2050
 EC-EARTH, r9i1p1, rcp85, 0.94, 2028, 2047
 EC-EARTH, r12i1p1, rcp85, 0.94, 2025, 2044
 FGOALS-g2, r1i1p1, rcp85, 0.94, 2027, 2046
+FGOALS-s2, r1i1p1, rcp85, 0.94, 2022, 2041
+FGOALS-s2, r2i1p1, rcp85, 0.94, 2022, 2041
 FGOALS-s2, r3i1p1, rcp85, 0.94, 2021, 2040
 FIO-ESM, r1i1p1, rcp85, 0.94, 2033, 2052
 FIO-ESM, r2i1p1, rcp85, 0.94, 2030, 2049
@@ -297,6 +302,8 @@ CanESM2, r2i1p1, rcp85, 3.43, 2068, 2087
 CanESM2, r3i1p1, rcp85, 3.43, 2069, 2088
 CanESM2, r4i1p1, rcp85, 3.43, 2068, 2087
 CanESM2, r5i1p1, rcp85, 3.43, 2068, 2087
+FGOALS-s2, r1i1p1, rcp85, 3.43, 2067, 2086
+FGOALS-s2, r2i1p1, rcp85, 3.43, 2065, 2084
 FGOALS-s2, r3i1p1, rcp85, 3.43, 2064, 2083
 GFDL-CM3, r1i1p1, rcp85, 3.43, 2065, 2084
 HadGEM2-AO, r1i1p1, rcp85, 3.43, 2074, 2093
