@@ -2,7 +2,11 @@
 
 ## History
 
-### 265.10.2022
+### 02.12.2022
+
+* Update the repository with the newest CMIP6 models and ensemble members.
+
+### 26.10.2022
 
 * Update the repository with the newest CMIP6 models and ensemble members.
 
@@ -10,14 +14,11 @@
 
 * Moved history to own file.
 
-
 ### 19.01.2021
 
 * CMIP5: removed CESM1-CAM5-1-FV2 (r1i1p1, RCP4.5 and RCP8.5) because of a missing month in the data. Found two more models with changes du to the weighting with "areacella" - CCSM4 (r1i1p1, RCP85) and CSIRO-Mk3-6-0 (r4i1p1, RCP45). They were previously missed because the grid of the weights and the data does not exactly align.
 
 * CMIP6: added EC-Earth3-CC (r1i1p1f1, several SSPs)
-
-
 
 ### 13.01.2021
 

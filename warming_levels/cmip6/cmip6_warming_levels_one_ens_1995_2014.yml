@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2022-10-26 11:53:35
+# executed: 2022-12-02 14:34:27
 # reference years: 1995 to 2014
 
 # warming level: 0.94°C above 1995-2014
@@ -120,6 +120,7 @@ warming_level_094:
 - {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp370, start_year: 2026, end_year: 2045}
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370, start_year: 2041, end_year: 2060}
 - {model: CAS-ESM2-0, ensemble: r1i1p1f1, exp: ssp370, start_year: 2025, end_year: 2044}
+- {model: CESM2-FV2, ensemble: r1i2p2f1, exp: ssp370, start_year: 2023, end_year: 2042}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370, start_year: 2029, end_year: 2048}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, start_year: 2024, end_year: 2043}
 - {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370, start_year: 2031, end_year: 2050}
@@ -161,6 +162,7 @@ warming_level_094:
 - {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp585, start_year: 2024, end_year: 2043}
 - {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2039, end_year: 2058}
 - {model: CAS-ESM2-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2017, end_year: 2036}
+- {model: CESM2-FV2, ensemble: r1i2p2f1, exp: ssp585, start_year: 2021, end_year: 2040}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2021, end_year: 2040}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2021, end_year: 2040}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2024, end_year: 2043}
@@ -322,6 +324,7 @@ warming_level_343:
 # {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
 # {model: CAS-ESM2-0, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
+# {model: CESM2-FV2, ensemble: r1i2p2f1, exp: ssp370} -- did not reach 3.43°C
 # {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp370, start_year: 2081, end_year: 2100}
 # {model: CMCC-CM2-SR5, ensemble: r1i1p1f1, exp: ssp370} -- did not reach 3.43°C
@@ -363,6 +366,7 @@ warming_level_343:
 # {model: BCC-CSM2-MR, ensemble: r1i1p1f1, exp: ssp585} -- did not reach 3.43°C
 # {model: CAMS-CSM1-0, ensemble: r1i1p1f1, exp: ssp585} -- did not reach 3.43°C
 - {model: CAS-ESM2-0, ensemble: r1i1p1f1, exp: ssp585, start_year: 2064, end_year: 2083}
+- {model: CESM2-FV2, ensemble: r1i2p2f1, exp: ssp585, start_year: 2070, end_year: 2089}
 - {model: CESM2-WACCM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2064, end_year: 2083}
 - {model: CESM2, ensemble: r1i1p1f1, exp: ssp585, start_year: 2064, end_year: 2083}
 - {model: CIESM, ensemble: r1i1p1f1, exp: ssp585, start_year: 2062, end_year: 2081}
