@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2022-10-26 11:53:35
+# executed: 2022-12-02 14:34:27
 # reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CanESM5, r1i1p1f1, ssp119, gn, 0.94, 2022, 2041
@@ -98,6 +98,7 @@ AWI-CM-1-1-MR, r1i1p1f1, ssp370, gn, 0.94, 2029, 2048
 BCC-CSM2-MR, r1i1p1f1, ssp370, gn, 0.94, 2026, 2045
 CAMS-CSM1-0, r1i1p1f1, ssp370, gn, 0.94, 2041, 2060
 CAS-ESM2-0, r1i1p1f1, ssp370, gn, 0.94, 2025, 2044
+CESM2-FV2, r1i2p2f1, ssp370, gn, 0.94, 2023, 2042
 CESM2-WACCM, r1i1p1f1, ssp370, gn, 0.94, 2029, 2048
 CESM2, r1i1p1f1, ssp370, gn, 0.94, 2024, 2043
 CMCC-CM2-SR5, r1i1p1f1, ssp370, gn, 0.94, 2031, 2050
@@ -139,6 +140,7 @@ AWI-CM-1-1-MR, r1i1p1f1, ssp585, gn, 0.94, 2029, 2048
 BCC-CSM2-MR, r1i1p1f1, ssp585, gn, 0.94, 2024, 2043
 CAMS-CSM1-0, r1i1p1f1, ssp585, gn, 0.94, 2039, 2058
 CAS-ESM2-0, r1i1p1f1, ssp585, gn, 0.94, 2017, 2036
+CESM2-FV2, r1i2p2f1, ssp585, gn, 0.94, 2021, 2040
 CESM2-WACCM, r1i1p1f1, ssp585, gn, 0.94, 2021, 2040
 CESM2, r1i1p1f1, ssp585, gn, 0.94, 2021, 2040
 CIESM, r1i1p1f1, ssp585, gr, 0.94, 2024, 2043
@@ -200,6 +202,7 @@ ACCESS-CM2, r1i1p1f1, ssp585, gn, 3.43, 2062, 2081
 ACCESS-ESM1-5, r1i1p1f1, ssp585, gn, 3.43, 2074, 2093
 AWI-CM-1-1-MR, r1i1p1f1, ssp585, gn, 3.43, 2078, 2097
 CAS-ESM2-0, r1i1p1f1, ssp585, gn, 3.43, 2064, 2083
+CESM2-FV2, r1i2p2f1, ssp585, gn, 3.43, 2070, 2089
 CESM2-WACCM, r1i1p1f1, ssp585, gn, 3.43, 2064, 2083
 CESM2, r1i1p1f1, ssp585, gn, 3.43, 2064, 2083
 CIESM, r1i1p1f1, ssp585, gr, 3.43, 2062, 2081
