@@ -1,0 +1,28 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-0057-4878",
+            "affiliation": "Institute for Atmospheric and Climate Science, Department of Environmental Systems Science, ETH Zurich, Zurich, Switzerland",
+            "name": "Hauser, Mathias"
+        },
+        {
+            "orcid": "0000-0002-9189-6556",
+            "affiliation": "Global Change Institute, University of the Witwatersrand, Johannesburg, Gauteng 2193, South Africa",
+            "name": "Engelbrecht, Francois"
+        },
+        {
+            "orcid": "0000-0003-1931-6737",
+            "affiliation": "Institute for Atmospheric and Climate Science, Department of Environmental Systems Science, ETH Zurich, Zurich, Switzerland",
+            "name": "Fischer, Erich M."
+        }
+    ],
+    "license": {
+        "id": "CC-BY-SA-4.0"
+    },
+    "title": "Transient global warming levels for CMIP5 and CMIP6",
+    "keywords": [
+        "CMIP5",
+        "CMIP6",
+        "global warming level"
+    ]
+}
