@@ -75,7 +75,10 @@ The data is given in [yaml](https://en.wikipedia.org/wiki/YAML) format; one file
 
 ## Code
 
-The code is available under https://github.com/mathause/Chapter-11/blob/main/code/warming_levels.py.
+The code is available on the [IPCC-WG1/Chapter-11](https://github.com/). Specifically the code to calculate the warming level can be found under [code/utils/warming_level.py](https://github.com/IPCC-WG1/Chapter-11/blob/main/code/utils/warming_level.py#L4) while the files shown here are created from [code/warming_levels.py](https://github.com/IPCC-WG1/Chapter-11/blob/main/code/warming_levels.py).
+
+
+https://github.com/mathause/Chapter-11/blob/main/code/warming_levels.py.
 
 ## Background
 
