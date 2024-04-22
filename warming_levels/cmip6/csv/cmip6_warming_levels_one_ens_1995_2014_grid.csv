@@ -1,6 +1,6 @@
 # author: Mathias Hauser (mathias.hauser@env.ethz.ch)
 # script: warming_levels.py
-# executed: 2024-04-22 21:01:55
+# executed: 2024-04-22 21:44:23
 # reference years: 1995 to 2014
 model, ensemble, exp, grid, warming_level, start_year, end_year
 CanESM5-1, r1i1p1f1, ssp119, gn, 0.94, 2019, 2038
