@@ -4,7 +4,7 @@
 
 ### 22.04.2024
 
-* Update the repository with the newest CMIP6 models and ensemble members, namely CanESM5-1 and E3SM-2-0.
+* Update the repository with the newest CMIP6 models and ensemble members, namely CanESM5-1 and E3SM-2-0 [#6](https://github.com/mathause/cmip_warming_levels/pull/6)
 
 ### 02.12.2022
 
