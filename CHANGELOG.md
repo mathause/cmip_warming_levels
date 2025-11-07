@@ -2,6 +2,10 @@
 
 ## History
 
+### 07.11.2025
+
+* Update the repository with the newest CMIP6 models (AWI-ESM-1-REcoM) and ensemble members for many models ([#8](https://github.com/mathause/cmip_warming_levels/pull/8)).
+
 ### 22.04.2024
 
 * Update the repository with the newest CMIP6 models (CanESM5-1 and E3SM-2-0) and ensemble members for many models ([#6](https://github.com/mathause/cmip_warming_levels/pull/6)).
