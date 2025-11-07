@@ -5,6 +5,7 @@
 ### 07.11.2025
 
 * Update the repository with the newest CMIP6 models (AWI-ESM-1-REcoM) and ensemble members for many models ([#8](https://github.com/mathause/cmip_warming_levels/pull/8)).
+* Add warming level 2.0°C over 1995-2014 ([#9](https://github.com/mathause/cmip_warming_levels/pull/9)).
 
 ### 22.04.2024
 
